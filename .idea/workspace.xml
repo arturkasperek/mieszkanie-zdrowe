@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2ada6f21-0323-484b-986c-1d8895d77907" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_120856.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_120918.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_120939.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sanitarna/20210209_121234.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +50,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sanitarna" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/elektryczna" />
+      <recent name="$PROJECT_DIR$/sanitarna" />
       <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sanitarna" />
+      <recent name="$PROJECT_DIR$/elektryczna" />
+      <recent name="$PROJECT_DIR$/dokumentacja" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,11 +73,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633617922077</updated>
-      <workItem from="1633617923259" duration="2614000" />
+      <workItem from="1633617923259" duration="3093000" />
+      <workItem from="1635083957281" duration="1152000" />
+      <workItem from="1635252042900" duration="631000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
