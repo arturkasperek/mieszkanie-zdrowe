@@ -1,0 +1,1094 @@
+header {
+    color: #f2f2f2;
+    padding: 20px 0 20px 0;
+    border-bottom: #d9d9d9 3px solid
+}
+header img {
+    width: 100%;
+    max-width: 114px;
+    height: auto;
+    display: inline-block;
+    margin: 0 20px 0 0
+}
+header h1 {
+    font-size: 18px;
+    line-height: 36px;
+    color: #838383;
+    margin: 0;
+    display: inline;
+    font-weight: 700;
+    float: right
+}
+#front {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/khnnw-background-bw-2.jpg");
+}
+.title-procesowanie h3 {
+    text-align: center;
+    color: #9b0050;
+    font-weight: 700;
+}
+.textprocesowanie {
+    padding-bottom: 20px;
+}
+.textprocesowanie h5 {
+    margin-top: 10px;
+    text-align: center;
+}
+.left-form {
+    display: block;
+    float: left;
+}
+.right-form {
+    float: right;
+    margin-top: 77px;
+}
+.formularz-etap1, .formularz-etap2 h3 {
+    text-align: left;
+}
+.formularz-etap1 {
+    margin: 0px 5px 0px 5px;
+}
+.formularz-etap3 h3 {
+    font-size: 22px;
+}
+.formularz-etap1 h3 {
+    padding-bottom: 20px;
+    text-align:left;
+    font-weight: 700;
+    font-size: 22px;
+}
+.inputradio {
+    color: #666666;
+}
+.inputradio label{
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #666666;
+    border-radius: 100%;
+    background: #fff;
+    color: #666666;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #EF7F1A;
+    color: #666666;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    background: #666666;
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.submitbox {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.formularz-etap2 {
+    display: none;
+    margin: 0px 5px 0px 5px;
+    min-height: 430px;
+}
+.formularz-etap3 {
+    display: none;
+    margin: 0px 5px 0px 5px;
+}
+.formularz-etap3 h3 {
+    font-weight: 700;
+}
+.formularz-etap3 h4 {
+    text-align: left;
+    margin: 35px 0 20px 0px;
+}
+.spotkanie p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+.left-button {
+    float: left;
+    text-align: center;
+    width: 35%;
+}
+.right-button {
+    float: right;
+    text-align: center;
+    width: 55%;
+}
+#admin {
+    clear: both;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.administratorboxexpanded {
+    text-align: center;
+    color: #666666;
+    padding-top: 5px;
+}
+.administratorboxexpanded span {
+    color: #9b0050;
+}
+.administratorboxexpanded span:hover {
+    cursor: pointer;
+}
+.formularz-etap2 h4{
+    color: white;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.formularz-etap2 h3{
+    color: #666;
+    font-size: 20px;
+}
+.slider {
+    width: 100%;
+    height: 12px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    outline: none;
+
+}
+/*
+.slider input[type=range]{
+    -webkit-appearance: none;
+}
+.slide input[type=range]::-webkit-progress-bar {
+    background-image: url("../images/gradient-slaider.png");
+}
+.slider::-moz-range-progress {
+    background-image: url("../images/gradient-slaider.png");
+    height: 8px;
+}
+.slider::-ms-fill-upper {
+    background-image: url("../images/gradient-slaider.png");
+    height: 10px;
+}
+.slider::-webkit-progress-value {
+    background-image: url("../images/gradient-slaider.png");
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9b0050;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9b0050;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 10px rgba(150, 0, 80, 0.4);
+}
+*/
+/*Chrome*/
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 7px;
+    border-radius: 3px;
+    background-image: url("../images/gradient-slaider.png");
+    box-shadow: none;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9b0050;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 10px rgba(150, 0, 80, 0.4);
+}
+
+/*Firefox*/
+.slider::-webkit-progress-value {
+    background-image: url("../images/gradient-slaider.png");
+    height: 10px;
+}
+.slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9b0050;
+    cursor: pointer;
+}
+/*
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 6px;
+    background: #78BE20;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-ms-track {
+    height: 1em;
+    border-radius: 0.5em;
+    background-image: url("../images/gradient-slaider.png");
+    border: 1px solid #b2b2b2;
+    box-shadow: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9b0050;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 10px rgba(150, 0, 80, 0.4);
+    margin-top: -5px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background-image: url("../images/gradient-slaider.png");
+}
+
+ */
+.slidecontainer {
+    clear: both;
+    margin: 0px 5px 0px 5px;
+}
+.slidecontainer h4 {
+    padding-top: 10px;
+    text-align: left;
+    color: black;
+    color: #666;
+}
+.wynik-tekst{
+    float:left;
+}
+.wynik-liczba{
+    float:right;
+}
+.sekcja-opinie {
+    background: #f6f6f6;
+}
+#tytul-opinie {
+    float: left;
+}
+#logo-google {
+    float: right;
+    padding-top: 25px;
+}
+#logo-google img {
+    width: 80px;
+    height: 25px;
+}
+#logo-google p {
+    color: #666666;
+}
+.slaider {
+    text-align: left;
+    padding-top: 10px;
+}
+.slaider h3 {
+    text-align: left;
+    color: #9b0050;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.slaider input {
+    display: none;
+}
+.carusel {
+    position: relative;
+    max-width: 100%;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+    user-select: none;
+    clear: both;
+}
+.carusel__item {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    display: none;
+    width: 100%;
+    max-height: 250px;
+    padding-bottom: 30px;
+    background: center no-repeat;
+    background-size: contain;
+    transition: left 0.5s, transform 0.5s;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+.carusel__arrow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    transform: translateY(-50%);
+    opacity: 0.7;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 28px;
+    line-height: 39px;
+    font-weight: bold;
+}
+#opinia {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#opinia h5 {
+    font-weight: 700;
+}
+#opinia h3 {
+    text-align: left;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#opinia p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+input:checked + div ~ div ~ div ~ div .carusel__item {
+    background-image: none !important;
+}
+input:checked + div *, input:checked + div + input + div .carusel__item, input:checked + div + input + div + input + div * {
+    display: block;
+}
+input:checked + div .carusel__item {
+    left: -100%;
+    transform: scale(0.4);
+}
+input:checked + div + input + div .carusel__item {
+    left: 0;
+    transform: scale(1);
+}
+input:checked + div + input + div + input + div .carusel__item {
+    left: 100%;
+    transform: scale(0.4);
+}
+input:checked + div .carusel__arrow {
+    left: 0;
+}
+input:checked + div + input + div + input + div .carusel__arrow {
+    right: 0;
+}
+input:checked + div .carusel__arrow:before {
+    content: '❰';
+}
+input:checked + div + input + div + input + div .carusel__arrow:before {
+    content: '❱';
+}
+.sekcja-leroy {
+    background: #78BE20;
+    color: white;
+
+}
+.sekcja-leroy .left-img {
+    text-align: center;
+    background-image: url("../images/kolo.png");
+}
+.sekcja-leroy .left-img h1 {
+    line-height: 5px;
+    font-weight: 700;
+    font-size: 54px;
+}
+.sekcja-leroy .left-img h4 {
+    color: white;
+    margin-top: 35px;
+    font-weight: 700;
+}
+.sekcja-leroy .left-img h5 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.sekcja-leroy .right-leroy h3 {
+    margin-top: 50px;
+}
+.icon-info-circled:hover{
+    cursor: pointer;
+}
+#information {
+    padding-top: 20px;
+}
+.left-information {
+    margin-bottom: 30px;
+}
+.right-information p{
+    margin-bottom: 30px;
+}
+.left-information h3 {
+    text-align: left;
+    color: #9b0050;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.right-information h3 {
+    text-align: left;
+    color: #9b0050;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#information p {
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+
+.prcoesowanie {
+    width: 100px;
+    height: auto
+}
+.online {
+    width: 60px;
+    height: auto
+}
+.tytul {
+    line-height: 10px;
+}
+.tytul h1 {
+    color: #9b0050;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.tytul h2 {
+    color: #EF7F1A;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.tytul h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#naglowek1 {
+    margin-left: 100px;
+    font-size: 20px;
+}
+#naglowek-lista {
+    margin-left: 140px;
+}
+#naglowek2 {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.tytul ul {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+h1 span.second {
+    display: block;
+    color: #9b0050;
+    font-size: 45px;
+    line-height: 54px;
+    font-weight: 300;
+    text-transform: none
+}
+.box-right {
+    padding-top: 10px;
+    color: white;
+    background-color: white;
+    color:black;
+    min-height: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tabela .komorka {
+    display: table-cell;
+    vertical-align: middle
+}
+.designbg {;
+    min-height: 500px;
+    padding-bottom: 40px;
+}
+.formularz-leadowy{
+    padding-top: 40px;
+}
+.formularz {
+    background: #475155;
+    padding: 30px;
+    width: 100%;
+    border-radius: 5px
+}
+.formularz h3 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 1px
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background: #ef7f1a;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    transition: background .2s;
+    border-radius: 6px;
+    border: 1px solid #ef7f1a
+}
+#back {
+    display: block;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    background: white;
+}
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-image: url("../images/gradient-slaider.png");
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#myProgress{
+    margin: 20px 0px 20px 0px;
+
+}
+#bank1 {
+    display: none;
+    padding-top: 20px;
+    text-align: center;
+}
+#bank1 img {
+    margin: 10px;
+    margin-right: 10px;
+}
+#bank2 {
+    display: none;
+    text-align: center;
+}
+#bank2 img {
+    margin: 10px;
+    margin-right: 10px;
+}
+#bank3 {
+    display: none;
+    text-align: center;
+}
+#bank3 img {
+    margin: 10px;
+    margin-right: 10px;
+}
+#bank4 {
+    display: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#bank4 img {
+    margin: 10px;
+    margin-right: 10px;
+}
+#bank5 img {
+    margin: 10px;
+    margin-right: 10px;
+}
+@media (max-width: 767px) {
+    .fakemenu {
+        display: none;
+    }
+}
+.icons {
+    text-align: center;
+    padding-top: 30px;
+}
+h4 {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.texticon {
+    text-align: center;
+}
+h4.downtexticon {
+    color: black;
+    padding-bottom: 20px;
+}
+h4.tripleicon {
+    color: #9b0050;
+    padding-top: 10px;
+    font-weight: 700;
+}
+.formularz-stopka {
+    background: #e6e6e6;
+    color: #808080;
+    padding: 30px;
+    margin: 0 0 60px 0;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 0 0 4px 4px
+}
+.formularz-stopka p {
+    margin: 0 0 4px 0
+}
+.sekcja-korzysci {
+    background-color: #fff;
+}
+.korzysc {
+    padding: 0 0 0 120px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin: 60px 0 60px 0
+}
+.korzysc h2 {
+    font-size: 22px;
+    line-height: 24px;
+    color: #5d5d5d;
+    margin: 0;
+    font-weight: 700
+}
+.korzysc p {
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+    text-align: justify
+}
+.szczegoly {
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 24px
+}
+.szczegoly.objasnienie {
+    padding: 60px 0 60px 0
+}
+.szczegoly.objasnienie h2 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #5d5d5d;
+    margin: 0 0 20px 0;
+    font-weight: 700
+}
+.szczegoly.objasnienie ol {
+    padding-left: 20px
+}
+.szczegoly.zdjecie {
+    padding: 30px 0 30px 0
+}
+.szczegoly.zdjecie img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 500px
+}
+.sekcja-notus {
+    background-color: #f2f2f2;
+}
+.sekcja-notus .tabela {
+    display: table;
+    width: 100%
+}
+.sekcja-notus .tabela .komorka {
+    display: table-cell;
+    vertical-align: top;
+    padding: 60px 10px 60px 10px
+}
+.sekcja-notus img {
+    width: 114px;
+    height: 38px
+}
+.notus {
+    background-position: left center;
+    background-repeat: no-repeat
+}
+.notus h3 {
+    display: inline;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a9a9a9;
+    margin: 0;
+    font-weight: 700
+}
+.notus p {
+    display: inline;
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0
+}
+@media (max-width: 1199px) {
+    .tytul h1 {
+        margin-top: 10px;
+    }
+    .box-right {
+        margin-top: 20px;
+    }
+    .formularz-leadowy{
+        padding-top: 0px;
+    }
+    .sekcja-formularza {
+        min-height: 600px
+    }
+    .formularz-kontener.before.changed:before {
+        width: 1400px;
+        height: 274px;
+        left: -190px
+    }
+    .right-form {
+        float: left;
+        margin-top: 30px;
+        clear: both;
+    }
+    .box-left {
+        background-image: none;
+    }
+    #naglowek1 {
+        margin: 0;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #naglowek-lista {
+        margin: 0;
+        text-align: left;
+    }
+    #naglowek2 {
+        margin: 0;
+        text-align: left;
+        margin: 20px 0px 40px 0px;
+    }
+    #bank1 img {
+        margin: 5px;
+        margin-right: 5px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #bank2 img {
+        margin: 5px;
+        margin-right: 5px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #bank3 img {
+        margin: 5px;
+        margin-right: 5px;
+        width: 75px;
+        height: 40px;
+    }
+
+    #bank4 img {
+        margin: 5px;
+        margin-right: 5px;
+        width: 75px;
+        height: 40px;
+    }
+    #bank5 img {
+        margin: 5px;
+        margin-right: 5px;
+        width: 75px;
+        height: 40px;
+    }
+    .right-information p{
+        padding-bottom: 20px;
+    }
+    .right-information h3 {
+        text-align: left;
+        color: #9b0050;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .sekcja-leroy .left-img {
+        text-align: center;
+        background-image: none;
+    }
+    .sekcja-leroy .left-img h1{
+        font-size: 48px;
+    }
+    .sekcja-leroy .left-img h4{
+        font-size: 24px;
+    }
+    .sekcja-leroy .right-leroy h3 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    #tytul-opinie {
+        float: none;
+    }
+    #logo-google {
+        float: none;
+        padding-top: 10px;
+        margin-left: 15px;
+    }
+    .carusel {
+        position: relative;
+        max-width: 100%;
+        height: 420px;
+        margin: 10px;
+        overflow: hidden;
+        user-select: none;
+    }
+    .carusel__item {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        display: none;
+        width: 100%;
+        max-height: 450px;
+        padding-bottom: 30px;
+        background: center no-repeat;
+        background-size: contain;
+        transition: left 0.5s, transform 0.5s;
+        will-change: transform;
+        backface-visibility: hidden;
+    }
+}
+@media (max-width: 991px) {
+    .box-right {
+        margin-top: 0px;
+    }
+    .tytul h1 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .tytul h2 {
+        margin-bottom: 0px;
+    }
+    #naglowek1 {
+        margin-bottom: 10px;
+    }
+    #naglowek2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    h1, h2 {
+        display: inline-block;
+        vertical-align: middle
+    }
+    header {
+        margin-top: 0
+    }
+    .box-right {
+        padding-top: 0;
+        padding-left: 15px
+    }
+    .designbg {
+        background-image: none;
+        padding-top: 20px;
+    }
+    .formularz-kontener.before:before {
+        top: -250px
+    }
+    .formularz-kontener.before.changed:before {
+        left: -500px;
+        z-index: 2
+    }
+    .formularz {
+        margin: 260px 0 0 0;
+        z-index: 1
+    }
+    .korzysc {
+        padding: 0;
+        background-image: none !important
+    }
+    .sekcja-notus .tabela {
+        display: block;
+        padding: 50px 0 50px 0
+    }
+    .sekcja-notus .tabela .komorka {
+        display: block;
+        padding: 5px;
+        text-align: center
+    }
+}
+@media (max-width: 767px) {
+    .sekcja-korzysci {
+        padding: 10px 0 10px 0
+    }
+    .korzysc {
+        margin: 0
+    }
+    h1 {
+        display: block;
+    }
+    h1 span.first {
+        display: inline;
+    }
+    h1 span.second {
+        display: inline;
+    }
+    h2 {
+        display: block;
+        text-align: left;
+        margin-top: 5px
+    }
+    h4 {
+        display: block;
+        margin: 0 auto 0 auto;
+        padding-left: 0;
+        height: auto;
+        background-position: top center;
+        text-align: center
+    }
+}
+@media (max-width: 740px) {
+    .formularz-kontener.before:before {
+        top: -126px
+    }
+    .formularz-kontener.before.changed:before {
+        left: -300px;
+        width: 800px;
+        height: 157px
+    }
+    .formularz {
+        margin: 110px 0 0 0
+    }
+}
+@media (max-width: 462px) {
+    header h1 {
+        font-size: 14px
+    }
+}
+@media (max-width: 396px) {
+    header h1 {
+        max-width: 150px;
+        font-size: 14px;
+        line-height: 18px
+    }
+    .formularz-kontener.before:before {
+        top: -126px
+    }
+    .formularz-kontener.before.changed:before {
+        left: -290px;
+        width: 700px;
+        height: 137px
+    }
+}
+.title-kimjestesmy h3{
+    text-align: center;
+    color: #9b0050;
+    font-weight: 700;
+}
+.legal p {
+    text-align: left;
+}
+footer {
+    margin-top:20px;
+    color:#666;
+    font-size:11px;
+    line-height:15px;
+    color:#333;
+    text-align:justify;
+    font-family: "Open Sans",sans-serif;
+}
+footer p {
+    margin-top:0;
+    margin-bottom:20px
+}
+footer p a {
+    color: #9b0050;
+}
+footer .logo {
+    margin-right:10px;
+    float:left;
+}
+.checkradio input {
+    color: red;
+}
+.positive {
+    font-size: 10px;
+}
+.seemore {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#wiecej {
+    width: 280px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #EF7F1A;
+    color: #EF7F1A;
+    font-size: 24px;
+}
+#wiecej:hover {
+    background: #EF7F1A;
+    color: white;
+}
+.more{
+   display: none;
+}
+.less {
+    text-align: center;
+    display: none;
+}
+
+.aktywny {
+    text-align: center;
+    padding-top: 25px;
+}
+#less-down:hover {
+    cursor: pointer;
+}
+

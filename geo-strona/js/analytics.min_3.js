@@ -1,0 +1,1 @@
+var autoTrack=new gweb.analytics.AutoTrack({profile:"UA-28138501-1"});var times=[11,31,61,181,601,1801];for(var i=0;i<times.length;i++)setTimeout(function(){autoTrack.pushCommand(["_trackEvent","Timing","Ping","",null,true])},times[i]*1E3);

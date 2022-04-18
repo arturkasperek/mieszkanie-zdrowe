@@ -1,0 +1,1289 @@
+<!DOCTYPE html><html lang="pl"><head><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MWP8BP7');</script>
+<!-- End Google Tag Manager --><title>Mieszkania i domy na sprzedaż, deweloperzy, inwestycje Poznań, Kraków, Warszawa, Wrocław i Gdańsk - KRN.pl</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+	<meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <link rel="shortcut icon" href="../krn.ico">
+    <link rel="icon" href="../krn.ico">
+    <link href="../css/css_6.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.min_1.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/maps.css">
+	<link rel="stylesheet" href="../css/calendar.css">
+    <link rel="stylesheet" href="../css/biuletyn.css">
+	<link rel="stylesheet" href="../css/star-rating.css">
+    <link rel="stylesheet" href="../css/offer.css" media="print">
+		<link href="ico_125.png" rel="icon" sizes="128x128">
+
+
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+    <script type="text/javascript"> var sitePath = "/"; var themePath = "/themes/krn/";
+        var seActionTypes = {"1":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"},{"id":4,"name":"poszukuj\u0119 do wynaj\u0119cia"},{"id":5,"name":"zamiana"}],"101":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"}],"2":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"},{"id":4,"name":"poszukuj\u0119 do wynaj\u0119cia"},{"id":5,"name":"zamiana"}],"5":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"}],"4":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"},{"id":4,"name":"poszukuj\u0119 do wynaj\u0119cia"},{"id":5,"name":"zamiana"}],"3":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"},{"id":4,"name":"poszukuj\u0119 do wynaj\u0119cia"}],"8":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"}],"9":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"}],"6":[{"id":1,"name":"sprzeda\u017c"},{"id":2,"name":"wynajem"},{"id":3,"name":"kupno"},{"id":4,"name":"poszukuj\u0119 do wynaj\u0119cia"},{"id":5,"name":"zamiana"}]};
+        var seExtraSpaceTypes = {"0":[{"id":1,"name":"loggia"},{"id":2,"name":"balkon"},{"id":3,"name":"drzwi balkonowe"},{"id":4,"name":"taras"},{"id":5,"name":"kom\u00f3rka lokatorska"},{"id":6,"name":"strych"},{"id":7,"name":"piwnica"},{"id":8,"name":"ogr\u00f3dek"},{"id":9,"name":"parking"}],"1":[{"id":1,"name":"loggia"},{"id":2,"name":"balkon"},{"id":3,"name":"drzwi balkonowe"},{"id":4,"name":"taras"},{"id":5,"name":"kom\u00f3rka lokatorska"},{"id":6,"name":"strych"},{"id":7,"name":"piwnica"},{"id":8,"name":"ogr\u00f3dek"}],"3":[{"id":1,"name":"loggia"},{"id":2,"name":"balkon"},{"id":4,"name":"taras"},{"id":5,"name":"kom\u00f3rka lokatorska"},{"id":6,"name":"strych"},{"id":7,"name":"piwnica"},{"id":8,"name":"ogr\u00f3dek"},{"id":9,"name":"parking"}]};
+        var seFinishStateTypes = {"1":[{"id":1,"name":"do zamieszkania"},{"id":2,"name":"do wyko\u0144czenia"},{"id":3,"name":"do remontu"},{"id":4,"name":"stan surowy"}],"2":[{"id":1,"name":"do zamieszkania"},{"id":2,"name":"do wyko\u0144czenia"},{"id":3,"name":"do remontu"},{"id":4,"name":"stan surowy"}],"3":[{"id":1,"name":"do u\u017cytku"},{"id":2,"name":"do wyko\u0144czenia"},{"id":3,"name":"do remontu"},{"id":4,"name":"stan surowy"}],"4":[{"id":1,"name":"do zamieszkania"},{"id":2,"name":"do wyko\u0144czenia"},{"id":3,"name":"do remontu"},{"id":4,"name":"stan surowy"}],"6":[{"id":1,"name":"do zamieszkania"},{"id":2,"name":"do wyko\u0144czenia"},{"id":3,"name":"do remontu"},{"id":4,"name":"stan surowy"}]};
+        var seAreaTypes = [{"id":1,"name":"Morze"},{"id":2,"name":"G\u00f3ry"},{"id":3,"name":"Jezioro"},{"id":4,"name":"Miasto"},{"id":5,"name":"Podmiejskie"},{"id":6,"name":"Las"}];
+        var seMediaTypes = {"1":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"101":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"2":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"5":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"4":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"3":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"8":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"9":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}],"6":[{"id":1,"name":"pr\u0105d"},{"id":2,"name":"si\u0142a"},{"id":3,"name":"gaz"},{"id":4,"name":"woda"},{"id":5,"name":"brak"}]};
+        var seCommercialTypes = {"0":[{"id":1,"name":"biurowe"},{"id":2,"name":"handlowe"},{"id":3,"name":"us\u0142ugowe"},{"id":4,"name":"magazynowe"},{"id":5,"name":"produkcyjne"},{"id":6,"name":"hotelarskie"},{"id":7,"name":"gastronomiczne"}],"3":[{"id":1,"name":"biurowe"},{"id":2,"name":"handlowe"},{"id":3,"name":"us\u0142ugowe"},{"id":4,"name":"magazynowe"},{"id":5,"name":"produkcyjne"},{"id":6,"name":"hotelarskie"},{"id":7,"name":"gastronomiczne"}],"8":[{"id":1,"name":"biurowe"},{"id":2,"name":"handlowe"},{"id":4,"name":"magazynowe"},{"id":5,"name":"produkcyjne"}]}; </script>
+	 
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script async="" src="../js/adsbygoogle.js"></script>
+	
+    <script>
+      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+      ga("create", "UA-2835417-1", "auto");
+	  ga("set", "metric1", 0);
+	  ga("set", "dimension1", 0);
+      ga("send", "pageview");
+    </script>
+	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "AW-794932474"); </script>
+
+    
+<script type="text/javascript">
+	var OA_zones = {};
+	var KRN_openx_zones = {
+        'NOWYKRN_top_1' : 143,
+        'NOWYKRN_glowna_nad_superoferta_1' : 91,
+        'NOWYKRN_glowna_pod_wiadomosciami_1' : 92,
+        'NOWYKRN_glowna_pod_poradami_1' : 93,
+        'NOWYKRN_inwestycja_wyrozniona_1' : 94,
+		'NOWYKRN_oferta_wyrozniona_1' : 104,
+        'NOWYKRN_szukaj_wyniki_3_1' : 95,
+        'NOWYKRN_szukaj_wyniki_6_1' : 96,
+        'NOWYKRN_szukaj_wyniki_9_1' : 97,
+        'NOWYKRN_szukaj_prawa_kolumna_gora_1' : 98,
+        'NOWYKRN_artykul_openfinance' : 102,
+        'NOWYKRN_detal_ogloszenia_prawa_kolumna_gora_1' : 115,
+		'NOWYKRN_oferta_nad_przegladanymi' : 116,
+		'NOWYKRN_oferta_i_inwestycja' : 128,
+		'NOWYKRN_oferta_i_inwestycja_pod_szczegolami' : 129,
+		'NOWYKRN_inwestycja_nad_szczegolami' : 142,
+		'NOWYKRN_wyceniacz' : 130,
+		'NOWYKRN_oferta_pod_galeria' : 137
+	};
+
+	function KRN_rv_show(zone_alias, div_exist) {
+		if (KRN_openx_zones[zone_alias] !== undefined) {
+			OA_zones[zone_alias] = KRN_openx_zones[zone_alias];
+							if (div_exist !== 1){
+					if(zone_alias == 'NOWYKRN_top_1'){
+						document.write('<div class="rv_zone baner_top" id="krn_'+zone_alias+'" style="display:none;"></div>');					}else{
+						document.write('<div class="rv_zone" id="krn_'+zone_alias+'" style="display:none"></div>');
+					}
+				}
+					}
+	}
+</script>
+
+
+	<link rel="manifest" href="/manifest.json">
+	<script type="text/javascript">
+		if(typeof Notification == "undefined") var Notification = {permission:null}; // bugfix błędu w bibliotece
+		var _smid = "2jz0yplp5diggpur";
+		(function(w, r, a, sm, s) {
+			w["SalesmanagoObject"] = r;
+			w[r] = w[r] || function () {( w[r].q = w[r].q || [] ).push(arguments)};
+			sm = document.createElement("script"); sm.type = "text/javascript"; sm.async = true; sm.src = a;
+			s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(sm, s);
+		})(window, "sm", ("https:" == document.location.protocol ? "https://" : "http://")+"app3.salesmanago.pl/static/sm.js");
+	</script>
+	
+		<!-- Trovit Pixel Code -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['TrovitAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://analytics.trovit.com/trovit-analytics.js','ta');
+
+ta('init', 'pl', 1, 'ec64d571145668728c5fd73fe23cbf4d');
+
+</script>
+
+<!-- End Trovit Pixel Code -->
+<!--<script async src="//get.optad360.io/sf/46ccca4a-9268-401c-8725-c1b2219af1b4/plugin.min.js"></script>-->
+  </head><body class="no-js" style="min-width:320px;"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWP8BP7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div class="empty">
+
+<!-- Facebook Pixel Code -->
+
+<script>
+
+  !function(f,b,e,v,n,t,s)
+
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";
+
+  n.queue=[];t=b.createElement(e);t.async=!0;
+
+  t.src=v;s=b.getElementsByTagName(e)[0];
+
+  s.parentNode.insertBefore(t,s)}(window, document,"script",
+
+  "https://connect.facebook.net/en_US/fbevents.js");
+
+  fbq("init", "2100534039986532");
+
+  fbq("track", "PageView");
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+  src="https://www.facebook.com/tr?id=2100534039986532&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="navbar-header" style="margin-left:10px;">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <a class="navbar-brand" href="https://www.krn.pl/"><img src="logo_2.png" alt="Mieszkania i domy na sprzedaż, inwestycje deweloperskie Kraków, Wrocław, Warszawa, Gdańsk, Poznań" title="Mieszkania i domy na sprzedaż, inwestycje deweloperskie Kraków, Wrocław, Warszawa, Gdańsk, Poznań - KRN.pl"></a>
+      <ul class="nav navbar-nav navbar-right navbar-icons hidden-lg">
+        <li><a href="https://www.krn.pl/schowek" class="favourites-icon" title="Schowek" data-toggle="tooltip" data-placement="bottom"><img src="icon3.png" alt="schowek"><i class="favourites-count fc1">0</i></a></li>
+        <li><a href="https://panel.krn.pl/" title="Dodaj ofertę" data-toggle="tooltip" data-placement="bottom"><img src="icon2.png" alt="dodawanie ofert"></a></li>
+        <li><a href="https://panel.krn.pl/" title="Zaloguj się" data-toggle="tooltip" data-placement="bottom"><img src="icon1.png" alt="logowanie"></a></li>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse" style="margin-right:20px;">
+      <ul class="nav navbar-nav navbar-right navbar-icons visible-lg">
+        <li class="v-line-menu"></li>
+        <li><a href="https://panel.krn.pl/" title="Zaloguj się" data-toggle="tooltip" data-placement="bottom"><img src="icon1.png" alt="logowanie"></a></li>
+        <li><a href="https://panel.krn.pl/" title="Dodaj ofertę" data-toggle="tooltip" data-placement="bottom"><img src="icon2.png" alt="dodawanie ofert"></a></li>
+        <li><a href="https://www.krn.pl/schowek" class="favourites-icon" title="Schowek" data-toggle="tooltip" data-placement="bottom"><img src="icon3.png" alt="schowek"><i class="favourites-count fc2">0</i></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right main-menu">
+        <li><a href="https://www.krn.pl/mieszkania/sprzedaz" class="m_widget">Oferty</a></li>
+		<li><a href="https://www.krn.pl/rynek-pierwotny/nowe" class="m_widget">Rynek pierwotny</a></li>
+		 <li><a href="https://www.krn.pl/mapa-inwestycji/nowe" class="m_widget">Mapa inwestycji</a></li>
+				<li class="m_widget"><a href="https://zainwestujwnieruchomosci.pl" class="m_widget">Inwestuj w nieruchomości</a></li>
+
+        <li><a href="http://www.krn.pl/lokale-uzytkowe,sprzedaz" class="m_widget">Lokale użytkowe</a></li>
+
+        <li><a href="https://www.kreodom.pl" target="_blank" class="m_widget">Projekty domów</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle m_widget" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informacje <i class="fa fa-caret-down caret-menu"></i></a>
+          <div class="dropdown-menu">
+            <ul class="list-inline">
+              <li class="m_widget"><a href="https://www.krn.pl/prezenter-inwestycji" class="m_widget">Prezenter inwestycji</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/budownictwo" class="m_widget">Budownictwo</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/wiadomosci" class="m_widget">Wiadomości</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/artykuly" class="m_widget">Artykuły</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/pytania-do-prawnika" class="m_widget">Porady prawne</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/targi/" class="m_widget">Wydarzenia branżowe</a></li>
+              <!--<li class="m_widget"><a href="https://www.krn.pl/oferty-pracy"  class="m_widget">Oferty pracy</a></li>-->
+              <li class="m_widget"><a href="https://www.krn.pl/biuletyn-krn" class="m_widget">Biuletyn</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/ewydania" class="m_widget">Ewydania</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle m_widget" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spis firm <i class="fa fa-caret-down caret-menu"></i></a>
+          <div class="dropdown-menu short2">
+            <ul class="list-inline small">
+              <li class="m_widget"><a href="https://www.krn.pl/firmy-deweloperskie" class="m_widget">Firmy deweloperskie</a></li>
+              <li class="m_widget"><a href="https://www.krn.pl/biura-posrednictwa,s1" class="m_widget">Biura pośrednictwa</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+</nav><style>
+@media (max-width: 1300px)
+{
+  .m_widget {font-size:12px !important;} 
+}</style>
+
+    <div class="container">
+      <div class="error-404 jumbotron">
+        <div class="row">
+          <div class="col-sm-3 col-sm-push-9">
+            <i class="fa fa-frown-o"></i>
+          </div>
+          <div class="col-sm-9 col-sm-pull-3">
+            <p>Coś poszło nie tak...</p>
+            Błąd #404 - strona nie została znaleziona
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <div class="search-wrap container" style="margin-top:0px;">
+
+       <!--<p class="welcome-text hidden-sm hidden-xs">| !<+>! Oferty nieruchomości: mieszkania, domy i działki na sprzedaż lub wynajem.</p>-->
+   			<div class="search-block">
+
+		               <h1 class="welcome-text"><small>KRN.pl - Krajowy Rynek Nieruchomości</small><br>
+          Nieruchomości od pierwszego wejrzenia</h1>
+    <form method="post" action="/szukaj" class="form-horizontal" id="se" autocomplete="off" style="display: inline-block;width:100%;">
+
+      <input type="hidden" name="se_type" id="se_type" value="1">
+      <div class="basic-search" style="">
+			  
+        <div class="search-button text-center">
+
+          <button type="submit">
+            <i class="fa fa-search fa-2x" id="searchloopfix" style="margin:0px;"></i>
+            <span>Szukaj</span>
+          </button>
+        </div>
+
+        <div class="search-fields">
+					 
+          <div class="row" id="flynewline1">
+
+            <div class="col-xxs-12 col-xs-12 col-sm-2 col-lg-2 se_ind " data-for="1,2,3,4,8,9" id="flyrynekhide1" style="padding-right:8px;">
+              <div class="row se_ind2" id="flyrynek" style="display:inline-block;width:100%;">
+                <div>
+                  <select id="rynek" class="form-control select2" name="ryn">
+                    <option value="1">pierwotny</option><option value="2">wtórny</option><option value="0" selected="">wszystkie</option>                  </select>
+                </div>
+              </div>
+      </div>
+
+            <div class="col-sm-2 ser2" id="flyser2" style="padding-right:8px !important;">
+              <div id="test">
+              <select class="form-control select2" name="obi" id="se_obi">
+                <option value="1" selected="">mieszkania</option><option value="101">apartamenty</option><option value="2">domy</option><option value="5">działki</option><option value="4">kamienice</option><option value="3">lokale użytkowe</option><option value="8">hale i magazyny</option><option value="9">garaże</option><option value="6">inne</option>              </select>
+                  </div>
+            </div>
+            <div class="col-sm-2 ser2" data-for="1,2,3,4,5,8,9,101" id="flyser3" style="display: block;padding-right: 8px;">
+              <div id="test2">
+              <select class="form-control select2" name="akc" data-placeholder="typ transakcji">
+                <option value="1" selected="">sprzedaż</option><option value="2">wynajem</option><option value="3">kupno</option><option value="4">poszukuję do wynajęcia</option><option value="5">zamiana</option>              </select>
+                  </div>
+            </div>
+
+      <div class="col-lg-6 col-md-4 col-sm-4 ser2" id="flyser5" style="padding-right: 0px;">
+              <input type="text" class="form-control " placeholder="lokalizacja (miejscowość, dzielnica, ulica)" name="lok" autocomplete="off" title="mieszkania" id="se_lokalizacja" value="">
+			</div>
+  </div>
+      
+  <div id="search-new-line" class="row">
+      <div class="col-xxs-12 col-xs-6 col-sm-4 col-md-4 col-lg-6 se-xs-advanced" id="flynewline2">
+        <div class="row">
+                <div>
+                  <!--<label class="control-label" id="flyser10" style="color: #a1d047;">Cena</label>-->
+                </div>
+                <div class="col-xs-6 col-lg-6" id="flyser6" style="padding-right: 8px;">
+
+                  <input type="text" class="form-control" id="price_from" name="ccl" data-minv="0" placeholder="cena od:" autocomplete="off" value="">
+
+                </div>
+                <div class="col-xs-6 col-lg-6" id="flyser7" style="padding-right: 8px;">
+                  <input type="text" class="form-control" name="cch" id="price_to" data-minv="0" placeholder="cena do:" autocomplete="off" value="">
+                </div>
+        </div>
+      </div>
+
+
+
+            <div class="col-xxs-12 col-xs-6 col-sm-6 col-lg-6 se-xs-advanced" data-for="1,2,3,4,6,7,8,9,101" id="flynewline4">
+              <div class="row">
+                <div>
+                  <!--<label class="control-label" id="flyser11" style="color: #a1d047;">Powierzchnia (m<sup>2</sup>)</label>-->
+                </div><div class="col-xs-6 col-lg-6" id="flyser8" style="padding-right: 8px !important">
+                  <input type="text" class="form-control" name="pll" data-minv="0" style="padding: 6px 11px" placeholder="powierzchnia od:" id="pow_from" value="">
+
+                </div>
+                <div class="col-xs-6 col-lg-6" id="flyser9">
+                  <input type="text" class="form-control" name="plh" data-minv="0" style="padding: 6px 11px" placeholder="powierzchnia do:" id="pow_to" value="">
+                </div>
+              </div>
+            </div>
+
+
+
+				<div class="col-sm-2 ser2 pad30" style="display:none;">
+				<select class="form-control select2" name="okolica" id="okolica" style="display:none;">
+				<option value="0">okolica</option>
+				<option value="5">+5 km</option>
+				<option value="10">+10 km</option>
+				<option value="20">+20 km</option>
+				</select>
+
+              <input type="hidden" name="lok_last" value="">
+              <img src="loader_5.gif" alt="ładowanie podpowiedzi lokalizacji" title="ładowanie podpowiedzi lokalizacji" id="se-loc-loader">
+              <div id="loc-pam-wrap">
+                <input type="hidden" name="ami" id="se_loc_80" value="">
+                <input type="hidden" name="nreg" id="se_loc_40" value="">
+                <input type="hidden" name="nreg2" id="se_loc_50" value="">
+                <input type="hidden" name="nreg3" id="se_loc_60" value="">
+                                                              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advanced-search">
+      </div>
+    </form>
+  </div>
+</div>
+<style>
+	.select2 .select2-container .select2-container--default {
+		width: 100% !important;
+	}
+	.search-wrap {
+		margin-top: 20%;
+	}
+  #flynewline2 {
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 15px;
+  }
+	#flynewline4 {
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .select2-container--default .select2-selection--single {
+    background-color: #fff !important;
+    height: 34px;
+  }
+  .search-button {
+  		z-index:90;
+  		height: 78px;
+  		right: 15px;
+  	}
+  h1.welcome-text {
+  	/*font-size: 32px;*/
+    font-size: 170%;
+  	line-height: 1.3;
+  }
+  .welcome-text {
+  	color:#fff;
+  	text-align:center;
+  	display: block;
+  	text-shadow: 1px 2px 1px rgba(0,0,0,0.8);
+  }
+  .welcome-text small {
+  	color: #fff;
+  	font-size: 70%;
+  }
+  @media (min-width: 1200px) {
+  	.basic-search {
+  		padding-right: 100px;
+  	}
+  }
+  @media (max-width: 1199px) {
+  	.search-button {
+  		width: 15%;
+  	}
+  	.basic-search {
+  		padding-right: 0px;
+  	}
+  	.search-fields > .row:last-child {
+  		padding-top: 0;
+  	}
+  	#flynewline1 {
+  		margin-top: -94px;
+  	}
+  	#search-new-line {
+  		margin-top: -60px;
+  	}
+  }
+   @media (min-width: 1600px) {
+    .search-wrap {
+      margin-top: 21%;
+    }
+  }
+  @media (max-width: 1599px) {
+    .search-wrap {
+      margin-top: 16%;
+    }
+  }
+   @media (max-width: 1199px) {
+    .search-wrap {
+      margin-top: 12%;
+    }
+  }
+  @media (min-width: 1367px) {
+  	.search-block2 {
+  		width: 100% !important;
+  	}
+  }
+   @media (max-width: 1024px) {
+    .search-wrap {
+      margin-top: 8%;
+    }
+    .search-fields > .row:last-child {
+      padding-top: 0;
+    }
+  }
+  @media (max-width: 1080px) {
+  	#flyrynekhide1 {
+  		margin-top:0;
+  	}
+  }
+	@media (min-width: 1081px) {
+  		#flyrynekhide1 {
+  			margin-top:-9px;
+  		}
+  	}
+  	@media (max-width: 991px) {
+  		#flynewline1 {
+  			margin-top: 0;
+  		}
+  		#search-new-line {
+  			margin-top: -60px;
+  		}
+  		.search-button {
+  			margin-top: 0;
+  		}
+  		#search-new-line {
+  			margin-top: -44px;
+  			width: 100%;
+  		}
+
+  	}
+  	@media (max-width: 767px) {
+  		#flyser2 {
+  			height: 87px!important;
+  			width: 100% !important;
+  		}
+  		.select2-container--default .select2-selection--single {
+  			width: 100%!important;
+  		}
+  		.search-block2 {
+  			height: 480px !important;
+  			
+  		}
+  		.search-wrap {
+  			margin-top: -15px;
+  		}
+  		.search-fields {
+  			width: 81% !important;
+  		}
+  		.basic-search {
+  			/*padding: 0 25%;*/
+  		}
+  		.select2 .select2-container .select2-container--default {
+  			width: 100%!important;
+  		}
+  		.search-wrap {
+  			margin-top: 5%;
+  		}
+  		#flyser5 {
+  			margin-top: 18px;
+  		}
+  		.search-button {
+  			z-index:90;
+  			margin-top: 14%;
+  			width: 53%;
+  			left: 5%!important;
+  			height: 78px;
+  			right: 18px;
+  			top: 6.8%!important;
+  		}
+      #test > span:nth-child(2) {
+        width: 82%!important;
+      }
+  		#flyrynekhide1 {
+  			height: 44px!important;
+  		}
+  		#flyser5 {
+  			margin-top: 0;
+  		}
+  		#flynewline2, #flynewline4 {
+  			padding-top: 0;
+  		}
+  		#flyrynek {
+  			padding-right: 10px;
+  			width: 56.5%!important;
+  		}
+  		#flynewline1, #search-new-line {
+  			margin-left: -10px;
+  		}
+  		#search-new-line {
+  			margin-top: 0px;
+  		}
+  	}
+  	@media (max-width: 700px) {
+  		.search-fields {
+  			width: 51% !important;
+  		}
+  		.search-block2 {
+  			height: 500px!important;
+  		}
+  		.search-button {
+  			/*margin-top: -2%;*/
+  			width: 46%;
+  		}
+  		.search-wrap {
+  			margin-top: ;
+  		}
+  		#flyrynek {
+  			width: 100%!important;
+  		}
+  		.search-button {
+  			margin-top: 15%;
+  		}
+  	}
+  	@media (max-width: 600px) {
+  		.search-fields {
+  			width: 60% !important;
+  		}
+  		.search-block2 {
+  			height: 530px !important;
+  		}
+  		.search-button {
+  			margin-top: 19%;
+  			width: 46%;
+  		}
+  	}
+  	@media (max-width: 510px) {
+  		.search-fields {
+  			width: 71% !important;
+  		}
+  		#flyrynek {
+  			width: 108%!important;
+  		}
+  		#test > span:nth-child(2) {
+        width: 90%!important;
+      }
+      .search-button {
+  			margin-top: 19%;
+  		}
+  	}
+  	@media (max-width: 480px) {
+  		.search-button {
+  			margin-top: 22%;
+  		}
+  	)	
+  	@media (max-width: 446px) {
+  		.search-button {
+  			margin-top: -5%;
+  		}
+  		.search-fields {
+  			width: 81% !important;
+  		}
+  		h1.welcome-text {
+  			font-size: 22px;
+  			margin: 0 0 30px 0;
+  		}
+  		.select2-container--default .select2-selection--single {
+  			width: 100%!important;
+  		}
+  		.search-button {
+		    margin-top: 23%!important;
+		}
+  	}
+  	@media (max-width: 434px) {
+  		.search-button {
+  			margin-top: 15%!important;
+  		}
+  		.search-fields {
+  			width: 100% !important;
+  		}
+  		.search-block2 {
+  			height: 500px !important;
+  		}
+  		#flyrynek {
+  			width: 87.5%!important;
+  		}/*
+      #flyrynek {
+        width: 103%!important;
+      }*/
+       #test > span:nth-child(2){
+        width: 82% !important;
+      }
+  	}
+  	@media (max-width: 380px) {
+  		#flyrynek {
+  			width: 100%!important;
+  		}
+  	}
+  	@media (max-width: 360px) {
+  		#flyrynek {
+  			width: 84.5%!important;
+  		}
+  	}
+  	@media (max-width: 361px) {
+  		.search-button {
+  			margin-top: 15%;
+  		}
+  		.search-fields {
+  			width: 122% !important;
+  		}
+  		.search-block2 {
+  			height: 560px !important;
+  		}
+  		.search-wrap {
+  			margin-top: -10%;
+  		}
+  		#flyser2 {
+  			width: 82% !important;
+  		}
+  		#se_obi span {
+  			width: 100%!important;
+  		}
+      #se_lokalizacja {
+        width: 80.5% !important;
+      }
+      #flynewline2 {
+        width: 86%!important;
+      }
+      #flyser8 {
+        width: 84.7%!important;
+      }
+      #flyser9 {
+        width: 86.6%!important;
+       }
+      #test2 {
+        width: 100% !important;
+      }
+      #flyser3 {
+        width: 82.5%;
+      }
+       #test > span:nth-child(2) {
+        width: 100%!important;
+      }
+  	}
+</style>
+
+<script type="text/javascript">
+
+$(':input').on('focus', function () {
+  $(this).attr('autocomplete', 'off')
+});
+
+</script>
+
+
+<div id="adblock_info">
+Prosimy, odblokuj wyświetlanie reklam w naszym serwisie, są one związane z rynkiem nieruchomości.<br> To dzięki nim masz darmowy dostęp do naszych treści.<br><br>
+Z pozdrowieniami zespół KRN.pl :)
+</div> 
+		
+
+<br>
+<br>
+
+<div class="tag-cloud">
+  <div class="container"> 
+  <div class="col-md-12">
+   <div class="col-md-4 col-xs-4">
+			<p class="title">Nieruchomości na sprzedaż  </p>
+				<p class="text-left"><a href="https://www.krn.pl/mieszkania/sprzedaz ">Mieszkania na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/domy/sprzedaz ">Domy na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/dzialki/sprzedaz ">Działki na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/kamienice/sprzedaz">Kamienice na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/apartamenty/sprzedaz">Apartamenty na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/hale-i-magazyny/sprzedaz">Hale i magazyny na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/lokale-uzytkowe/sprzedaz">Lokale użytkowe na sprzedaż</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/garaze/sprzedaz">Garaże na sprzedaż</a></p>
+					</div>
+					 <div class="col-md-4 col-xs-4">
+				<p class="title">Nieruchomości na wynajem  </p>
+				<p class="text-left"><a href="https://www.krn.pl/mieszkania/wynajem">Mieszkania do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/domy/wynajem">Domy do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/dzialki/wynajem">Działki do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/kamienice/wynajem">Kamienice do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/apartamenty/wynajem">Apartamenty do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/hale-i-magazyny/wynajem">Hale i magazyny do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/lokale-uzytkowe/wynajem">Lokale użytkowe do wynajęcia</a></p>
+
+				<p class="text-left"><a href="https://www.krn.pl/garaze/wynajem">Garaże do wynajęcia</a></p>
+
+
+		</div>
+		<div class="col-md-4 col-xs-4">
+		<p class="title">Wybrane nieruchomości: </p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/warszawa">Nowe mieszkania Warszawa</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/katowice">Nowe mieszkania Katowice</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/krakow">Nowe mieszkania Kraków</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/wroclaw">Nowe mieszkania Wrocław</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/gdansk">Nowe mieszkania Gdańsk</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/gdynia">Nowe mieszkania Gdynia</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/mieszkania/sopot">Nowe mieszkania Sopot</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/domy/krakow">Nowe domy Kraków</a></p>
+				<p class="text-left"><a href="https://www.krn.pl/rynek-pierwotny/nowe/domy/warszawa">Nowe domy Warszawa</a></p>
+		</div>
+		</div>
+<p class="title">Wybrane nieruchomości</p><a href="https://www.krn.pl/mieszkania/sprzedaz/poznan">mieszkania na sprzedaż w Poznaniu</a><a href="https://www.krn.pl/mieszkania/sprzedaz/krakow">mieszkania na sprzedaż w Krakowie</a><a href="https://www.krn.pl/mieszkania/sprzedaz/warszawa">mieszkania na sprzedaż w Warszawie</a><a href="https://www.krn.pl/mieszkania/sprzedaz/wroclaw">mieszkania na sprzedaż w Wrocławiu</a><a href="https://www.krn.pl/mieszkania/sprzedaz/gdansk">mieszkania na sprzedaż w Gdańsku</a><a href="https://www.krn.pl/domy/sprzedaz/poznan">domy na sprzedaż w Poznaniu</a><a href="https://www.krn.pl/domy/sprzedaz/krakow">domy na sprzedaż w Krakowie</a><a href="https://www.krn.pl/domy/sprzedaz/warszawa">domy na sprzedaż w Warszawie</a><a href="https://www.krn.pl/domy/sprzedaz/wroclaw">domy na sprzedaż w Wrocławiu</a><a href="https://www.krn.pl/domy/sprzedaz/gdansk">domy na sprzedaż w Gdańsku</a><a href="https://www.krn.pl/mieszkania/wynajem/krakow">mieszkania do wynajęcia Kraków</a><a href="https://www.krn.pl/mieszkania/wynajem/warszawa">mieszkania do wynajęcia Warszawa</a><a href="https://www.krn.pl/mieszkania/wynajem/poznan">mieszkania do wynajęcia Poznań</a><a href="https://www.krn.pl/mieszkania/wynajem/wroclaw">mieszkania do wynajęcia Wrocław</a><a href="https://www.krn.pl/mieszkania/wynajem/gdynia">mieszkania do wynajęcia Gdynia</a><a href="https://www.krn.pl/mieszkania/wynajem/gdansk">mieszkania do wynajęcia Gdańsk</a><a href="https://www.krn.pl/mieszkania/wynajem/lodz">mieszkania do wynajęcia Łódź</a><a href="https://www.krn.pl/kamienice/poszukuje-do-wynajecia">kamienice poszukiwane do wynajęcia</a><a href="https://www.krn.pl/lokale-uzytkowe/kupno">lokale użytkowe do kupienia</a><a href="https://www.krn.pl/inne/wynajem">inne nieruchomości na wynajem</a><a href="https://www.krn.pl/domy/sprzedaz/lubanski">domy na sprzedaż powiat Lubański</a><a href="https://www.krn.pl/lokale-uzytkowe/sprzedaz/bartoszycki">lokale użytkowe na sprzedaż powiat Bartoszycki</a><a href="https://www.krn.pl/lokale-uzytkowe/sprzedaz/szastarka">lokale użytkowe na sprzedaż gmina Szastarka</a><a href="https://www.krn.pl/mieszkania/sprzedaz/tarnowka">mieszkania na sprzedaż gmina Tarnówka</a><a href="https://www.krn.pl/domy/sprzedaz/wasy-wies">domy na sprzedaż w Wąsy-Wsi</a><a href="https://www.krn.pl/mieszkania/sprzedaz/gielniow">mieszkania na sprzedaż w Gielniowie</a><a href="https://www.krn.pl/mieszkania/wynajem/kniazie">mieszkania na wynajem w Kniazie</a>
+<p class="title">Deweloperzy</p>
+
+			<header id="myCarousel" class="carousel slide">
+
+			        <!-- Wrapper for Slides -->
+			        <div class="carousel-inner f_dewelopers">
+							<div class="item active"><a href="https://www.krn.pl/firma-deweloperska/cordia-polska,1193,0,s1"><img src="../imager_v2_8.php" alt="Cordia Polska" class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/loco-sp-z-o-o-sp-k,1328,0,s1"><img src="../imager_v2_13.php" alt="LOCO Sp. z o. o. Sp. k." class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/krn-media-sp-z-o-o,1068,0,s1"><img src="../imager_v2_14.php" alt="KRN media Sp. z o.o." class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/adept-investment-sp-z-o-o,1327,0,s1"><img src="../imager_v2_15.php" alt="Adept Investment Sp. z o.o." class="img_dew"></a> </div>
+							<div class="item"><a href="https://www.krn.pl/firma-deweloperska/nexity-polska,1348,0,s1"><img src="../imager_v2_16.php" alt="NEXITY POLSKA" class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/architecture-vento,1129,0,s1"><img src="../imager_v2_18.php" alt="Architecture Vento" class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/dasta-invest-sp-z-o-o,693,0,s1"><img src="../imager_v2_5.php" alt="Dasta Invest sp. z o.o." class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/apartamenty-klimaty-sp-z-o-o,1312,0,s1"><img src="../imager_v2_19.php" alt="Apartamenty Klimaty Sp. z o.o. " class="img_dew"></a> </div>
+							<div class="item"><a href="https://www.krn.pl/firma-deweloperska/prem-sp-z-o-o,1161,0,s1"><img src="../imager_v2_17.php" alt="PREM Sp. z o.o." class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/richards-investment-sp-z-o-o,1265,0,s1"><img src="../imager_v2_20.php" alt="Richards Investment Sp. z o. o." class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/grupa-buma,572,0,s1"><img src="../imager_v2_21.php" alt="Grupa BUMA" class="img_dew"></a> <a href="https://www.krn.pl/firma-deweloperska/dp-invest,1164,0,s1"><img src="../imager_v2_22.php" alt="DP Invest" class="img_dew"></a> </div>
+			        </div>
+
+			        <!-- Controls -->
+			        <a class="left carousel-control" style="color:#000;margin:0;width:5%;background-color:#fff;background-size: 0 0;" href="#myCarousel" data-slide="prev">
+			            <span class="icon-prev"></span>
+			        </a>
+			        <a class="right carousel-control" style="color:#000;margin:0;width:5%;background-color:#fff;background-size: 0 0;" href="#myCarousel" data-slide="next">
+			            <span class="icon-next"></span>
+			        </a>
+
+			</header>
+</div>
+</div>
+
+            <div id="ewydania-popup" class="modal fade">
+            <div class="modal-dialog">
+                    <div class="modal-content">
+                                    <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
+                                            <p class="title">Uzyskaj dostęp do E-wydań KRN.pl</p>
+                    </div>
+                                    <div class="modal-body">
+                                            <div class="login-box">
+                                                    <div class="inner">
+                                                            <div class="result text-center"><strong></strong><br><br></div>
+                                                            <div class="text-center"><a href="#" id="ewydania-pdf-link" target="_blank" rel="nofollow">Pobierz E-wydanie</a></div>
+                                                            <form action="https://klasyczny.krn.pl/biuletyn.php" method="post">
+                                                                    <div class="row">
+                                                                            <p>Podaj województwo i swój adres e-mail, aby pobrać pełną wersji publikacji KRN.pl</p>
+																			<select name="dt[woj]" class="form-control ignore">
+																			<option value="1">dolnośląskie</option>
+																			<option value="2">kujawsko-pomorskie</option>
+																			<option value="3">lubelskie</option>
+																			<option value="4">lubuskie</option>
+																			<option value="5">łódzkie</option>
+																			<option value="6">małopolskie</option>
+																			<option value="7">mazowieckie</option>
+																			<option value="8">opolskie</option>
+																			<option value="9">podlaskie</option>
+																			<option value="10">podkarpackie</option>
+																			<option value="11">pomorskie</option>
+																			<option value="12">śląskie</option>
+																			<option value="13">świętkokrzyskie</option>
+																			<option value="14">warmińsko-mazurskie</option>
+																			<option value="15">wielkopolskie</option>
+																			<option value="16">zachodniopomorskie</option>
+																			&gt;</select>
+                                                                            <input type="hidden" name="redirect" value="http://krn.pl/themes/krn/css_min/grabbing.png?status=">
+                                                                            <input type="text" name="dt[email]" placeholder="Twój e-mail" class="form-control default-box-rest-input gray-placeholder" required="">
+                                                                            <input type="checkbox" name="dt[areg1]" value="1" id="dt-agree" required=""><label for="dt-agree">Wyrażam zgodę na otrzymywanie elektronicznego biuletynu KRN.pl. oraz na przetwarzanie moich danych osobowych ( <a href="http://krnmedia.pl/regulamin.html" target="_blank">regulamin</a> ) w celach marketingowych przez KRN media sp. z o.o.i spółki powiązane oraz partnerów handlowych. </label>
+
+																																						<br><input type="checkbox" name="dt[areg2]" value="1" id="dt-agree" required=""><label for="dt-agree">Wyrażam zgodę na przetwarzanie moich danych osobowych w celu otrzymania na podany adres e-mail elektronicznej wersji wybranej publikacji.</label>
+
+																																						<br><input type="checkbox" name="dt[areg3]" value="1" id="dt-agree" required=""><label for="dt-agree">Wyrażam zgodę na otrzymywanie informacji, w tym informacji handlowej przesyłanej na podany przeze mnie adres e-mail, a także na używanie telekomunikacyjnych urządzeń końcowych dla celów marketingu bezpośredniego KRN Media sp. z o.o. Wyrażenie w/w zgód jest dobrowolne. Zostałem/am także poinformowany/a, że udzielone przez mnie zgody mogą być odwołane w każdym czasie.</label>
+																																						 (<a id="button_show_ok">pokaż/ukryj</a>)
+
+																																						<div id="info_rod" style="display:none;">
+																																			     Zostałem/am poinformowany/a, że:
+																																				 <br><br>
+																																				 1) Administratorem moich danych osobowych jest KRN Media sp. z o.o. z siedzibą w Krakowie przy ul. Al. J. Słowackiego 39, 31-159 Kraków, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego przez Sąd Rejonowy dla Krakowa - Śródmieścia w Krakowie, XI Wydział Gospodarczy KRS pod numerem 0000258498, NIP: 6762321131, kapitał zakładowy 50 000 zł, e-mail: <a href="mailto:weryfikacjarodo@krnmedia.pl">weryfikacjarodo@krnmedia.pl</a>;<br><br>
+	 2) dane osobowe są przetwarzane przez Administratora w celu:
+	 <br>a) przesłania elektronicznej wersji wybranej publikacji – na podstawie mojej zgody (art. 6 ust. 1 lit. a RODO);
+	 <br>b) marketingu bezpośredniego produktów i usług Administratora prowadzonego przez przesyłanie newslettera zawierającego informację handlową na podany przeze mnie adres e-mail – na podstawie prawnie uzasadnionych interesów realizowanych przez Administratora tj. marketingu bezpośredniego (art. 6 ust. 1 lit. f RODO);
+	 <br><br>3) dane osobowe mogą zostać udostępnione podmiotom należącym do grupy kapitałowej, do której należy Administrator;
+	 <br><br>4) dane osobowe mogą zostać również udostępnione podmiotom przetwarzającym dane w imieniu Administratora takim jak podmioty świadczące usługi marketingowe, kadrowe, księgowe, a także dostawcom usług informatycznych;
+	 <br><br>5) dane osobowe są przetwarzane do czasu cofnięcia zgody, zgłoszenia sprzeciwu przez osobę, której dane dotyczą lub do momentu, kiedy Administrator zdecyduje o ich usunięciu;
+	 <br><br>6) przysługują mi następujące prawa:
+	 <br>a) prawo dostępu do danych osobowych oraz prawo otrzymania ich kopii;
+	 <br>b) prawo do sprostowania danych osobowych;
+	 <br>c) prawo do usunięcia danych osobowych;
+	 <br>d) prawo do żądania ograniczenia przetwarzania danych osobowych;
+	 <br>e) prawo do przeniesienia danych osobowych;
+	 <br>f) prawo sprzeciwu wobec przetwarzania danych osobowych;
+	 <br>g) prawo do wniesienia skargi do organu nadzorczego.
+	 <br><br>7) w celu realizacji któregokolwiek z praw, o którym mowa wyżej należy skontaktować się z Administratorem;
+	 <br><br>8) podanie danych osobowych jest warunkiem przesłania elektronicznej wersji wybranej publikacji.
+
+																																			<br><br>
+																																			      </div>
+                                                                            <button class="default-box-rest-button" type="submit">Zapisz</button>
+                                                                    </div>
+                                                            </form>
+                                                    </div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+    
+	
+	<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-9 footer-links">
+            <div class="row">
+              <div class="col-sm-3">
+                <p><a href="https://www.krn.pl/oferta-reklamy">Oferta</a></p>
+                <p><a href="/krajowy-rynek-nieruchomosci/dla-posrednika-43">Programy dla biur</a></p>
+                <!--<p><a href="https://www.krn.pl/oferty-pracy">Oferty pracy</a></p>-->
+                <p><a href="https://forum.krn.pl/forum/">Forum KRN</a></p>
+              </div>
+              <div class="col-sm-3">
+                <p><a href="https://www.krn.pl/kontakt">Kontakt</a></p>
+                <p><a href="https://www.krnmedia.pl/regulaminy">Regulamin</a></p>
+		<p><a href="/targi">Wydarzenia</a></p>
+                <p><a href="/wyceniacz">Wyceniacz KRN.pl</a></p>
+              </div>
+              <div class="col-sm-3">
+                <p><a href="https://www.krn.pl/partnerzy">Partnerzy</a></p>
+                <p><a href="https://www.krn.pl/mapa-serwisu">Mapa serwisu</a></p>
+								<p><a href="https://www.krn.pl/wzory_umow">Wzory umów</a></p>
+								<p><a href="https://www.krn.pl/widget-ogloszenia-generate">Widget</a></p>
+              </div>
+			  <div class="col-sm-3">
+			   <p><a style="color:#fff;" href="https://www.krn.pl/polityka-prywatnosci">Polityka prywatności</a></p>
+			<p><a style="color:#fff;" href="https://www.krn.pl/rzetelnyportal">Fundacja</a></p>
+			<p><a style="color:#fff;" href="https://www.krnmedia.pl/#carrier">Praca u nas</a></p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3 text-center social-media">
+            <a href="https://pl-pl.facebook.com/www.KRNpl" target="_blank"><img src="facebook.png" alt="Facebook" title="Facebook"></a>
+        
+            <a href="https://pl.linkedin.com/company/krnpl" target="_blank"><img src="linkedin.png" alt="Linkedin" title="Linkedin"></a>
+          </div>
+        </div>
+		<div class="text-center cols_nasz">
+		<ul>
+          <li class="krn"><a href="https://www.krn.pl" target="_blank"><img src="w2_krn.png" class="img-responsive" alt="Nieruchomości kraków"></a></li>
+		  <li class="pop"><a href="https://pop.krn.pl" target="_blank"><img src="w2_pop_b.png" class="img-responsive" alt="oferty prywatne nieruchomosci"></a></li>
+		  <li class="tygodnik"><a href="https://krakowskiryneknieruchomosci.pl/" target="_blank"><img src="w2_dwutygodnik.png" class="img-responsive" alt="krakowski rynek nieruchomosci"></a></li>
+		  <li class="kreocen"><a href="http://www.kreocen.pl" target="_blank"><img src="w2_kreocen.png" class="img-responsive" alt="porownywarka cen"></a></li>
+		  <li class="kreodom"><a href="https://www.kreodom.pl" target="_blank"><img src="w2_kreodom.png" class="img-responsive" alt="projekty domów"></a></li>
+		  <li class="biurowce"><a href="https://www.e-biurowce.pl" target="_blank"><img src="w2_e_biurowce.png" class="img-responsive" alt="biurowce, lokale biurowe"></a></li>
+		  <li class="yanok"><a href="https://www.yanokhipoteczny.pl" target="_blank"><img src="w2_yanok.png" class="img-responsive" alt="fundusz inwestycyjny"></a></li>
+		 
+		 </ul>
+		</div>
+		<div class="col-xs-12 col-md-12 text-center"><br>
+        <a href="http://www.krnmedia.pl" target="_blank"><p class="copyright">� 2022 KRN.pl | KRN media Sp. z o. o.</p></a>
+		</div>
+      </div>
+    </footer>
+
+    
+    <script src="../js/jquery.min_3.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+    <script src="../js/bootstrap.min_1.js"></script>
+    <script src="../js/select2.min.js"></script>
+    <script src="../js/js.cookie.js"></script>
+    <script src="../js/old-browser.min.js"></script>
+    <script src="../js/main_1.js"></script>
+    <script src="../js/presenter-slider.js"></script>
+    <script src="../js/super-offer-slider.js"></script>
+    <script src="../js/accordion.js"></script>
+    <script src="../js/owl.carousel.min_2.js"></script>
+    <script src="../js/owl.carousel.sync.js"></script>
+	<script src="../js/blockadblock.js"></script>
+
+    <script type="text/javascript" src="../js/jquery-ui.min_1.js"></script><script type="text/javascript" src="../js/jquery.slimscroll.min.js"></script><script src="../js/se.js"></script>
+    
+
+	<script type="text/javascript">
+    $(document).ready(function(){
+				$( ".spis h2" ).css("border-bottom", "");
+				$(".spis h2").css("border-bottom","5px solid #b3b3b9");
+
+
+		});
+	$(document).ready(function() {
+		$("li.dropdown").mouseover(function() {
+			 $( this ).addClass("open");
+		})
+		$("li.dropdown").mouseout(function() {
+			 $( this ).removeClass("open");
+		})
+	});
+
+    $(document).ready(function() {
+      if($('#krn_NOWYKRN_top_1')) {
+        setTimeout(function() {
+          if($(window).width() <= 800) {
+            $('#krn_NOWYKRN_top_1 div div').each(function() {
+              el = $(this);
+              elId = el.attr('id');
+              if(elId.substr(0, 3) == 'bbb') {
+                $('#krn_NOWYKRN_top_1 div').attr('style', '');
+                el.attr('style', 'max-width:700px');
+                $('#krn_NOWYKRN_top_1 img').each(function() {
+	              if($(this).css('width') != '0px') {
+		            $(this).height($(this).width()/2.5);
+	              }
+	            });
+              }
+            });
+          }
+        }, 800);
+      }
+    });
+    </script>
+
+	<script type="text/javascript">
+		function switchInvPages(current, prev) {
+			$(".recommended-investments li[data-page="+prev+"]").fadeOut(300, function() {
+				$(".recommended-investments li[data-page="+current+"]").fadeIn();
+			});
+
+			$(".inv-pagination").each(function(e) {
+				var dot = $(this);
+
+				if(dot.data("page") == current) {
+					dot.addClass("active");
+				} else	dot.removeClass("active");
+			});
+		}
+
+		$(document).ready(function() {
+
+			$("#onlyfotos").click(function(){
+				if($("#fotol").attr("checked"))
+				{
+					$("#fotol").attr("checked", false);
+				}
+				else
+				{
+		      	$("#fotol").attr("checked", true);
+				}
+				document.getElementById('se').submit();
+		  });
+
+			$('.carousel').carousel({
+	        interval: 5000 //changes the speed
+	    })
+
+			var current_carousel_page = 0;
+
+			var data_range = $("#carousel-range");
+			var data_min = data_range.data("min");
+			var data_max = data_range.data("max");
+
+			$(".inv-pagination").on("click", function(e) {
+				var data_page = $(this).data("page");
+
+				var prev_carousel_page = current_carousel_page;
+
+				if(data_page == 'next') current_carousel_page += 1; else
+				if(data_page == 'prev') current_carousel_page -= 1; else
+				current_carousel_page = data_page;
+
+				if(current_carousel_page > data_max) current_carousel_page = data_min; else
+				if(current_carousel_page < data_min) current_carousel_page = data_max;
+
+				switchInvPages(current_carousel_page, prev_carousel_page);
+			});
+
+			if($('.tabs-1')) {
+				$('.tabs-content').hide();
+				$('.tabs-header-1').addClass('act');
+				$('.tabs-1').show();
+				$('.tabs-header li').each(function() {
+					$(this).click(function() {
+					    $('.tabs-header li').removeClass('act');
+					    $('.tabs-header-'+$(this).data('value')).addClass('act');
+
+					    $('.tabs-content').hide();
+					    $('.tabs-'+$(this).data('value')).show();
+				 	});
+				});
+			}
+		});
+	</script>
+	
+	<script type="text/javascript">
+	$(window).bind("keydown", function(e){
+
+		if (e.keyCode==37)
+			$("#magazine").turn("previous");
+		else if (e.keyCode==39)
+			$("#magazine").turn("next");
+
+	});
+	$(document).ready(function() {
+	
+	});
+
+	function init() {
+		
+	}
+	$('#form_senddoradca').click(function () {
+		var actionurl = window.location.href;
+
+		$.post(actionurl, $('#formdoradca').serialize(), function (data, textStatus) {
+			$('#doradca_response').html(data);
+    	});
+	});
+    </script>
+    
+
+    
+<script type="text/javascript" src="../spcjs.php"></script>
+
+<script type="text/javascript">
+	for(var i in OA_zones){
+		if( i == 'NOWYKRN_top_1'){
+			continue;
+		}
+		document.write('<div id="rv_'+i+'" style="display:none">');
+		OA_show(i);
+		document.write('</div>');
+	}
+
+	document.write('<div id="rv_NOWYKRN_top_1" style="display:none">');
+	OA_show('NOWYKRN_top_1');
+	document.write('</div>');
+
+	for(var i in OA_zones){
+		var code = document.getElementById('rv_'+i);
+		var current_zone = document.getElementById('krn_'+i);
+		if(code){
+			while(code.firstChild){
+				current_zone.appendChild( code.removeChild(code.firstChild) );
+			}
+		}
+		current_zone.style.display = 'block';
+	}
+</script>
+	<script type="text/javascript" src="../js/addthis_widget.js#pubid=ra-577a4b7e3a5c50ed"></script><script src="../js/star-rating.js"></script>
+		
+
+
+	<script>
+	function myFunction() {
+
+		document.getElementById('formstar').submit();
+
+	}
+	</script>
+	
+
+  );
+  
+	<script>
+
+		var  zaznaczone = 0;
+		$(document).scroll( function() {
+				var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+				var scrollBottom2 = $(document).height() - $(window).scrollTop()-1950;
+		    if ($(document).scrollTop() > 1460 && $(window).width() > 1100 && $(window).height() > 600)
+				{
+						if(scrollBottom <= 1220)
+						{
+							$('#superofferswim').css({"top":scrollBottom2+"px"});
+							$('#superofferswim').css({"z-index":"0"});
+						}
+						else
+						{
+							$('#superofferswim').css({"top":"90px"});
+							$('#superofferswim').css({"z-index":"5000"});
+						}
+						if( zaznaczone == 0)
+						{
+							$('#superofferswim').hide();
+							$('#superofferswim').fadeIn('slow');
+						}
+
+		        $('#superofferswim').addClass('floating');
+
+						zaznaczone = 1;
+					}
+		    else
+				{
+		        $('#superofferswim').removeClass('floating');
+						zaznaczone = 0;
+					}
+		});
+			</script><script>
+
+function adBlockDetected() {
+  $('#adblock_info').show();
+}
+function adBlockNotDetected() {
+  $('#adblock_info').hide();
+}
+
+if(typeof blockAdBlock === 'undefined') {
+  adBlockDetected();
+} else {
+  blockAdBlock.setOption({ debug: true });
+  blockAdBlock.onDetected(adBlockDetected).onNotDetected(adBlockNotDetected);
+}
+
+var prices_default_array = ['1000', '10000', '100000', '200000', '300000', '500000', '1000000'];
+var prices_m_default_array = ['100', '1000', '2000', '3000', '4000', '5000', '6000'];
+var pow_default_array = ['10', '20', '30', '40', '50', '60', '80', '100', '150'];
+var pokoje_default_array = ['1', '2', '3', '4', '5', '6', '7', '8'];
+var pietro_default_array = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
+var dzialka_default_array = ['500', '1000', '3000', '5000', '10000', '100000', '200000'];
+
+
+$("#se-pdl").focus(function(){
+	min_value("se-pdl","se-pdh",dzialka_default_array,2);
+});
+
+$("#se-pdh").focus(function(){
+	min_value("se-pdh","se-pdl",dzialka_default_array,1);
+});
+
+$("#lpieter_from").focus(function(){
+	min_value("lpieter_from","lpieter_to",pietro_default_array,2);
+});
+
+$("#lpieter_to").focus(function(){
+	min_value("lpieter_to","lpieter_from",pietro_default_array,1);
+});
+
+$("#pietro_from").focus(function(){
+	min_value("pietro_from","pietro_to",pietro_default_array,2);
+});
+
+$("#pietro_to").focus(function(){
+	min_value("pietro_to","pietro_from",pietro_default_array,1);
+});
+
+$("#price_m_from").focus(function(){
+	min_value("price_m_from","price_m_to",prices_m_default_array,2);
+});
+
+$("#price_m_to").focus(function(){
+	min_value("price_m_to","price_m_from",prices_m_default_array,1);
+});
+
+
+
+$("#pow_to").focus(function(){
+	min_value("pow_to","pow_from",pow_default_array,1);
+});
+
+$("#se_lpkl").focus(function(){
+	min_value("se_lpkl","se_lpkh",pokoje_default_array,2);
+});
+
+$("#se_lpkh").focus(function(){
+	min_value("se_lpkh","se_lpkl",pokoje_default_array,1);
+});
+
+$("#pow_from").focus(function(){
+	min_value("pow_from","pow_to",pow_default_array,2);
+});
+function hide_menu_item(field_ok)
+{
+	$(field_ok).val("");
+	$(".ui-menu-item").hide();
+	$(".ui-autocomplete").hide();
+}
+function min_value(field,field_max,data_default,tryb)
+{
+	pow_to2 = new Array();
+	z = 0;
+	curr_field = "#"+field;
+	curr_field_max = "#"+field_max;
+	curr_max_value = $(curr_field_max).val();
+	if(curr_max_value == "")
+	{
+		if(tryb == 1)
+			max = 0;
+		else
+			max = 100000000000;
+	}
+	else
+	{
+		max = curr_max_value;
+	}
+
+	for (var i = 0; i < data_default.length; i++)
+	{
+		if(tryb == 1)
+		{
+			if(data_default[i] >= parseInt(max))
+			{
+	    	pow_to2[z] = data_default[i];
+				z++;
+			}
+		}
+		else
+		{
+			if(data_default[i] <= parseInt(max))
+			{
+	    	pow_to2[z] = data_default[i];
+				z++;
+			}
+		}
+	}
+	$(curr_field)
+	.autocomplete({
+	    source: pow_to2,
+	    minLength: 0,
+			open: function(event, ui) {
+        $('.ui-autocomplete').append('<li style="padding-left:10px;cursor:pointer;"><a onclick="hide_menu_item(curr_field);" >dowolna</a></li>');
+
+         },
+	})
+	.click(function() {
+		if($(this).val() == ""){
+			var sendval = $(this).val();
+		}
+		else {
+			var sendval = "";
+		}
+	    $(this).autocomplete('search', sendval)
+	});
+}
+
+$('#button_show_ok').click(function(){
+
+	if ( $('#info_rod').css('display') == 'none' ){
+		$('#info_rod').show(500);
+}
+else
+{
+	$('#info_rod').hide(500);
+}
+
+});
+
+
+
+
+</script>
+<script>
+$( document ).ready(function() {
+ var isFirefox = typeof InstallTrigger !== "undefined";
+$('.ui-autocomplete-input').removeAttr('autocomplete');
+$('.ui-autocomplete-input').attr('autocomplete', 'nope');
+if (isFirefox === true){
+$('.ui-autocomplete-input').removeAttr('autocomplete');
+$('.ui-autocomplete-input').attr('autocomplete', 'off');
+}
+})
+</script>
+
+
+</div></body></html>

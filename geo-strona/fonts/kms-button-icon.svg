@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>security-key (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="security-key-(1)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M9,0 L18,4 L18,10 C18,15.55 14.16,20.74 9,22 C3.84,20.74 0,15.55 0,10 L0,4 L9,0 Z M8,10.8739825 L8,18 L10,18 L10,17 L11,17 L11,15 L10,15 L10,14 L11,14 L11,12 L10,12 L10,10.8739825 C11.7252272,10.4299397 13,8.86383943 13,7 C13,4.790861 11.209139,3 9,3 C6.790861,3 5,4.790861 5,7 C5,8.86383943 6.27477279,10.4299397 8,10.8739825 Z M9,9 C10.1045695,9 11,8.1045695 11,7 C11,5.8954305 10.1045695,5 9,5 C7.8954305,5 7,5.8954305 7,7 C7,8.1045695 7.8954305,9 9,9 Z" id="Shape"></path>
+            <path d="M9,9 C10.1045695,9 11,8.1045695 11,7 C11,5.8954305 10.1045695,5 9,5 C7.8954305,5 7,5.8954305 7,7 C7,8.1045695 7.8954305,9 9,9 Z" id="Shape-path"></path>
+        </g>
+    </g>
+</svg>

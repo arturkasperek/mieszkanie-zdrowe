@@ -1,0 +1,7 @@
+.section{clear:both;padding:0px;margin:0px;position:relative;}
+.group:before,.group:after{content:"";display:table;}
+.group:after{clear:both;}
+.group{zoom:1;}
+.col{display:block;float:left;margin:0 0 0 1.6%;position:relative;}
+.col:first-child{margin-left:0;}
+@media only screen and (max-width:480px){.col{margin:0%;}}

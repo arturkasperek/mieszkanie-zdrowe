@@ -1,0 +1,133 @@
+/* Copyright 2013 Google Inc. All Rights Reserved. */
+
+.content-container .lpq-container,
+.cc .lpq-container {
+  background: url(../images/adwords_190442_browser.png) no-repeat;
+  height: 412px;
+  padding: 45px 10px 10px;
+  position: relative;
+  width: 95%
+}
+
+.content-container .lpq-header,
+.cc .lpq-header {
+  background: url(../images/adwords_190442_bags.png) repeat-x;
+  height: 75px;
+  margin: 0;
+  width: 460px
+}
+
+.content-container .lpq-header-2,
+.cc .lpq-header-2 {
+  background: url(../images/adwords_190442_shirt.png) repeat-x;
+  height: 75px;
+  margin: 0;
+  width: 460px
+}
+
+.content-container .lpq-header-3,
+.cc .lpq-header-3 {
+  background: url(../images/adwords_190442_government.png) repeat-x;
+  height: 75px;
+  margin: 0;
+  width: 450px
+}
+
+.content-container .lpq-nav,
+.cc .lpq-nav {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin: .5em 0;
+  padding: 0 0 0 10px;
+  width: 462px
+}
+
+.content-container .lpq-sidebar,
+.cc .lpq-sidebar {
+  border-right: 2px solid black;
+  float: left;
+  height: 270px;
+  margin: 0 5px 0 0;
+  width: 110px
+}
+
+.content-container .lpq-nav ul,
+.cc .lpq-nav ul {
+  margin: 3px;
+  padding: 0
+}
+
+.content-container .lpq-nav ul li,
+.cc .lpq-nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px
+}
+
+.content-container .lpq-nav ul li a,
+.cc .lpq-nav ul li a {
+  color: #000;
+  text-decoration: none
+}
+
+.content-container .lpq-nav ul li a:hover,
+.cc .lpq-nav ul li a:hover {
+  color: #000;
+  text-decoration: underline
+}
+
+.content-container .lpq-content-1,
+.cc .lpq-content-1 {
+  float: left;
+  height: 245px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 330px
+}
+
+.content-container .lpq-search-results,
+.cc .lpq-search-results {
+  margin-left: 10px;
+  width: 330px
+}
+
+.content-container .lpq-ad-content-6,
+.cc .lpq-ad-content-6 {
+  background-color: #f7f8e0;
+  border: 1px solid #000;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 450px
+}
+
+.content-container .lpq-ad-content-7,
+.cc .lpq-ad-content-7 {
+  background-color: #f7f8e0;
+  border: 1px solid #000;
+  float: right;
+  margin: 0 5px;
+  padding: 5px 5px 10px 10px;
+  width: 200px
+}
+
+.content-container .lpq-ad-content-4,
+.cc .lpq-ad-content-4 {
+  background-color: #f7f8e0;
+  border: 1px solid #000;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 10px;
+  position: absolute;
+  width: 350px;
+  z-index: 1
+}
+
+.content-container .lpq-content-7,
+.cc .lpq-content-7 {
+  height: 245px;
+  float: left;
+  margin: 0 10px;
+  width: 330px
+}

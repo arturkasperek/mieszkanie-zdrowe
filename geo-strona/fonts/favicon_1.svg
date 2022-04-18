@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 90.410004 90.409"
+   version="1.1"
+   id="svg124"
+   sodipodi:docname="ICON.svg"
+   width="90.410004"
+   height="90.408997"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata128">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1392"
+     inkscape:window-height="791"
+     id="namedview126"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.6754579"
+     inkscape:cx="164.12181"
+     inkscape:cy="2.864857"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg124" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#1d1d1b;}.cls-2{fill:#d41120;}.cls-3{fill:#fff;}</style>
+  </defs>
+  <g
+     id="Warstwa_2"
+     data-name="Warstwa 2"
+     transform="translate(0.0010006)">
+    <path
+       class="cls-2"
+       d="M 100.91,17.914 H 77.82 l 30.649,25.212 V 25.474 a 7.562,7.562 0 0 0 -7.559,-7.56 z"
+       transform="translate(-18.061,-17.914)"
+       id="path97"
+       inkscape:connector-curvature="0"
+       style="fill:#d41120" />
+    <path
+       class="cls-2"
+       d="m 25.621,17.914 a 7.562,7.562 0 0 0 -7.56,7.56 v 17.652 l 30.65,-25.212 z"
+       transform="translate(-18.061,-17.914)"
+       id="path99"
+       inkscape:connector-curvature="0"
+       style="fill:#d41120" />
+    <path
+       class="cls-2"
+       d="M 63.471,17.914 H 63.06 l -45,37 v 45.843 a 7.56,7.56 0 0 0 7.56,7.563 h 75.287 a 7.563,7.563 0 0 0 7.563,-7.563 V 54.922 Z"
+       transform="translate(-18.061,-17.914)"
+       id="path101"
+       inkscape:connector-curvature="0"
+       style="fill:#d41120" />
+    <circle
+       class="cls-3"
+       cx="9.4580002"
+       cy="81.57"
+       r="2.2090001"
+       id="circle103"
+       style="fill:#ffffff" />
+    <circle
+       class="cls-3"
+       cx="80.640999"
+       cy="37.554001"
+       r="2.2090001"
+       id="circle105"
+       style="fill:#ffffff" />
+    <circle
+       class="cls-3"
+       cx="9.927"
+       cy="37.493999"
+       r="2.2090001"
+       id="circle107"
+       style="fill:#ffffff" />
+    <circle
+       class="cls-3"
+       cx="80.956001"
+       cy="81.57"
+       r="2.2090001"
+       id="circle109"
+       style="fill:#ffffff" />
+    <polygon
+       class="cls-3"
+       points="44.591,7.817 90.408,46.575 90.408,45.056 45.34,6.932 "
+       id="polygon111"
+       style="fill:#ffffff" />
+    <polygon
+       class="cls-3"
+       points="44.735,7.604 0.001,45.046 0.001,46.558 45.479,8.493 "
+       id="polygon113"
+       style="fill:#ffffff" />
+    <rect
+       class="cls-3"
+       x="0.001"
+       y="80.989998"
+       width="90.406998"
+       height="1.159"
+       id="rect115"
+       style="fill:#ffffff" />
+    <rect
+       class="cls-3"
+       x="8.8769999"
+       y="36.383999"
+       width="1.159"
+       height="54.025002"
+       id="rect117"
+       style="fill:#ffffff" />
+    <rect
+       class="cls-3"
+       x="80.375999"
+       y="36.383999"
+       width="1.159"
+       height="54.025002"
+       id="rect119"
+       style="fill:#ffffff" />
+    <path
+       class="cls-3"
+       d="m 63.535,47.639 a 14.839,14.839 0 0 0 -14.82,14.82 c 0,3.3 2.1,8.66 6.43,16.41 3.06,5.48 6.06,10.05 6.19,10.24 l 2.2,3.34 2.21,-3.34 c 0.12,-0.19 3.13,-4.76 6.19,-10.24 4.32,-7.75 6.42,-13.11 6.42,-16.41 a 14.833,14.833 0 0 0 -14.82,-14.82 z m 0,22.4 a 7.68,7.68 0 1 1 7.69,-7.68 7.682,7.682 0 0 1 -7.69,7.68 z"
+       transform="translate(-18.061,-17.914)"
+       id="path121"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+  </g>
+</svg>

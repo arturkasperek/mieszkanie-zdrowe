@@ -1,0 +1,10 @@
+/*  MAKE LAYOUT RESPONSIVE at 768px FOR IPAD PORTRAIT ================================================================ */
+	
+.maincontent{width:98%;}
+.full{width:100% !important;margin-left:0 !important;clear:both !important;}
+h1{font-size:43px;}
+.size43{font-size:36px;}
+.r-content{padding:0 10px;font-size:13px !important;}
+h3{font-size:30px;}
+#k-title{padding-top:10px;font-size:22px;}
+.button{font-size:15px;}

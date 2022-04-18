@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>alpha-24/marketplace</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="alpha-24/marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Container" x="0" y="0" width="24" height="24"></rect>
+        <g id="Group" transform="translate(1.000000, 0.000000)" fill="#FFFFFF">
+            <g id="Group-3" transform="translate(0.000000, 2.250000)">
+                <g id="Group-2" fill-rule="nonzero">
+                    <g id="ic_add_shopping_cart_24px" transform="translate(0.000000, 0.210000)">
+                        <path d="M6.787,14.025 L6.82,13.893 L7.81,12.1 L16.005,12.1 C16.83,12.1 17.556,11.649 17.93,10.967 L22.176,3.256 L20.262,2.2 L20.251,2.2 L19.041,4.4 L16.005,9.9 L8.283,9.9 L8.14,9.603 L5.676,4.4 L4.631,2.2 L3.597,0 L0,0 L0,2.2 L2.2,2.2 L6.16,10.549 L4.675,13.244 C4.499,13.552 4.4,13.915 4.4,14.3 C4.4,15.51 5.39,16.5 6.6,16.5 L19.8,16.5 L19.8,14.3 L7.062,14.3 C6.919,14.3 6.787,14.179 6.787,14.025 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <path d="M8.0521875,17.625 C6.9178125,17.625 6,18.553125 6,19.6875 C6,20.821875 6.9178125,21.75 8.0521875,21.75 C9.1865625,21.75 10.1146875,20.821875 10.1146875,19.6875 C10.1146875,18.553125 9.1865625,17.625 8.0521875,17.625 Z" id="Path" fill-opacity="0.6"></path>
+                <path d="M17.0521875,17.625 C15.9178125,17.625 15,18.553125 15,19.6875 C15,20.821875 15.9178125,21.75 17.0521875,21.75 C18.1865625,21.75 19.1146875,20.821875 19.1146875,19.6875 C19.1146875,18.553125 18.1865625,17.625 17.0521875,17.625 Z" id="Path" fill-opacity="0.6"></path>
+            </g>
+            <polygon id="Rectangle-6" opacity="0.8" transform="translate(13.824320, 4.108107) rotate(45.000000) translate(-13.824320, -4.108107) " points="9.95116003 2.17152665 17.6974804 2.17152665 13.8243202 6.04468682"></polygon>
+            <polygon id="Rectangle-6" opacity="0.6" transform="translate(13.824320, 6.846845) rotate(45.000000) translate(-13.824320, -6.846845) " points="15.7609003 2.97368438 15.7609003 10.7200047 11.8877401 6.84684456"></polygon>
+            <polygon id="Rectangle-6" transform="translate(11.085582, 4.108107) rotate(45.000000) translate(-11.085582, -4.108107) " points="9.14900229 0.234946561 13.0221625 4.10810673 9.14900229 7.9812669"></polygon>
+            <polygon id="Rectangle-6" opacity="0.8" transform="translate(11.085582, 6.846845) rotate(45.000000) translate(-11.085582, -6.846845) " points="11.0855824 4.91026447 14.9587425 8.78342464 7.21242221 8.78342464"></polygon>
+        </g>
+    </g>
+</svg>

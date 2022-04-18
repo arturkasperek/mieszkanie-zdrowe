@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="38px" viewBox="0 0 40 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_productivity_tools_48dp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_productivity_tools_48dp" transform="translate(-4.000000, -4.000000)">
+            <polygon id="Shape" points="0 0 48 0 48 48 0 48"></polygon>
+            <path d="M40,12 L32,12 L32,8 C32,5.78 30.22,4 28,4 L20,4 C17.78,4 16,5.78 16,8 L16,12 L8,12 C5.78,12 4.02,13.78 4.02,16 L4,38 C4,40.22 5.78,42 8,42 L40,42 C42.22,42 44,40.22 44,38 L44,16 C44,13.78 42.22,12 40,12 Z M33,25 L15,25 L15,27 L11,27 L11,25 L4,25 L4,21 L11,21 L11,19 L15,19 L15,21 L33,21 L33,19 L37,19 L37,21 L44,21 L44,25 L37,25 L37,27 L33,27 L33,25 Z M28,12 L20,12 L20,8 L28,8 L28,12 Z" id="Shape" fill="#3287E4" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

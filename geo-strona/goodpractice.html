@@ -1,0 +1,198 @@
+<!DOCTYPE html><html><head>
+		<title>YOC</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/_base.css" rel="stylesheet" type="text/css">
+		<link href="css/_style.css" rel="stylesheet" type="text/css">
+
+		<!--[if IE 7]>
+			<link href="css/_ie.css" rel="stylesheet" type="text/css">
+                       
+		<![endif]-->
+		
+ 		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+ 		<script type="text/javascript" src="js/hashslider.js"></script>      
+ 		<script type="text/javascript" src="js/js_1.js"></script>
+        <script type="text/javascript">
+            //Browser types scripts
+
+            // Opera 8.0+
+            var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+            // Firefox 1.0+
+            var isFirefox = typeof InstallTrigger !== 'undefined';
+            // Safari 3.0+ "[object HTMLElementConstructor]"
+            var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+            // Internet Explorer 6-11
+            var isIE = /*@cc_on!@*/false || !!document.documentMode;
+            // Edge 20+
+            var isEdge = !isIE && !!window.StyleMedia;
+            // Chrome 1 - 71+
+            var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+        </script>
+        <script type="text/javascript">
+            /** Retrieve URL value as string */
+            var $url = window.location.href;
+
+            /**Retrieve Cookie Data Info */
+            function getCookieValue(name) {
+                var cookieArr = document.cookie.split(";");
+                for(var i = 0; i < cookieArr.length; i++) {
+                    var cookiePair = cookieArr[i].split("=");
+                    if (name == cookiePair[0].trim()) {
+                        return decodeURIComponent(cookiePair[1]);
+                    }
+                }
+                return null;
+            }
+
+            var today = new Date();
+            var currentDate = today.toGMTString();
+
+            /** Set IE Cookie */
+            function setIECookie (name, value) {
+                document.cookie = name + "=" + value + "; path=/";
+            }
+
+            /** Delete IE Cookie */
+            function deleteIECookie (name) {
+                document.cookie = name + "=; path=/; expires=Sat, 9-Nov-2017 00:17:10 GMT";
+            }
+
+            /**Set Cookie */
+            function setCookie(name, value, path) {
+                document.cookie = name + "=" + value + ";path=" + path +"; expires=0";
+            }
+            /**Delete Cookie */
+            function deleteCookie(name, path) {
+                document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + ";";
+            }
+
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var $cookieNoticeLawInfoNecessary = getCookieValue('cookielawinfo-checkbox-necessary');
+                var $cookieNoticeLawInfoNonNecessary = getCookieValue('cookielawinfo-checkbox-non-necessary');
+                var $cookieNoticeValue = getCookieValue('viewed_cookie_policy');
+                if (!isIE) {
+                    deleteCookie('cookielawinfo-checkbox-necessary', '/');
+                    setCookie('cookielawinfo-checkbox-necessary', $cookieNoticeLawInfoNecessary, '/');
+
+                    deleteCookie('cookielawinfo-checkbox-non-necessary', '/');
+                    setCookie('cookielawinfo-checkbox-non-necessary', $cookieNoticeLawInfoNonNecessary, '/');
+
+                    deleteCookie('viewed_cookie_policy', '/');
+
+                    if ($cookieNoticeValue !== null) {
+                        setCookie('viewed_cookie_policy', $cookieNoticeValue, '/');
+                    }
+                }
+
+                if (isIE) {
+                    if (getCookieValue('viewed_cookie_policy') === 'yes' || getCookieValue('viewed_cookie_policy') === 'no') {
+                        deleteIECookie('cookielawinfo-checkbox-necessary');
+                        setIECookie('cookielawinfo-checkbox-necessary', $cookieNoticeLawInfoNecessary)
+                        deleteIECookie('cookielawinfo-checkbox-non-necessary');
+                        setIECookie('cookielawinfo-checkbox-non-necessary', $cookieNoticeLawInfoNonNecessary);
+                        deleteIECookie('viewed_cookie_policy');
+                        setIECookie('viewed_cookie_policy', $cookieNoticeValue);
+                    }
+                }
+
+            });
+
+
+        </script>
+        <!-- Matomo -->
+        <script type="text/javascript">
+            var _paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+            if (getCookieValue('viewed_cookie_policy') !== 'yes') {
+                console.log('no cookies');
+                _paq.push(['disableCookies']);
+            }
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="https://analytics.youronlinechoices.com/";
+                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setSiteId', '2']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Code -->
+	</head>
+	<body>
+
+		<div class="w960 mauto">
+			<a href="/" class="logo" title=""></a>
+		</div>
+		
+		
+		
+		<div class="mainContentInside">
+			<div class="w960 mauto">
+				<div class="mt20 pb20">
+				</div>
+			</div>
+		</div>
+
+                <div class="w960 mauto">
+                        <div class="mt20 pb20">
+                            <p>This cross-industry self-regulatory initiative was developed by leading European bodies to introduce pan-European standards to enhance transparency and user control for Interested-based advertising. This type of advertising increasingly helps to support the content, services and applications that internet users can enjoy, often at little or no cost.</p>
+                            <p class="block mt10">You can download a copy of the European Industry Self-Regulatory Framework for Data-Driven Advertising <a href="https://www.edaa.eu/wp-content/uploads/2012/10/2013-11-11-IAB-Europe-OBA-Framework_.pdf" target="_blank">here.</a> The businesses listed in this document and on this page are all committed to this initiative.</p>
+                            <p class="block mt10">The Framework is part of a broader Best Practice Recommendation by the European Advertising Standards Alliance (EASA), a copy of which can be found <a href="https://www.easa-alliance.org/products-services/publications/best-practice-guidance" target="_blank">here.</a></p>
+                            <p class="block mt10">These initiatives are based upon seven key principles:</p>
+                            <p class="block mt10">1. <b>Notice</b> - transparency about data collection and use practices associated with behavioural advertising, providing consumers with clear, prominent and contextual notice through multiple mechanisms, including an icon in or around advertisements linked to further information and control mechanisms.</p>
+                            <p class="block mt10">2. <b>User choice</b> - greater consumer control over behavioural advertising.</p>
+                            <p class="block mt10">3. <b>Data security</b> - appropriate data security and retention of data collected and used for behavioural advertising purposes.</p>
+                            <p class="block mt10">4. <b>Sensitive segmentation</b> - limitations on the creation of 'interest segments' to specifically target children and on the collection of sensitive personal data collected and used for behavioural advertising.</p>
+                            <p class="block mt10">5. <b>Education</b> - for consumers and businesses about behavioural advertising and the self-regulatory Framework.</p>
+                            <p class="block mt10">6. <b>Compliance and enforcement</b> - mechanisms to ensure the effectiveness of the Framework, including a trading seal to be granted to compliant businesses once independently audited and which demonstrates to other businesses that the holder adheres to the obligations under the Framework.</p>
+                            <p class="block mt10">7. <b>Review</b> - regular review of the Framework to ensure it evolves with developing technology and business practices.</p>
+                            <p class="block mt10">If you are a business that is looking to know more please contact European Interactive Digital Advertising Alliance (EDAA) at www.edaa.eu. If you have any feedback on this site please use the relevant mail addresses on each separate version of this website.</p>                                 
+                         
+
+                            <br><br><br>
+
+<div style="width: 960px;">
+
+<iframe src="participating-companies-no-theme.html" height="13500px" scrolling="no" style="display:block; width: 960px; margin-bottom:50px;"></iframe>
+
+
+ 
+ 
+</div>
+               
+                                                                                                                    
+                        </div>
+                </div>            
+		
+		<div class="w960 mauto mt10">
+		
+			<div class="fleft w425">
+				Copyright © 2009 - 2022 EDAA
+			</div>
+			
+		</div>
+
+
+        <!-- Matomo Opt-Out Script-->
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function(event) {
+                if (getCookieValue('viewed_cookie_policy') !== 'yes' && getCookieValue('viewed_cookie_policy') !== null) {
+                    // require user consent before processing data
+                    console.log('no tracking');
+                    _paq.push(['optUserOut']);
+                }
+                if (getCookieValue('viewed_cookie_policy') === 'yes') {
+                    // user has given consent to process their data
+                    console.log('tracking');
+                    _paq.push(['forgetUserOptOut']);
+                }
+            });
+        </script>
+        <!-- End of Matomo Opt-Out Script -->
+	
+</body></html>

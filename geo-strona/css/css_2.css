@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRdr.ttf) format('truetype');
+}

@@ -1,0 +1,1028 @@
+<!DOCTYPE html><html lang="pl-pl"><head>
+        <script>
+    var BASE_URL = 'https\u003A\u002F\u002Fexcellent.com.pl\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Fexcellent.com.pl\u002Fstatic\u002Fversion1649326957\u002Ffrontend\u002FSmartwave\u002Fporto_child\u002Fpl_PL'
+    };</script>        <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.eu01.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"322540687",accountID:"3226223",trustKey:"3226223",xpid:"VwQFV1RRCxACU1ZWDgcHUVw=",licenseKey:"NRJS-003c9305d47f0220343",applicationID:"277496078"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(32),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(33),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),S=t(15),P=t(10),M=t("ee"),C=M.get("tracer"),N=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),P.on(p,r),M.on(d,o),b.on(l,o),P.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),S.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),C.buffer([u,"no-"+u]),P.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(P,"new-jsonp"),a(P,"jsonp-end"),a(P,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,N(!0)),w[v]("load",i,N(!0)),w[v]("popstate",function(){i(0,U>1)},N(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(33),a=t(32);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(32),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(29),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=t(25).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;if("string"==typeof i?n=i:"object"==typeof i&&i instanceof y?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n),"data"!==this.params.protocol){var s=(""+(i&&i instanceof y&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(32),s=t(33),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(34);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],28:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var o=[r],i=a({});i&&o.push(i),l("lcp",o)}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,l("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),l("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,p,l=t("handle"),h=t("loader"),m=t(31),v=t(23),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(o);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}p=new PerformanceObserver(i);try{p.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],29:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],30:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],31:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],32:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],33:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],34:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(32),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!S++){var t=T.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+T.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===v.readyState&&i()}function i(){s("mark",["domContent",a()+T.offset],null,"api")}var a=t(26),s=t("handle"),c=t(32),f=t("ee"),u=t(30),d=t(27),p=t(21),l=t(23),h=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1215.min.js"},O=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:u,disabled:b};if(!b){t(20),t(28),v[w]?(v[w]("DOMContentLoaded",i,l(!1)),m[w]("load",r,l(!1))):(v[g]("onreadystatechange",o),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var S=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(33),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);</script>
+<meta name="title" content="polityka prywatności EXCELLENT SA">
+<meta name="description" content="Wyposażenie łazienek od wanien z hydromasażem i chromoterapią przez wysokiej jakości armaturę aż po kabiny prysznicowe i ceramikę sanitarną.">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>polityka prywatności EXCELLENT SA</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/3133bba75fa8f979b0d73a0ee87c4d0f.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="css/e2362cb89e6841ee7dafe9734faa848c.css">
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<script type="text/javascript" src="js/63a05c13d5630c71b840307f531becab.js"></script>
+<link rel="stylesheet" type="text/css" href="css/css_46.css">
+<link rel="icon" type="image/x-icon" href="images/fav-icon16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon16x16.png">
+        <link rel="stylesheet" href="css/css_45.css" type="text/css" media="screen">
+<link href="css/css_44.css" rel="stylesheet">
+<link href="css/css_47.css" rel="stylesheet">
+<link rel="stylesheet" href="css/css_45.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.optimized.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/animate.optimized.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/type22.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/design_pl.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/settings_pl.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/excellent_custom.css">
+<script type="text/javascript">
+var porto_config = {
+    paths: {
+        'parallax': 'js/jquery.parallax.min',
+        'owlcarousel': 'owl.carousel/owl.carousel',
+        'owlcarousel_thumbs': 'owl.carousel/owl.carousel2.thumbs',
+        'imagesloaded': 'Smartwave_Porto/js/imagesloaded',
+        'packery': 'Smartwave_Porto/js/packery.pkgd',
+        'floatelement': 'js/jquery.floatelement'
+    },
+    shim: {
+        'parallax': {
+          deps: ['jquery']
+        },
+        'owlcarousel': {
+          deps: ['jquery']
+        },
+        'owlcarousel_thumbs': {
+          deps: ['jquery','owlcarousel']
+        },
+        'packery': {
+          deps: ['jquery','imagesloaded']
+        },
+        'floatelement': {
+          deps: ['jquery']
+        }
+    }
+};
+
+require.config(porto_config);
+</script>
+<script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    $(document).ready(function(){
+        $(".drop-menu > a").off("click").on("click", function(){
+            if($(this).parent().children(".nav-sections").hasClass("visible")) {
+                $(this).parent().children(".nav-sections").removeClass("visible");
+                $(this).removeClass("active");
+            }
+            else {
+                $(this).parent().children(".nav-sections").addClass("visible");
+                $(this).addClass("active");
+            }
+        });
+    });
+});
+</script>
+
+    <!-- Google Tag Manager Added by Mageplaza -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TDK2SJ2');</script>
+    <!-- End Google Tag Manager -->
+<!-- Facebook Business Extension for Magento 2 -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+    fbq(
+  'init',
+  '342810200880090',
+    {},
+  {agent: 'magento2-2.4.3-1.4.4' }
+);
+fbq('track', 'PageView', {
+  source: "magento2",
+  version: "2.4.3",
+  pluginVersion: "1.4.4"
+});
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=342810200880090&ev=PageView&noscript=1&a=magento2-2.4.3-1.4.4" />
+        </noscript>
+<!-- End Facebook Pixel Code -->
+    <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_PageCache/js/form-key-provider": {}
+            }
+        }
+    </script>
+
+<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min_2.css"><script>
+//<![CDATA[
+try {
+    smileTracker.setConfig({
+        beaconUrl        : 'https://excellent.com.pl/elasticsuite/tracker/hit/image/h.png',
+        telemetryUrl     : 'https://t.elasticsuite.io/track',
+        telemetryEnabled : '',
+        sessionConfig    : {"visit_cookie_name":"STUID","visit_cookie_lifetime":"3600","visitor_cookie_lifetime":"365","visitor_cookie_name":"STVID","domain":"excellent.com.pl","path":"\/"},
+    });
+
+    smileTracker.addPageVar('store_id', '1');
+
+    require(['Smile_ElasticsuiteTracker/js/user-consent'], function (userConsent) {
+        if (userConsent({"cookieRestrictionEnabled":"0","cookieRestrictionName":"user_allowed_save_cookie"})) {
+            smileTracker.sendTag();
+        }
+    });
+} catch (err) {
+    ;
+}
+//]]>
+</script>
+
+
+
+<meta property="og:title" content="polityka prywatności EXCELLENT SA">
+<meta property="og:url" content="https://excellent.com.pl/polityka-prywatnosci/">
+    <style>.jhft0xi-s{text-align:center;background-color:rgba(0,0,0,0) !important}.jyv1w51-s{text-align:center;background-color:rgba(0,0,0,0) !important}.w79bcfm-s{background-color:rgba(0,0,0,0) !important}</style></head>
+    <body data-container="body" data-mage-init="{&quot;loaderAjax&quot;: {}, &quot;loader&quot;: { &quot;icon&quot;: &quot;https://excellent.com.pl/static/version1649326957/frontend/Smartwave/porto_child/pl_PL/images/loader-2.gif&quot;}}" id="html-body" class="cms-polityka-prywatnosci layout-fullwidth wide am-porto-cmtb cms-page-view page-layout-1column">
+        <!--Analytics Added by Mageplaza GTM -->
+<!--Facebook Pixel Added by Mageplaza GTM -->
+
+    <!-- Google Tag Manager (noscript) Added by Mageplaza-->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDK2SJ2"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+                <!-- Google Tag Manager DataLayer Added by Mageplaza-->
+        <script>
+            dataLayer.push({"dynx_itemid":"0","dynx_pagetype":"other","dynx_totalvalue":"0","ecommerce":{"currencyCode":"PLN"}});
+        </script>
+        <!-- End Google Tag Manager DataLayer Added by Mageplaza-->
+    
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},
+                "breakpoints": {"desktop":{"label":"Desktop","stage":true,"default":true,"class":"desktop-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-desktop.svg","conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"label":"Mobile","stage":true,"class":"mobile-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-mobile.svg","media":"only screen and (max-width: 768px)","conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }
+</script>
+
+<div class="cookie-status-message" id="cookie-status">
+    The store will not work correctly in the case when cookies are disabled.</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "cookieStatus": {}
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".excellent.com.pl",
+                "secure": false,
+                "lifetime": "1800"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>Wygląda na to, że JavaScript jest wyłączony w twojej przeglądarce.</strong>
+                    <span>
+                        By w pełni cieszyć się naszą stroną, upewnij się, że włączyłeś JavaScript w swojej przeglądarce.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script><script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fexcellent.com.pl\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fexcellent.com.pl\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+
+    
+<div class="page-wrapper"><header class="page-header type22 header-newskin">
+    <div class="panel wrapper">
+        <div class="panel header">
+            <a class="action skip contentarea" href="#contentarea">
+    <span>
+        Przejdź do treści    </span>
+</a>
+                                    <ul class="header links">    <li class="greet welcome" data-bind="scope: 'customer'">
+        <!-- ko if: customer().fullname  -->
+        <span class="logged-in" data-bind="text: new String('Witaj, %1!').replace('%1', customer().fullname)">
+        </span>
+        <!-- /ko -->
+        <!-- ko ifnot: customer().fullname  -->
+        <span class="not-logged-in" data-bind="html: 'Witaj w Excellent'"></span>
+                <!-- /ko -->
+    </li>
+    <script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "customer": {
+                        "component": "Magento_Customer/js/view/customer"
+                    }
+                }
+            }
+        }
+    }
+    </script>
+<li class="item link compare hide" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare" title="Porównaj produkty" data-bind="attr: {'href': compareProducts().listUrl}, css: {'': !compareProducts().count}">
+    	<em class="porto-icon-chart hidden-xs"></em>
+        Porównaj        (<span class="counter qty" data-bind="text: compareProducts().countCaption"></span>)
+    </a>
+</li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+<li><a href="https://salon.excellent.com.pl/" class="hs2" target="_blank">WNĘTRZA</a></li>
+<li><a href="https://szklo.excellent.com.pl/" class="hs5" target="_blank">SZKŁO</a></li>
+<li><a href="https://profile.excellent.com.pl/" class="hs3" target="_blank">Profile</a></li>
+
+</ul>        </div>
+    </div>
+    <div class="header content">
+            <a class="logo" href="https://excellent.com.pl/" title="Excellent - Wyposażenie łazienek">
+        
+<picture>
+            <source type="image/webp" srcset="images/logo_1.webp">
+        <source type="image/jpg" srcset="images/logo_1.jpg">
+    <img src="images/logo_1.jpg" alt="Excellent - Wyposażenie łazienek" width="170" loading="lazy"></picture>
+</a>
+        <span data-action="toggle-nav" class="action nav-toggle"><span>NAwigacja</span></span>
+            <div class="sections nav-sections">
+                <div class="section-items nav-sections-items" data-mage-init="{&quot;tabs&quot;:{&quot;openedState&quot;:&quot;active&quot;}}">
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">
+                        Menu                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content">
+                    	<div id="menu-top-1650205232" class="block ves-megamenu top-navigation ves-maccordion ves-dhorizontal ves-megamenu-hover  menu-top">
+						<div class="navigation navitaion1650205232625c22306c7e2">
+			<nav class="navigation" data-action="navigation">
+				<ul id="nav1650205232625c22306c7e2" class="nav1650205232625c22306c7e2" data-mage-init="{&quot;menu&quot;:{&quot;responsive&quot;:false, &quot;expanded&quot;:false, &quot;position&quot;:{&quot;my&quot;:&quot;left top&quot;,&quot;at&quot;:&quot;left bottom&quot;}}}" data-toggle-mobile-nav="false">
+					<li id="vesitem-706116501536162013072066" class=" nav-item level0 nav-1 submenu-left subhover  subdynamic dropdown level-top  parent" data-hovercaret="" data-caret="fa-caret-down"><a href="https://excellent.com.pl/produkty" title="Produkty" target="_self" class=" nav-anchor subdynamic"><span>Produkty</span><i class="ves-caret fa fa-caret-down"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu animated " data-width="720px" style="width:720px;animation-duration: 0.5s;-webkit-animation-duration: 0.5s;"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level1 nav-dropdown ves-column1"><div class="dorgin-items dynamic-right row hidden-sm hidden-xs"><div class="dynamic-items col-xs-3 hidden-xs hidden-sm"><ul><li class="nav-item dynamic-active" data-dynamic-id="vesitem-70811650153616406841945" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/wanny-akrylowe.html" title="Wanny akrylowe" target="_self" class=" nav-anchor"><span>Wanny akrylowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-708216501536162086602148"><a href="https://excellent.com.pl/produkty/hydromasaz.html" title="Hydromasaż" target="_self" class=" nav-anchor"><span>Hydromasaż</span></a></li><li class="nav-item" data-dynamic-id="vesitem-70911650153616245523683" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe.html" title="Kabiny prysznicowe" target="_self" class=" nav-anchor"><span>Kabiny prysznicowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-70971650153616848132318" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy.html" title="Brodziki i odpływy" target="_self" class=" nav-anchor"><span>Brodziki i odpływy</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-71031650153616874890125" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/meble-i-lustra.html" title="Meble i lustra" target="_self" class=" nav-anchor"><span>Meble i lustra</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-711316501536161792753267" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/ceramika.html" title="Ceramika" target="_self" class=" nav-anchor"><span>Ceramika</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-71171650153616340606243" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe.html" title="Stelaże podtynkowe" target="_self" class=" nav-anchor"><span>Stelaże podtynkowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-712316501536161661265338" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/armatura.html" title="Armatura" target="_self" class=" nav-anchor"><span>Armatura</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-712816501536161082149961" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria.html" title="Grzejniki łazienkowe" target="_self" class=" nav-anchor"><span>Grzejniki łazienkowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a></li><li class="nav-item" data-dynamic-id="vesitem-71311650153616958584040"><a href="https://excellent.com.pl/produkty/dodatki-lazienkowe.html" title="Dodatki łazienkowe" target="_self" class=" nav-anchor"><span>Dodatki łazienkowe</span></a></li></ul></div><div class="dynamic-content col-xs-9 hidden-xs hidden-sm"><div id="vesitem-70811650153616406841945" class="dynamic-active nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-70811650153616406841945" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-6 mega-col-level-2 col-xs-12"><div id="vesitem-707516501536161860829471" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-70761650153616906963748" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/narozne.html" title="Narożne" target="_self" class=" nav-anchor"><span>Narożne</span></a></div><div id="vesitem-707716501536161699314017" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/owalne-i-okragle.html" title="Owalne i okrągłe" target="_self" class=" nav-anchor"><span>Owalne i okrągłe</span></a></div><div id="vesitem-707816501536161378776381" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/wolnostojace.html" title="Wolnostojące" target="_self" class=" nav-anchor"><span>Wolnostojące</span></a></div><div id="vesitem-707916501536161261007947" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/obudowy.html" title="Obudowy" target="_self" class=" nav-anchor"><span>Obudowy</span></a></div><div id="vesitem-708016501536161222698161" class=" nav-item level2 nav-1-6 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7075165015361618608294712" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-707616501536169069637482" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/narozne.html" title="Narożne" target="_self" class=" nav-anchor"><span>Narożne</span></a></div><div id="vesitem-7077165015361616993140172" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/owalne-i-okragle.html" title="Owalne i okrągłe" target="_self" class=" nav-anchor"><span>Owalne i okrągłe</span></a></div><div id="vesitem-7078165015361613787763812" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/wolnostojace.html" title="Wolnostojące" target="_self" class=" nav-anchor"><span>Wolnostojące</span></a></div><div id="vesitem-7079165015361612610079472" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/obudowy.html" title="Obudowy" target="_self" class=" nav-anchor"><span>Obudowy</span></a></div><div id="vesitem-7080165015361612226981612" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-708216501536162086602148" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item dynamic-item vesitem-708216501536162086602148"></div><div id="vesitem-70911650153616245523683" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-70911650153616245523683" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-8 mega-col-level-2 col-xs-12"><div id="vesitem-70831650153616918326204" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-708416501536161067736744" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-70851650153616762044192" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-7086165015361655709217" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/drzwi-do-wneki.html" title="Drzwi do wnęki" target="_self" class=" nav-anchor"><span>Drzwi do wnęki</span></a></div><div id="vesitem-70871650153616972531691" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/scianki-boczne.html" title="Ścianki boczne" target="_self" class=" nav-anchor"><span>Ścianki boczne</span></a></div><div id="vesitem-708816501536162097944738" class=" nav-item level2 nav-1-6 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/walk-in.html" title="Walk-in" target="_self" class=" nav-anchor"><span>Walk-in</span></a></div><div id="vesitem-708916501536161348948528" class=" nav-item level2 nav-1-7 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/parawany.html" title="Parawany" target="_self" class=" nav-anchor"><span>Parawany</span></a></div><div id="vesitem-709016501536161237855957" class=" nav-item level2 nav-1-8 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-708316501536169183262042" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-7084165015361610677367442" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-708516501536167620441922" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-70861650153616557092172" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/drzwi-do-wneki.html" title="Drzwi do wnęki" target="_self" class=" nav-anchor"><span>Drzwi do wnęki</span></a></div><div id="vesitem-708716501536169725316912" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/scianki-boczne.html" title="Ścianki boczne" target="_self" class=" nav-anchor"><span>Ścianki boczne</span></a></div><div id="vesitem-7088165015361620979447382" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/walk-in.html" title="Walk-in" target="_self" class=" nav-anchor"><span>Walk-in</span></a></div><div id="vesitem-7089165015361613489485282" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/parawany.html" title="Parawany" target="_self" class=" nav-anchor"><span>Parawany</span></a></div><div id="vesitem-7090165015361612378559572" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-70971650153616848132318" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-70971650153616848132318" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-5 mega-col-level-2 col-xs-12"><div id="vesitem-709216501536161606201" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-70931650153616901711045" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-70941650153616265935200" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-709516501536161687721593" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/odplywy-lazienkowe.html" title="Odpływy łazienkowe" target="_self" class=" nav-anchor"><span>Odpływy łazienkowe</span></a></div><div id="vesitem-709616501536162087957847" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7092165015361616062012" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-709316501536169017110452" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-709416501536162659352002" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-7095165015361616877215932" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/odplywy-lazienkowe.html" title="Odpływy łazienkowe" target="_self" class=" nav-anchor"><span>Odpływy łazienkowe</span></a></div><div id="vesitem-7096165015361620879578472" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-71031650153616874890125" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-71031650153616874890125" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-5 mega-col-level-2 col-xs-12"><div id="vesitem-709816501536161921913388" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-z-umywalka.html" title="Szafki z umywalką" target="_self" class=" nav-anchor"><span>Szafki z umywalką</span></a></div><div id="vesitem-70991650153616218718816" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-pod-umywalke.html" title="Szafki pod umywalkę" target="_self" class=" nav-anchor"><span>Szafki pod umywalkę</span></a></div><div id="vesitem-710016501536161194589968" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-wiszace.html" title="Szafki wiszące" target="_self" class=" nav-anchor"><span>Szafki wiszące</span></a></div><div id="vesitem-71011650153616765489158" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/slupki.html" title="Słupki" target="_self" class=" nav-anchor"><span>Słupki</span></a></div><div id="vesitem-71021650153616368999265" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/lustra-lazienkowe.html" title="Lustra łazienkowe" target="_self" class=" nav-anchor"><span>Lustra łazienkowe</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7098165015361619219133882" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-z-umywalka.html" title="Szafki z umywalką" target="_self" class=" nav-anchor"><span>Szafki z umywalką</span></a></div><div id="vesitem-709916501536162187188162" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-pod-umywalke.html" title="Szafki pod umywalkę" target="_self" class=" nav-anchor"><span>Szafki pod umywalkę</span></a></div><div id="vesitem-7100165015361611945899682" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-wiszace.html" title="Szafki wiszące" target="_self" class=" nav-anchor"><span>Szafki wiszące</span></a></div><div id="vesitem-710116501536167654891582" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/slupki.html" title="Słupki" target="_self" class=" nav-anchor"><span>Słupki</span></a></div><div id="vesitem-710216501536163689992652" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/lustra-lazienkowe.html" title="Lustra łazienkowe" target="_self" class=" nav-anchor"><span>Lustra łazienkowe</span></a></div></div></div></div></div></div></div><div id="vesitem-711316501536161792753267" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-711316501536161792753267" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-4 mega-col-level-2 col-xs-12"><div id="vesitem-710916501536161653934523" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/umywalki.html" title="Umywalki" target="_self" class=" nav-anchor"><span>Umywalki</span></a></div><div id="vesitem-711016501536161123224606" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/miski-wc.html" title="Miski WC" target="_self" class=" nav-anchor"><span>Miski WC</span></a></div><div id="vesitem-71111650153616435593502" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/bidety.html" title="Bidety" target="_self" class=" nav-anchor"><span>Bidety</span></a></div><div id="vesitem-71121650153616457915197" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7109165015361616539345232" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/umywalki.html" title="Umywalki" target="_self" class=" nav-anchor"><span>Umywalki</span></a></div><div id="vesitem-7110165015361611232246062" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/miski-wc.html" title="Miski WC" target="_self" class=" nav-anchor"><span>Miski WC</span></a></div><div id="vesitem-711116501536164355935022" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/bidety.html" title="Bidety" target="_self" class=" nav-anchor"><span>Bidety</span></a></div><div id="vesitem-711216501536164579151972" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-71171650153616340606243" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-71171650153616340606243" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-3 mega-col-level-2 col-xs-12"><div id="vesitem-711416501536162026088238" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/stelaze.html" title="Stelaże" target="_self" class=" nav-anchor"><span>Stelaże</span></a></div><div id="vesitem-711516501536161311173318" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/przyciski.html" title="Przyciski" target="_self" class=" nav-anchor"><span>Przyciski</span></a></div><div id="vesitem-711616501536161023620751" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7114165015361620260882382" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/stelaze.html" title="Stelaże" target="_self" class=" nav-anchor"><span>Stelaże</span></a></div><div id="vesitem-7115165015361613111733182" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/przyciski.html" title="Przyciski" target="_self" class=" nav-anchor"><span>Przyciski</span></a></div><div id="vesitem-7116165015361610236207512" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-712316501536161661265338" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-712316501536161661265338" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-5 mega-col-level-2 col-xs-12"><div id="vesitem-71181650153616676268631" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/baterie.html" title="Baterie" target="_self" class=" nav-anchor"><span>Baterie</span></a></div><div id="vesitem-711916501536161005482601" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/zestawy-prysznicowe.html" title="Zestawy prysznicowe" target="_self" class=" nav-anchor"><span>Zestawy prysznicowe</span></a></div><div id="vesitem-71201650153616633543790" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/panele-natryskowe.html" title="Panele natryskowe" target="_self" class=" nav-anchor"><span>Panele natryskowe</span></a></div><div id="vesitem-712116501536162071367485" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/glowice-i-ramiona-prysznicowe.html" title="Głowice i ramiona prysznicowe" target="_self" class=" nav-anchor"><span>Głowice i ramiona prysznicowe</span></a></div><div id="vesitem-712216501536161545688302" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/akcesoria-dodatki.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-711816501536166762686312" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/baterie.html" title="Baterie" target="_self" class=" nav-anchor"><span>Baterie</span></a></div><div id="vesitem-7119165015361610054826012" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/zestawy-prysznicowe.html" title="Zestawy prysznicowe" target="_self" class=" nav-anchor"><span>Zestawy prysznicowe</span></a></div><div id="vesitem-712016501536166335437902" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/panele-natryskowe.html" title="Panele natryskowe" target="_self" class=" nav-anchor"><span>Panele natryskowe</span></a></div><div id="vesitem-7121165015361620713674852" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/glowice-i-ramiona-prysznicowe.html" title="Głowice i ramiona prysznicowe" target="_self" class=" nav-anchor"><span>Głowice i ramiona prysznicowe</span></a></div><div id="vesitem-7122165015361615456883022" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/akcesoria-dodatki.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-712816501536161082149961" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent dynamic-item vesitem-712816501536161082149961" data-hovercaret="" data-caret="fa-caret-right"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class=" content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-4 mega-col-level-2 col-xs-12"><div id="vesitem-712416501536161483947630" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzejniki.html" title="Grzejniki" target="_self" class=" nav-anchor"><span>Grzejniki</span></a></div><div id="vesitem-712516501536162025554639" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzalki.html" title="Grzałki" target="_self" class=" nav-anchor"><span>Grzałki</span></a></div><div id="vesitem-71261650153616542118025" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/zawory.html" title="Zawory" target="_self" class=" nav-anchor"><span>Zawory</span></a></div><div id="vesitem-71271650153616308594645" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7124165015361614839476302" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzejniki.html" title="Grzejniki" target="_self" class=" nav-anchor"><span>Grzejniki</span></a></div><div id="vesitem-7125165015361620255546392" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzalki.html" title="Grzałki" target="_self" class=" nav-anchor"><span>Grzałki</span></a></div><div id="vesitem-712616501536165421180252" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/zawory.html" title="Zawory" target="_self" class=" nav-anchor"><span>Zawory</span></a></div><div id="vesitem-712716501536163085946452" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div><div id="vesitem-71311650153616958584040" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item dynamic-item vesitem-71311650153616958584040"></div></div></div><div class="orgin-items hidden-lg hidden-md"><div class="mega-col col-sm-12 mega-col-0 mega-col-level-1"><div id="vesitem-70811650153616406841945" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/wanny-akrylowe.html" title="Wanny akrylowe" target="_self" class=" nav-anchor"><span>Wanny akrylowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-6 mega-col-level-2 col-xs-12"><div id="vesitem-707516501536161860829471" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-70761650153616906963748" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/narozne.html" title="Narożne" target="_self" class=" nav-anchor"><span>Narożne</span></a></div><div id="vesitem-707716501536161699314017" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/owalne-i-okragle.html" title="Owalne i okrągłe" target="_self" class=" nav-anchor"><span>Owalne i okrągłe</span></a></div><div id="vesitem-707816501536161378776381" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/wolnostojace.html" title="Wolnostojące" target="_self" class=" nav-anchor"><span>Wolnostojące</span></a></div><div id="vesitem-707916501536161261007947" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/obudowy.html" title="Obudowy" target="_self" class=" nav-anchor"><span>Obudowy</span></a></div><div id="vesitem-708016501536161222698161" class=" nav-item level2 nav-1-6 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/wanny-akrylowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7075165015361618608294712" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-707616501536169069637482" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/narozne.html" title="Narożne" target="_self" class=" nav-anchor"><span>Narożne</span></a></div><div id="vesitem-7077165015361616993140172" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/owalne-i-okragle.html" title="Owalne i okrągłe" target="_self" class=" nav-anchor"><span>Owalne i okrągłe</span></a></div><div id="vesitem-7078165015361613787763812" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/wolnostojace.html" title="Wolnostojące" target="_self" class=" nav-anchor"><span>Wolnostojące</span></a></div><div id="vesitem-7079165015361612610079472" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/obudowy.html" title="Obudowy" target="_self" class=" nav-anchor"><span>Obudowy</span></a></div><div id="vesitem-7080165015361612226981612" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/wanny-akrylowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-1 mega-col-level-1"><div id="vesitem-708216501536162086602148" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/hydromasaz.html" title="Hydromasaż" target="_self" class=" nav-anchor"><span>Hydromasaż</span></a></div></div><div class="mega-col col-sm-12 mega-col-2 mega-col-level-1"><div id="vesitem-70911650153616245523683" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe.html" title="Kabiny prysznicowe" target="_self" class=" nav-anchor"><span>Kabiny prysznicowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-8 mega-col-level-2 col-xs-12"><div id="vesitem-70831650153616918326204" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-708416501536161067736744" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-70851650153616762044192" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-7086165015361655709217" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/drzwi-do-wneki.html" title="Drzwi do wnęki" target="_self" class=" nav-anchor"><span>Drzwi do wnęki</span></a></div><div id="vesitem-70871650153616972531691" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/scianki-boczne.html" title="Ścianki boczne" target="_self" class=" nav-anchor"><span>Ścianki boczne</span></a></div><div id="vesitem-708816501536162097944738" class=" nav-item level2 nav-1-6 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/walk-in.html" title="Walk-in" target="_self" class=" nav-anchor"><span>Walk-in</span></a></div><div id="vesitem-708916501536161348948528" class=" nav-item level2 nav-1-7 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/parawany.html" title="Parawany" target="_self" class=" nav-anchor"><span>Parawany</span></a></div><div id="vesitem-709016501536161237855957" class=" nav-item level2 nav-1-8 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-708316501536169183262042" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-7084165015361610677367442" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-708516501536167620441922" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-70861650153616557092172" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/drzwi-do-wneki.html" title="Drzwi do wnęki" target="_self" class=" nav-anchor"><span>Drzwi do wnęki</span></a></div><div id="vesitem-708716501536169725316912" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/scianki-boczne.html" title="Ścianki boczne" target="_self" class=" nav-anchor"><span>Ścianki boczne</span></a></div><div id="vesitem-7088165015361620979447382" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/walk-in.html" title="Walk-in" target="_self" class=" nav-anchor"><span>Walk-in</span></a></div><div id="vesitem-7089165015361613489485282" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/parawany.html" title="Parawany" target="_self" class=" nav-anchor"><span>Parawany</span></a></div><div id="vesitem-7090165015361612378559572" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-3 mega-col-level-1"><div id="vesitem-70971650153616848132318" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy.html" title="Brodziki i odpływy" target="_self" class=" nav-anchor"><span>Brodziki i odpływy</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-5 mega-col-level-2 col-xs-12"><div id="vesitem-709216501536161606201" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-70931650153616901711045" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-70941650153616265935200" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-709516501536161687721593" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/odplywy-lazienkowe.html" title="Odpływy łazienkowe" target="_self" class=" nav-anchor"><span>Odpływy łazienkowe</span></a></div><div id="vesitem-709616501536162087957847" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7092165015361616062012" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/kwadratowe.html" title="Kwadratowe" target="_self" class=" nav-anchor"><span>Kwadratowe</span></a></div><div id="vesitem-709316501536169017110452" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/polokragle.html" title="Półokrągłe" target="_self" class=" nav-anchor"><span>Półokrągłe</span></a></div><div id="vesitem-709416501536162659352002" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/prostokatne.html" title="Prostokątne" target="_self" class=" nav-anchor"><span>Prostokątne</span></a></div><div id="vesitem-7095165015361616877215932" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/odplywy-lazienkowe.html" title="Odpływy łazienkowe" target="_self" class=" nav-anchor"><span>Odpływy łazienkowe</span></a></div><div id="vesitem-7096165015361620879578472" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-4 mega-col-level-1"><div id="vesitem-71031650153616874890125" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/meble-i-lustra.html" title="Meble i lustra" target="_self" class=" nav-anchor"><span>Meble i lustra</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-5 mega-col-level-2 col-xs-12"><div id="vesitem-709816501536161921913388" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-z-umywalka.html" title="Szafki z umywalką" target="_self" class=" nav-anchor"><span>Szafki z umywalką</span></a></div><div id="vesitem-70991650153616218718816" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-pod-umywalke.html" title="Szafki pod umywalkę" target="_self" class=" nav-anchor"><span>Szafki pod umywalkę</span></a></div><div id="vesitem-710016501536161194589968" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-wiszace.html" title="Szafki wiszące" target="_self" class=" nav-anchor"><span>Szafki wiszące</span></a></div><div id="vesitem-71011650153616765489158" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/slupki.html" title="Słupki" target="_self" class=" nav-anchor"><span>Słupki</span></a></div><div id="vesitem-71021650153616368999265" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/meble-i-lustra/lustra-lazienkowe.html" title="Lustra łazienkowe" target="_self" class=" nav-anchor"><span>Lustra łazienkowe</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7098165015361619219133882" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-z-umywalka.html" title="Szafki z umywalką" target="_self" class=" nav-anchor"><span>Szafki z umywalką</span></a></div><div id="vesitem-709916501536162187188162" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-pod-umywalke.html" title="Szafki pod umywalkę" target="_self" class=" nav-anchor"><span>Szafki pod umywalkę</span></a></div><div id="vesitem-7100165015361611945899682" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/szafki-wiszace.html" title="Szafki wiszące" target="_self" class=" nav-anchor"><span>Szafki wiszące</span></a></div><div id="vesitem-710116501536167654891582" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/slupki.html" title="Słupki" target="_self" class=" nav-anchor"><span>Słupki</span></a></div><div id="vesitem-710216501536163689992652" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/meble-i-lustra/lustra-lazienkowe.html" title="Lustra łazienkowe" target="_self" class=" nav-anchor"><span>Lustra łazienkowe</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-5 mega-col-level-1"><div id="vesitem-711316501536161792753267" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/ceramika.html" title="Ceramika" target="_self" class=" nav-anchor"><span>Ceramika</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-4 mega-col-level-2 col-xs-12"><div id="vesitem-710916501536161653934523" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/umywalki.html" title="Umywalki" target="_self" class=" nav-anchor"><span>Umywalki</span></a></div><div id="vesitem-711016501536161123224606" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/miski-wc.html" title="Miski WC" target="_self" class=" nav-anchor"><span>Miski WC</span></a></div><div id="vesitem-71111650153616435593502" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/bidety.html" title="Bidety" target="_self" class=" nav-anchor"><span>Bidety</span></a></div><div id="vesitem-71121650153616457915197" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/ceramika/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7109165015361616539345232" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/umywalki.html" title="Umywalki" target="_self" class=" nav-anchor"><span>Umywalki</span></a></div><div id="vesitem-7110165015361611232246062" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/miski-wc.html" title="Miski WC" target="_self" class=" nav-anchor"><span>Miski WC</span></a></div><div id="vesitem-711116501536164355935022" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/bidety.html" title="Bidety" target="_self" class=" nav-anchor"><span>Bidety</span></a></div><div id="vesitem-711216501536164579151972" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/ceramika/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-6 mega-col-level-1"><div id="vesitem-71171650153616340606243" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe.html" title="Stelaże podtynkowe" target="_self" class=" nav-anchor"><span>Stelaże podtynkowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-3 mega-col-level-2 col-xs-12"><div id="vesitem-711416501536162026088238" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/stelaze.html" title="Stelaże" target="_self" class=" nav-anchor"><span>Stelaże</span></a></div><div id="vesitem-711516501536161311173318" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/przyciski.html" title="Przyciski" target="_self" class=" nav-anchor"><span>Przyciski</span></a></div><div id="vesitem-711616501536161023620751" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7114165015361620260882382" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/stelaze.html" title="Stelaże" target="_self" class=" nav-anchor"><span>Stelaże</span></a></div><div id="vesitem-7115165015361613111733182" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/przyciski.html" title="Przyciski" target="_self" class=" nav-anchor"><span>Przyciski</span></a></div><div id="vesitem-7116165015361610236207512" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-7 mega-col-level-1"><div id="vesitem-712316501536161661265338" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/armatura.html" title="Armatura" target="_self" class=" nav-anchor"><span>Armatura</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-5 mega-col-level-2 col-xs-12"><div id="vesitem-71181650153616676268631" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/baterie.html" title="Baterie" target="_self" class=" nav-anchor"><span>Baterie</span></a></div><div id="vesitem-711916501536161005482601" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/zestawy-prysznicowe.html" title="Zestawy prysznicowe" target="_self" class=" nav-anchor"><span>Zestawy prysznicowe</span></a></div><div id="vesitem-71201650153616633543790" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/panele-natryskowe.html" title="Panele natryskowe" target="_self" class=" nav-anchor"><span>Panele natryskowe</span></a></div><div id="vesitem-712116501536162071367485" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/glowice-i-ramiona-prysznicowe.html" title="Głowice i ramiona prysznicowe" target="_self" class=" nav-anchor"><span>Głowice i ramiona prysznicowe</span></a></div><div id="vesitem-712216501536161545688302" class=" nav-item level2 nav-1-5 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/armatura/akcesoria-dodatki.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-711816501536166762686312" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/baterie.html" title="Baterie" target="_self" class=" nav-anchor"><span>Baterie</span></a></div><div id="vesitem-7119165015361610054826012" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/zestawy-prysznicowe.html" title="Zestawy prysznicowe" target="_self" class=" nav-anchor"><span>Zestawy prysznicowe</span></a></div><div id="vesitem-712016501536166335437902" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/panele-natryskowe.html" title="Panele natryskowe" target="_self" class=" nav-anchor"><span>Panele natryskowe</span></a></div><div id="vesitem-7121165015361620713674852" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/glowice-i-ramiona-prysznicowe.html" title="Głowice i ramiona prysznicowe" target="_self" class=" nav-anchor"><span>Głowice i ramiona prysznicowe</span></a></div><div id="vesitem-7122165015361615456883022" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/armatura/akcesoria-dodatki.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-8 mega-col-level-1"><div id="vesitem-712816501536161082149961" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item parent" data-hovercaret="" data-caret="fa-caret-right"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria.html" title="Grzejniki łazienkowe" target="_self" class=" nav-anchor"><span>Grzejniki łazienkowe</span><i class="ves-caret fa fa-caret-right"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level2 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-4 mega-col-level-2 col-xs-12"><div id="vesitem-712416501536161483947630" class=" nav-item level2 nav-1-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzejniki.html" title="Grzejniki" target="_self" class=" nav-anchor"><span>Grzejniki</span></a></div><div id="vesitem-712516501536162025554639" class=" nav-item level2 nav-1-2 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzalki.html" title="Grzałki" target="_self" class=" nav-anchor"><span>Grzałki</span></a></div><div id="vesitem-71261650153616542118025" class=" nav-item level2 nav-1-3 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/zawory.html" title="Zawory" target="_self" class=" nav-anchor"><span>Zawory</span></a></div><div id="vesitem-71271650153616308594645" class=" nav-item level2 nav-1-4 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7124165015361614839476302" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzejniki.html" title="Grzejniki" target="_self" class=" nav-anchor"><span>Grzejniki</span></a></div><div id="vesitem-7125165015361620255546392" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/grzalki.html" title="Grzałki" target="_self" class=" nav-anchor"><span>Grzałki</span></a></div><div id="vesitem-712616501536165421180252" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/zawory.html" title="Zawory" target="_self" class=" nav-anchor"><span>Zawory</span></a></div><div id="vesitem-712716501536163085946452" class=" nav-item level2 submenu-alignleft subhover  dropdown-submenu "><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria/akcesoria.html" title="Akcesoria" target="_self" class=" nav-anchor"><span>Akcesoria</span></a></div></div></div></div></div></div></div></div></div><div class="mega-col col-sm-12 mega-col-9 mega-col-level-1"><div id="vesitem-71311650153616958584040" class=" nav-item level1 nav-1 submenu-alignleft subhover  dropdown-submenu  category-item"><a href="https://excellent.com.pl/produkty/dodatki-lazienkowe.html" title="Dodatki łazienkowe" target="_self" class=" nav-anchor"><span>Dodatki łazienkowe</span></a></div></div></div></div></div></div></div></div></li><li id="vesitem-70621650153616387802578" class=" nav-item level0 nav-1 submenu-left subhover  dropdown level-top "><a href="https://excellent.com.pl/o-nas" title="O nas" target="_self" class=" nav-anchor"><span>O nas</span></a></li><li id="vesitem-706316501536162047330274" class=" nav-item level0 nav-1 submenu-left subhover  dropdown level-top  category-item"><a href="https://excellent.com.pl/promocje.html" title="Promocje" target="_self" class=" nav-anchor"><span>Promocje</span></a></li><li id="vesitem-70721650153616147942550" class=" nav-item level0 nav-1 submenu-alignleft subhover  dropdown level-top  parent" data-hovercaret="" data-caret="fa-caret-down"><a href="https://excellent.com.pl/serwis" title="Serwis" target="_self" class=" nav-anchor"><span>Serwis</span><i class="ves-caret fa fa-caret-down"></i><span class="opener"></span><span class="drill-opener"></span></a><div class=" submenu dropdown-menu animated " data-width="340px" style="width:340px;animation-duration: 0.5s;-webkit-animation-duration: 0.5s;"><div class="drilldown-back"><a href="#"><span class="drill-opener"></span><span class="current-cat"></span></a></div><div class="submenu-inner"><div class="content-wrapper"><div class="item-content" style="width:100%"><div class="level1 nav-dropdown ves-column1 "><div class="item-content1 hidden-xs hidden-sm"><div class="mega-col mega-col-7 mega-col-level-1 col-xs-12"><div id="vesitem-706516501536161671600178" class=" nav-item level1 nav-1-1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/kontakt" title="Kontakt" target="_self" class=" nav-anchor"><span>Kontakt</span></a></div><div id="vesitem-70661650153616507242131" class=" nav-item level1 nav-1-2 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/siec-serwisantow" title="Sieć serwisantów" target="_self" class=" nav-anchor"><span>Sieć serwisantów</span></a></div><div id="vesitem-706716501536165372707" class=" nav-item level1 nav-1-3 submenu-left subhover  dropdown-submenu "><a href="https://edok.excellent.com.pl/apps/portal" title="Zgłoszenie naprawy online" target="_self" class=" nav-anchor"><span>Zgłoszenie naprawy online</span></a></div><div id="vesitem-70681650153616285190795" class=" nav-item level1 nav-1-4 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/warunki-gwarancji" title="Warunki gwarancji" target="_self" class=" nav-anchor"><span>Warunki gwarancji</span></a></div><div id="vesitem-70691650153616330386761" class=" nav-item level1 nav-1-5 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/katalog-czesci-zamiennych" title="Katalog części zamiennych" target="_self" class=" nav-anchor"><span>Katalog części zamiennych</span></a></div><div id="vesitem-7070165015361616818672" class=" nav-item level1 nav-1-6 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/uslugi-serwisowe" title=" Cennik usług serwisowych" target="_self" class=" nav-anchor"><span> Cennik usług serwisowych</span></a></div><div id="vesitem-707116501536161559296112" class=" nav-item level1 nav-1-7 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/instrukcje-montazu" title="Instrukcje montażu" target="_self" class=" nav-anchor"><span>Instrukcje montażu</span></a></div></div></div><div class="item-content2 hidden-lg hidden-md"><div id="vesitem-7065165015361616716001782" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/kontakt" title="Kontakt" target="_self" class=" nav-anchor"><span>Kontakt</span></a></div><div id="vesitem-706616501536165072421312" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/siec-serwisantow" title="Sieć serwisantów" target="_self" class=" nav-anchor"><span>Sieć serwisantów</span></a></div><div id="vesitem-7067165015361653727072" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://edok.excellent.com.pl/apps/portal" title="Zgłoszenie naprawy online" target="_self" class=" nav-anchor"><span>Zgłoszenie naprawy online</span></a></div><div id="vesitem-706816501536162851907952" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/warunki-gwarancji" title="Warunki gwarancji" target="_self" class=" nav-anchor"><span>Warunki gwarancji</span></a></div><div id="vesitem-706916501536163303867612" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/katalog-czesci-zamiennych" title="Katalog części zamiennych" target="_self" class=" nav-anchor"><span>Katalog części zamiennych</span></a></div><div id="vesitem-70701650153616168186722" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/uslugi-serwisowe" title=" Cennik usług serwisowych" target="_self" class=" nav-anchor"><span> Cennik usług serwisowych</span></a></div><div id="vesitem-7071165015361615592961122" class=" nav-item level1 submenu-left subhover  dropdown-submenu "><a href="https://excellent.com.pl/serwis/instrukcje-montazu" title="Instrukcje montażu" target="_self" class=" nav-anchor"><span>Instrukcje montażu</span></a></div></div></div></div></div></div></div></li><li id="vesitem-707416501536161078645220" class=" nav-item level0 nav-1 submenu-left subhover  dropdown level-top "><a href="https://zami.excellent.com.pl/pl" title="B2B" target="_blank" class=" nav-anchor"><span>B2B</span></a></li><li id="vesitem-713216501536161414718066" class=" nav-item level0 nav-1 submenu-alignleft subhover  dropdown level-top "><a href="/gdzie-kupic" title="Gdzie kupić " target="_self" class=" nav-anchor"><span>Gdzie kupić </span></a></li><li id="vesitem-707316501536161578076649" class=" nav-item level0 nav-1 submenu-left subhover  dropdown level-top "><a href="https://excellent.com.pl/kontakt" title="Kontakt" target="_self" class=" nav-anchor"><span>Kontakt</span></a></li>				</ul>
+							</nav>
+		</div>
+	</div>
+	<script>
+		require(['jquery'
+									], function($) {
+				// $('.price-box.price-final_price', $("#nav1650205232625c22306c7e2")).each(function(){
+				// 	$(this).removeClass('price-box').addClass('price-box1');
+				// 	$(this).attr('data-role','priceBox1');
+				// })
+				$('.price-box', $("#nav1650205232625c22306c7e2")).each(function(){
+					$(this).removeClass('price-box').addClass('price-box1');
+					$(this).attr('data-role','priceBox1');
+				})
+				
+					jQuery(document).ready(function($) {
+						jQuery('#nav1650205232625c22306c7e2 p').each(function() {
+							var $this = $(this);
+							if ($this.html().replace(/\s|&nbsp;/g, '').length == 0)
+							$this.remove();
+						});
+
+						
+													$("#nav1650205232625c22306c7e2 .nav-item").hover(function() {
+								$(this).addClass('current');
+								var id = $(this).data("dynamic-id");
+								if (id) {
+									$(this).parents(".dynamic-items").find("li").removeClass("dynamic-active");
+									$(this).addClass("dynamic-active");
+									$("#nav1650205232625c22306c7e2 ."+id).parent().find(".dynamic-item").removeClass("dynamic-active");
+									$("#nav1650205232625c22306c7e2 ."+id).addClass("dynamic-active");
+								}
+								
+								if ($(this).data('hovericon')) {
+									$(this).children('.nav-anchor').find('.item-icon').attr('src', $(this).data('hovericon'));
+								}
+								if ($(this).data('caret') && $(this).data('hovercaret')) {
+									$(this).children('.nav-anchor').find('.ves-caret').removeClass($(this).data('caret')).addClass($(this).data('hovercaret'));
+								}
+
+								var child_anchor = $(this).children('.nav-anchor');
+								$(child_anchor).css({
+									"background-color": $(child_anchor).data("hover-bgcolor"),
+									"color": $(child_anchor).data("hover-color")
+								});
+																	if ($(this).hasClass('level0')) {
+										var mParentTop = $('#menu-top-1650205232 .navigation').offset().top;
+										var mParentHeight = $(this).parent().height();
+										var mTop =  $(this).height();
+										var mHeight = $(this).height();
+										var mParent = $(this).parent();
+										if (mHeight < mParentHeight) {
+											mTop = $(this).offset().top - mParent.offset().top + mHeight;
+										}
+										$(this).children('.submenu').css({top:mTop});	
+									}
+																	}, function() {
+									var id = $(this).attr('id');
+									if ($(this).data('iconsrc')) {
+										$(this).children('.nav-anchor').find('.item-icon').attr('src', $(this).data('iconsrc'));
+									}
+									if ($(this).data('caret')) {
+										$(this).children('.nav-anchor').find('.ves-caret').removeClass($(this).data('hovercaret')).addClass($(this).data('caret'));
+									}
+									$(this).removeClass('current');
+									var child_anchor = $(this).children('.nav-anchor');
+									var link_bgcolor = $(child_anchor).data("bgcolor");
+									var link_color = $(child_anchor).data("color");
+									if(!link_bgcolor|| typeof(link_bgcolor) == 'undefined') {
+										link_bgcolor = 'none';
+									}
+									if(!link_color || typeof(link_color) == "undefined") {
+										link_color = 'none';
+									}
+
+									$(child_anchor).css({
+										"background-color": link_bgcolor,
+										"color": link_color
+									});
+								});
+							
+							
+								/** ACCORDION */
+								
+									/* OPENER */
+									$('#nav1650205232625c22306c7e2 .opener').on('click', function(e) {
+										e.preventDefault();
+										$("#nav1650205232625c22306c7e2 .nav-item").removeClass("item-active");
+										var parent = $(this).parents(".nav-item").eq(0);
+										$(this).toggleClass('item-active');
+										var subMenu = $(parent).find(".submenu").eq(0);
+										subMenu.stop().slideToggle();
+										subMenu.css({'height':''});
+										return false;	
+									});
+
+									/* TOGGLE */
+									$("#menu-top-1650205232 .ves-navtogglemenu-top-1650205232").click(function() {
+										$('html').removeClass('nav-before-open nav-open');
+										$('.ves-overlaymenu-top-1650205232').show();
+										$("#menu-top-1650205232").append('<div class="ves-overlay ves-overlaymenu-top-1650205232"></div>');
+										$('#nav1650205232625c22306c7e2').css("left", "0px");
+										if ($('html').hasClass('ves-navopen')) {
+											$('html').removeClass('ves-navopen');
+											setTimeout(function () {
+												$('html').removeClass('ves-nav-before-open');
+											}, 300);
+										}	 else {
+											$('html').addClass('ves-nav-before-open');
+											setTimeout(function () {
+												$('html').addClass('ves-navopen');
+											}, 42);
+										}
+									});
+
+									/* OFF-CANVAS */
+									$(document).on("click", ".ves-overlaymenu-top-1650205232", function(){
+										$('#nav1650205232625c22306c7e2').css("left","");
+										$('html').removeClass('ves-navopen');
+										setTimeout(function () {
+											$('html').removeClass('ves-nav-before-open');
+										}, 300);
+										$(this).remove();
+										return false;
+									});
+
+									/* STICKY MENY */
+									
+									var mobileDrill, desktopDrill;
+									/* WINDOW RESIZE */
+									$(window).on("resize", function() {
+										var disable_bellow_number = $("#nav1650205232625c22306c7e2").attr("data-disable-bellow");
+										if(disable_bellow_number) {
+											if ($(window).width() < parseInt(disable_bellow_number)) {
+												$("#menu-top-1650205232").hide();
+											} else {
+												$("#menu-top-1650205232").show();
+											}
+										}
+										if ($(window).width() < 768) {
+											$("#menu-top-1650205232").addClass("nav-mobile").removeClass('nav-desktop');
+													/** DRILLDOWN MOBILE MENU */
+													
+																										$('#menu-top-1650205232 .opener').removeClass('item-active');
+												} else {
+													$("#menu-top-1650205232 .submenu").css({'display':''});
+													$("#menu-top-1650205232").removeClass("nav-mobile").addClass('nav-desktop');
+
+													/** DRILLDOWN MOBILE MENU */
+													
+													
+														
+													}
+
+					// TABLET
+					$("#nav1650205232625c22306c7e2 .nav-item").click(function() {
+						if ($(window).width() >= 768 && $(window).width() < 1024) {
+							var parent = $(this).parent();
+							if ($(parent).children('.submenu').length == 1) {
+								if ($(parent).hasClass('level0')) {
+									if ($(parent).hasClass('current')) {
+										$(parent).removeClass('current');
+										return false;
+									}
+									$("#nav1650205232625c22306c7e2 .level0").removeClass('current');
+									var mParent = $('#menu-top-1650205232 .navigation').offset().top;
+									var mHeight = $(parent).offset().top;
+									var mTop    = (mHeight - mParent) + $(parent).height();
+									$(parent).children('.submenu').css({top:mTop});
+								}
+								$(parent).addClass('current');
+								if ($(parent).hasClass('submenu-alignleft') || $(parent).hasClass('submenu-alignright')){
+									if (($(parent).offset().left + $(parent).children('.submenu').width()) > $(window).width()) {
+										$(parent).children('.submenu').css('max-width','100%');
+										$(parent).css('position','static');
+									}
+								}
+								return false;
+							}
+						} else {
+							$("#nav1650205232625c22306c7e2").find('.submenu').css('max-width','');
+							$("#nav1650205232625c22306c7e2").find('.submenu-alignleft').css('position','relative');
+						}
+					});
+				}).resize();
+				var toggle_nav = $("#nav1650205232625c22306c7e2").attr("data-toggle-mobile-nav");
+				if(toggle_nav == true || toggle_nav == 'true' || toggle_nav==1){
+					if(!$('html').hasClass('megamenu-init-toggle')) {
+						$('html').addClass('megamenu-init-toggle');
+						$(document).on("click", ".action.nav-toggle", function () {
+							if ($('html').hasClass('nav-open')) {
+								$('html').removeClass('nav-open');
+								setTimeout(function () {
+									$('html').removeClass('nav-before-open');
+								}, 300);
+							} else {
+								$('html').addClass('nav-before-open');
+								setTimeout(function () {
+									$('html').addClass('nav-open');
+								}, 42);
+							}
+						});
+					}
+				}
+	});
+});
+</script>
+                </div>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">
+                        Konto                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.links" data-role="content">
+                    <!-- Account links -->                </div>
+                                    </div>
+    </div>
+        <div class="header-main-right">
+            <div class="search-area">
+                
+<div class="block block-search">
+    <div class="block block-title"><strong>Wyszukiwarka</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="https://excellent.com.pl/catalogsearch/result/" method="get">
+            <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Wyszukiwarka</span>
+                </label>
+                <div class="control">
+                    <input id="search" type="text" name="q" value="" placeholder="Szukaj produkt..." class="input-text" maxlength="128" minlength="2" role="combobox" aria-haspopup="false" aria-autocomplete="both" aria-expanded="false" autocomplete="off" data-block="autocomplete-form">
+                    <div class="actions">
+                        <button type="submit" title="Wyszukiwarka" class="action search">
+                            <span>Wyszukiwarka</span>
+                        </button>
+                    </div>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                                    </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/x-magento-init">
+{
+    "#search" :
+    {
+        "quickSearch" :
+        {
+            "formSelector":"#search_mini_form",
+            "url":"https://excellent.com.pl/search/ajax/suggest/",
+            "destinationSelector":"#search_autocomplete",
+            "templates": {"term":{"title":"Kryteria wyszukiwania","template":"Smile_ElasticsuiteCore\/autocomplete\/term"},"product":{"title":"Produkty","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product"},"category":{"title":"Kategorie","template":"Smile_ElasticsuiteCatalog\/autocomplete\/category"},"product_attribute":{"title":"Atrybuty","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product-attribute","titleRenderer":"Smile_ElasticsuiteCatalog\/js\/autocomplete\/product-attribute"}},
+            "priceFormat" : {"pattern":"%s\u00a0z\u0142","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":"\u00a0","groupLength":3,"integerRequired":false},
+            "minSearchLength" : 2        }
+    }
+}
+</script>
+            </div>
+            <span class="separator"></span>
+                        
+            <div class="top-links-area">
+<!--                <a class="top-links-icon" href="https://zami.excellent.com.pl/" target="_blank"><i class="icon-zami"></i></a>-->
+                <a class="top-links-icon" href="https://excellent.com.pl/customer/account"><i class="porto-icon-user-2"></i></a>
+            </div>
+        </div>
+    </div>
+</header><div class="porto-block-html-top">
+  <div class="background-color- text-color-">
+    <div class="row no-padding" style="letter-spacing: -0.28px;">
+  <div class="col-md-6 col-lg-4 theme-bg-color" style="color: #fff;font-size: 14px;font-weight: 700;padding: 7px 2vw !important;text-align: center;">
+    <i class="porto-icon-shipping" style="font-size: 26px;vertical-align: middle;"></i>
+    <span style="vertical-align: middle;margin-left: 3px;">FREE SHIPPING &amp; RETURN</span>
+  </div>
+  <div class="col-md-6 col-lg-4 d-none d-md-block theme-bg-color" style="color: #fff;font-size: 14px;font-weight: 700;padding: 7px 2vw !important;background-color: #43ada9 !important;text-align: center;">
+    <i class="porto-icon-money" style="font-size: 26px;vertical-align: middle;margin-top: 2px;margin-bottom: -2px;display: inline-block;"></i>
+    <span style="vertical-align: middle;margin-left: 3px;">MONEY BACK GUARANTEE</span>
+  </div>
+  <div class="col-lg-4 d-none d-lg-block theme-bg-color" style="color: #fff;font-size: 14px;font-weight: 700;padding: 7px 2vw !important;text-align: center;">
+    <i class="porto-icon-support" style="font-size: 26px;vertical-align: middle;"></i>
+    <span style="vertical-align: middle;margin-left: 3px;">ONLINE SUPPORT 24/7</span>
+  </div>
+</div>  </div>
+</div>
+<div class="breadcrumbs">
+    <ul class="items">
+                    <li class="item home">
+                            <a href="https://excellent.com.pl/" title="Przejdź na stronę główną">
+                    <span>Strona główna</span>
+                </a>
+                        </li>
+                    <li class="item cms_page">
+                            <strong>polityka prywatności EXCELLENT SA</strong>
+                        </li>
+            </ul>
+</div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+    <div aria-atomic="true" role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: messages().messages, as: 'message'
+    }">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="Tb0XAp7mlUuUFe0r"><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+        <script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/excellent.com.pl\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/excellent.com.pl\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/excellent.com.pl\/"}</script>    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"amazon-button":{"component":"Amazon_Login\/js\/view\/login-button-wrapper","sortOrder":"0","displayArea":"additional-login-form-fields","config":{"tooltip":"Securely login into our website using your existing Amazon details.","componentDisabled":true}}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fexcellent.com.pl\u002Fstatic\u002Fversion1649326957\u002Ffrontend\u002FSmartwave\u002Fporto_child\u002Fpl_PL\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*","credit"],"customer\/account\/createpost":["*","credit"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha","credit"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","credit"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"amasty_quickorder\/category\/updateitem":["quickorder_category"],"amasty_quickorder\/category\/unselectall":["quickorder_category"],"amasty_quickorder\/item_move\/incart":["cart","quickorder_category"],"amasty_quickorder\/item_move\/inquote":["quotecart"],"amasty_quickorder\/category_item_move\/incart":["cart","quickorder_category"],"amasty_quickorder\/category_item_move\/inquote":["quotecart","quickorder_category"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"braintree\/googlepay\/placeorder":["cart","checkout-data"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/excellent.com.pl\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","wishlist","quickorder_category","chatData","credit","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fexcellent.com.pl\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "1800",
+                "updateSessionUrl": "https\u003A\u002F\u002Fexcellent.com.pl\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/excellent.com.pl\/page_cache\/block\/render\/page_id\/23\/","handles":["default","cms_page_view","cms_page_view_id_polityka-prywatnosci","weltpixel_googlecards_remove_opengraph","weltpixel_googlecards_remove_schema"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/polityka-prywatnosci"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+<div data-mage-init="{&quot;feedReport&quot;:[]}"></div>        <style type="text/css">
+                            .form-customer-login .g-recaptcha {
+                padding-top: 20%;
+            }
+        
+        .form.form-login .g-recaptcha .grecaptcha-badge{
+            position: unset !important;
+        }
+
+        .form-customer-login .g-recaptcha {
+            margin: 0px;
+        }
+
+        #social-form-create .g-recaptcha{
+            padding-top: 5%;
+        }
+
+        #social-form-password-forget .g-recaptcha{
+            padding-top: 5%;
+        }
+
+        .onestepcheckout-index-index .form-login .g-recaptcha .grecaptcha-badge {
+            position: unset !important;
+        }
+
+        .checkout-index-index form[data-role=login] .g-recaptcha .grecaptcha-badge {
+            position: unset !important;
+        }
+
+        #mpageverify-form .g-recaptcha {
+            margin-left: 30%;
+        }
+
+        .g-recaptcha {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+    <script type="text/x-magento-init">
+        {
+            "*": {
+                "Mageplaza_GoogleRecaptcha/js/captcha": {
+                    "key": "6LeV_3oaAAAAAA2I-RP89Yg-YAaebfzvgE9JNZpM",
+                    "language": "en",
+                    "position": "bottomleft",
+                    "theme": "light",
+                    "forms": ["#contact-form"],
+                    "type": "invisible",
+                    "size": ""
+                }
+            }
+        }
+    </script>
+<!--Google Tag Manager: dataLayer - Added by Mageplaza-->
+
+<style>
+    </style>
+<div data-mage-init="{&quot;Mirasvit_CacheWarmer\/js\/track&quot;:{&quot;pageType&quot;:&quot;cms_page_view&quot;,&quot;url&quot;:&quot;https:\/\/excellent.com.pl\/cache_warmer\/track\/&quot;,&quot;cookieName&quot;:&quot;mst-cache-warmer-track&quot;,&quot;cookieValue&quot;:null}}"></div>
+<div class="magezon-builder magezon-builder-preload"><div class="y55bxf7 mgz-element mgz-element-row contained mgz-container"><div class="mgz-element-inner y55bxf7-s"><div class="inner-content "><div class="ofonapo mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner ofonapo-s"><div class="tbng0pf mgz-element mgz-child mgz-element-text"><div class="mgz-element-inner tbng0pf-s"><p><span style="font-size: 22px; color: #002349;"><strong>POLITYKA PRYWATNOŚCI EXCELLENT <span style="font-size: 20px;">SA</span></strong></span></p></div></div><div class="qbc4kfy mgz-element mgz-child mgz-element-text"><div class="mgz-element-inner qbc4kfy-s"><div style="text-align: justify;"><p style="font-size: 22px; color: #000000;"><strong>Co to jest RODO?</strong></p></div><div style="text-align: justify;"></div><div><p style="font-size: 22px; color: #000000;">W związku z rozpoczęciem stosowania Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego�&nbsp; przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) – zwane dalej RODO od dnia 25 maja 2018 roku chcielibyśmy przekazać Państwu kilka istotnych informacji dotyczących tego w jaki sposób przetwarzamy Państwa dane osobowe oraz jakie przysługują Państwu prawa w związku z ich przetwarzaniem.</p><p style="font-size: 22px; color: #000000;"></p><p style="font-size: 22px; color: #000000;"><strong>Co to są dane osobowe?</strong></p><p style="font-size: 22px; color: #000000;"><strong></strong></p><p style="font-size: 22px; color: #000000;">Dane osobowe oznaczają wszelkie informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej („osobie, której dane dotyczą”). Będą to zatem dane takie np. imię, nazwisko, adres, data urodzenia, numer telefonu czy adres e-mail (lista nie jest zamknięta).</p><p style="font-size: 22px; color: #000000;"></p><p style="font-size: 22px; color: #000000;"><strong>Kto to jest administrator danych osobowych?�&nbsp;</strong></p><p style="font-size: 22px; color: #000000;"><strong></strong></p><p style="font-size: 22px; color: #000000;">1. Administrator wykorzystuje Cookies Własne w następujących celach:</p><p style="font-size: 22px; color: #000000;">Administrator danych osobowych to podmiot, który samodzielnie lub wspólnie z innymi ustala cele i sposoby przetwarzania danych osobowych – czyli decyduje o tym jak Twoje dane osobowe są przetwarzane i odpowiada za ich przetwarzanie zgodnie z przepisami.</p><p style="font-size: 22px; color: #000000;">Administratorem Twoich danych osobowych w związku z ich przetwarzaniem w niżej wskazanych celach jest:�&nbsp;</p><p style="font-size: 22px; color: #000000;"></p><p style="font-size: 20px;"><strong>EXCELLENT S.A. (z siedzibą 32-003 Podłęże 662)</strong></p><br></div><div><p style="font-size: 22px; color: #000000;"><strong>W jakich celach i w oparciu o jakie podstawy prawne możemy przetwarzać Twoje dane? </strong></p></div><div><p style="font-size: 22px; color: #000000;"></p></div><div><p style="font-size: 22px; color: #000000;">Dane osobowe mogą być przetwarzane przez nas w następujących celach:</p></div><div><p style="font-size: 22px; color: #000000;"></p></div><div><p style="font-size: 22px; color: #000000;">4. <strong>zawarcia i realizacji umowy</strong> (art. 6 ust. 1 lit. a RODO) – w tym rozliczenia umowy - na podstawie danych przez Ciebie dostarczonych lub danych z innych źródeł (Krajowy Rejestr Sądowy, Centralna Ewidencja i Informacja o Działalności Gospodarczej)</p></div><div><p style="font-size: 22px; color: #000000;">W związku z rozpoczęciem stosowania Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) – zwane dalej RODO od dnia 25 maja 2018 roku chcielibyśmy przekazać Państwu kilka istotnych informacji dotyczących tego w jaki sposób przetwarzamy Państwa dane osobowe oraz jakie przysługują Państwu prawa w związku z ich przetwarzaniem.</p></div><div><p style="font-size: 22px; color: #000000;">5. <strong>niezbędności do wykonania ciążących na nas obowiązków prawnych</strong> (art. 6 ust. 1 lit. c RODO) polegających w szczególności na:�&nbsp;</p><p style="font-size: 22px; color: #000000;">a. realizacji obowiązków podatkowych (wystawianie i rozliczanie faktur oraz innych dokumentów księgowych);</p></div><div><p style="font-size: 22px; color: #000000;">b. wykonaniu obowiązków związanych z realizacją praw wskazanych w RODO (w tym w zakresie niezbędnym do identyfikacji i weryfikacji tożsamości osoby żądającej oraz udzielenia odpowiedzi);</p></div><div><p style="font-size: 22px; color: #000000;">6. <strong>realizacji naszych prawnie uzasadnionych interesów</strong> (art. 6 ust. 1 lit. f RODO), w postaci:</p></div><div><p style="font-size: 22px; color: #000000;">a. marketingu bezpośredniego naszych produktów lub usług realizowanego w czasie wykonywania umowy, z zastrzeżeniem, że w przypadku realizowania e-mail marketingu zostanie odebrana dodatkowa zgoda na źródło przekazu marketingowego;</p></div><div><p style="font-size: 22px; color: #000000;">b. ustalenia, dochodzenia lub obrony przed roszczeniami, które mogą powstać w związku z zawieranymi umowami (wykonaniem i rozliczeniem umowy, rozpatrywaniem reklamacji) czy związanych z wykonywaniem obowiązków wynikających z przepisów RODO (aby móc wykazać zgodność z przepisami)<br>c. udzielania odpowiedzi na zadane drogą mailową pytania i oferty – zgłoszone przez formularz kontaktowy lub na adres e-mail pracownika (prowadzenia korespondencji mailowej);</p></div><div><p style="font-size: 22px; color: #000000;"><br>d. umożliwienia kontaktu pomiędzy pracownikami stron umowy niebędącymi stroną zawieranych umów zarówno na etapie ofertowym jak i w ramach wykonywania zawartych umów;<br>e. weryfikacja tożsamości pracowników kontrahentów współpracujących ze Spółką np. kierowców odbierających nasze produkty lub odbierających produkty zamówione u naszego kontrahenta.<br>f. Organizacji szkoleń i wydarzeń dla pracowników lub współpracowników klientów/kontrahentów lub potencjalnych klientów/kontrahentów.</p></div><div><p style="font-size: 22px; color: #000000;"><br>7. <strong>otrzymywania naszych informacji handlowych</strong> (marketingowych) – na podstawie udzielonej w tym celu zgody (art. 6 ust. 1 lit. a RODO). Podanie danych jest dobrowolne, ale niezbędne do realizacji ww. celów np. byśmy mogli z Tobą zawrzeć umowę czy odpowiedzieć na zadane przez Ciebie pytanie. Wyrażenie zgody jest zawsze w pełni dobrowolne – w szczególności gdy zbieramy zgodę na przesyłanie informacji handlowych pod formularzem kontaktowym, jej udzielenie nie jest warunkiem przesłania i otrzymania odpowiedzi na zadane pytanie.</p></div><div><p style="font-size: 22px; color: #000000;"></p></div><div><p style="font-size: 22px; color: #000000;">Możemy także przetwarzać dane w innych celach – z zastrzeżeniem spełnienia w tym zakresie wszystkich wymogów przewidzianych przez przepisy prawa (w szczególności gdy mamy niezbędną podstawę prawną i spełnimy wobec Ciebie obowiązki informacyjne).</p></div><div></div><div><p style="font-size: 22px; color: #000000;"><strong>Jak długo przetwarzamy Twoje dane osobowe?�&nbsp;</strong></p></div><div></div><div><p style="font-size: 22px; color: #000000;">Dane osobowe są przetwarzane przez następujące okresy (są to maksymalne okresy przetwarzania danych):</p></div><div><p style="font-size: 22px; color: #000000;"><br><strong></strong></p></div><div><p style="font-size: 22px; color: #000000;">1. dane przetwarzane w celu zawarcia i realizacji umowy – przez czas trwania umowy, a następnie do czasu przedawnienia wzajemnych roszczeń (wyłącznie w celu ustalenia, dochodzenia lub obrony przed roszczeniami) w oparciu o tzw. uzasadniony interes lub do czasu skutecznego zgłoszenia sprzeciwu.<br>2. dane przetwarzane w celu realizacji obowiązków podatkowych – przez okres wskazany w przepisach prawa podatkowego, co do zasady 5 lat od końca roku kalendarzowego, w którym została wystawiona faktura;<br>3. dane przetwarzane w celu wykonania obowiązków związanych z realizacją praw wskazanych w RODO – przez czas pozwalający na obronę przed roszczeniami (przez okres przedawnienia roszczeń z tytułu naruszenia dóbr osobistych);<br>4. dane przetwarzane w celu marketingu bezpośredniego naszych własnych produktów lub usług – do czasu zgłoszenia sprzeciwu (lub wycofania zgody na marketing drogą elektroniczną bądź telefoniczną, a po zgłoszeniu sprzeciwu/wycofaniu zgody wyłącznie w celu obrony przed roszczeniami (przez okres przedawnienia roszczeń z tytułu naruszenia dóbr osobistych);<br>5. dane przetwarzane w celu ustalenia, dochodzenia lub obrony przed roszczeniami - przez okres przedawnienia roszczeń zarówno przysługujących względem Spółki, jak i przysługujących Spółce;<br>6. udzielania odpowiedzi na zadane drogą mailową pytania i oferty – do czasu zgłoszenia skutecznego sprzeciwu lub do czasu przedawnienia wzajemnych roszczeń związanych z prowadzoną korespondencją np. wykonywaniem umowy;<br>7. umożliwienia kontaktu pomiędzy pracownikami stron umowy – do czasu zgłoszenia skutecznego sprzeciwu lub do czasu przedawnienia wzajemnych roszczeń związanych z prowadzoną korespondencją np. wykonywaniem umowy;<br>8. weryfikacja tożsamości pracowników - do czasu zgłoszenia sprzeciwu lub do czasu przedawnienia wzajemnych roszczeń związanych z prowadzoną korespondencją np. wykonywaniem umowy;<br>9. otrzymywania informacji handlowych – do czasu wycofania zgody, a następnie do ewentualnej<br>obrony przed roszczeniami (np. poprzez wykazanie, że prawo do wycofania zgody zostało<br>zrealizowane) i tylko w zakresie niezbędnym do tego celu.<br>10. dane przetwarzane w celu realizacji szkoleń i wydarzeń dla pracowników lub współpracowników klientów/kontrahentów lub potencjalnych klientów/kontrahentów – przez czas trwania umowy, a następnie do czasu przedawnienia wzajemnych roszczeń (wyłącznie w celu ustalenia, dochodzenia lub obrony przed roszczeniami) w oparciu o tzw. uzasadniony<br>interes lub do czasu skutecznego zgłoszenia sprzeciwu.</p></div><div></div><div><p style="font-size: 22px; color: #000000;"><strong>Z jakich źródeł pozyskujemy Twoje dane?</strong></p></div><div></div><div><p style="font-size: 22px; color: #000000;">W typowych sytuacjach będziemy uzyskiwać Twoje dane bezpośrednio od Ciebie np. w ramach zawierania i wykonywania umów czy udzielania odpowiedzi na zadane przez Ciebie pytania (np. przez formularz kontaktowy na naszej stronie). Możemy także pozyskiwać dane ze źródeł powszechnie dostępnych takich jak strona internetowa Twojej firmy czy firmy, w której jesteś zatrudniony – takie jaki imię, nazwisko, stanowisko służbowe, służbowy telefon i adres e-mail (w celach kontaktowych), czy z Krajowego Rejestru Sądowego lub Centralnej Ewidencji i Informacji o Działalności Gospodarczej (w<br>celu weryfikacji informacji podanych przez Ciebie, wyłącznie w zakresie tam wskazanym), a także z powszechnie dostępnych portali branżowych Twoje dane mogą nam również zostać przekazane przez Twojego pracodawcę – w celu umożliwienia nam kontaktu w ramach zawartej z nim umowy czy weryfikacji Twojej tożsamości (np. gdy jesteś kierowcą, który przyjedzie odebrać nasz produkt).�&nbsp;<strong></strong></p></div><div><p style="font-size: 22px; color: #000000;"></p></div><div><p style="font-size: 22px; color: #000000;"><strong>Komu udostępniamy dane osobowe?�&nbsp;</strong></p></div><div></div><div><div><p style="font-size: 22px; color: #000000;">Twoje dane nie będą nikomu udostępniane, chyba, że będzie to niezbędne do wykonania umowy, której stroną jest Spółka (np. umowy z ubezpieczycielem czy umowy z klientem, któremu przekazywany jest certyfikat na produkty Spółki, czy są mu dostarczane produkty Spółki z wykorzystaniem transportu zewnętrznego) lub wynikać to będzie z przepisów prawa np. poprosi nas o to Policja lub inny uprawniony organ. Możemy też dane udostępnić gdy mamy inną podstawę prawną,<br>co jest przez nas zawsze weryfikowane i o czym się informujemy. Twoje dane osobowe mogą być przekazywane także podmiotom przetwarzającym dane osobowe na nasze zlecenie, takim jak podmioty świadczące usługi ochrony, hostingodawcy czy inne podmioty świadczące na naszą rzecz usługi IT. Z takimi podmiotami zawieramy umowy powierzenia danych osobowych do przetwarzania i mogą one przetwarzać Twoje dane wyłącznie w celu i zakresie<br>wyznaczonym tą umową. Twoje dane osobowe mogą być przekazane do pracowników innych działów w Spółce (np. jeżeli<br>zawarłeś umowę z działem handlowym, Twoje dane zostaną przekazane także księgowości – w celu rozliczenia tej umowy). Dostęp do danych osobowych mają wyłącznie upoważnieni do tego pracownicy, w zakresie niezbędnym do wykonywania swoich obowiązków na danym stanowisku. Jeżeli Państwa dane osobowe miałyby być przekazane poza EOG, Spółka wprowadzi odpowiednie zabezpieczenia w celu zapewnienia by takie przekazywanie danych było przeprowadzane zgodnie z obowiązującymi zasadami ochrony danych.</p></div><div></div><div><p style="font-size: 22px; color: #000000;"><strong>Jakie przysługują Ci prawa wobec przetwarzania Twoich danych osobowych?�&nbsp;</strong></p></div><div><p style="font-size: 22px; color: #000000;"></p></div><div><p style="font-size: 22px; color: #000000;">Przysługuje Ci prawo dostępu do danych, w tym uzyskania kopii danych, prawo do przenoszenia danych, prawo do sprostowania i usunięcia danych, ograniczenia przetwarzania i prawo do tego, by nie podlegać decyzji, która opiera się wyłącznie na zautomatyzowanym przetwarzaniu, w tym profilowaniu, i wywołuje skutki prawne lub w podobny sposób istotnie na nią wpływa (zob. więcej: <a href="http://www.uodo.gov.pl">www.uodo.gov.pl</a>). Zachęcamy także do zapoznania się z ulotką na temat przysługujących Ci praw dostępną na <a href="https://www.gov.pl/cyfryzacja/rodo-informator">https://www.gov.pl/cyfryzacja/rodo-informator</a>.</p></div><div><p style="font-size: 22px; color: #000000;"><br>Przysługuje Ci także prawo wniesienia skargi do organu nadzorczego (Prezesa Urzędu Ochrony<br>Danych Osobowych).</p></div><div></div><div><p style="font-size: 22px; color: #000000;"><strong>Odwołanie zgody�&nbsp;</strong></p></div><div></div><div><p style="font-size: 22px; color: #000000;">Jeżeli Twoje dane osobowe będą przetwarzane na podstawie zgody, możesz ją wycofać w dowolnym momencie. Zgodę możesz wycofać pisząc na adres e-mail lub adres korespondencyjny wskazany poniżej (w części jak się z nami kontaktować). Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania realizowanego do czasu wycofania zgody. W przypadku wycofania zgody Spółka oceni, czy w dalszym ciągu ma podstawy do przetwarzania danych.</p></div><div></div><div><p style="font-size: 22px; color: #000000;"><strong>Prawo sprzeciwu</strong></p></div><div><p style="font-size: 22px; color: #000000;"><strong></strong></p></div><div><p style="font-size: 22px; color: #000000;"><strong>Pamiętaj, że za każdym razem, gdy dane osobowe będą przetwarzane na podstawie art. 6 ust. 1 lit. f) RODO (zob. powyżej), czyli w przypadku tzw. uzasadnionego interesu Spółki, możesz w dowolnym momencie wnieść sprzeciw – z przyczyn związanych ze szczególną sytuacją – wobec przetwarzania danych osobowych. Po wniesieniu sprzeciwu Spółka nie będzie mogła już przetwarzać danych osobowych, chyba że wykaże on istnienie ważnych prawnie<br>uzasadnionych podstaw do przetwarzania, nadrzędnych wobec interesów, praw i wolności osoby, której dane dotyczą, lub podstaw do ustalenia, dochodzenia lub obrony roszczeń. Przetwarzanie danych osobowych przez Spółkę w oparciu o uzasadniony interes (art. 6 ust. 1 lit. f) rodo, jest zawsze poprzedzone przeprowadzeniem przez spółkę wnikliwej oceny czy uzasadnione interesy rzeczywiście istnieją.</strong></p></div><div><p style="font-size: 22px; color: #000000;"><br><strong></strong></p></div><div><p style="font-size: 22px; color: #000000;">W kontekście przetwarzania danych w oparciu o uzasadniony interes należy zwrócić uwagę, że na tej podstawie (tj. bez potrzeby odbierania dodatkowej zgody) możliwe jest przetwarzanie danych w celu marketingu produktów lub usług własnych Spółki w czasie obowiązywania umowy (np. w ramach marketingu tradycyjnego pocztowego). Natomiast na realizację tego celu z wykorzystaniem tzw. e-mail marketingu lub marketingu telefonicznego możliwe jest po uzyskaniu odrębnej zgody.<strong></strong></p></div><div></div><div></div><div><table border="1" style="border-collapse: collapse; width: 100%; height: 175px;"><tbody><tr style="height: 175px;"><td style="width: 100%; height: 175px;"><br><p style="font-size: 22px; color: #000000;">Powinieneś także pamiętać, że w przypadkach przetwarzania danych osobowych na podstawie art. 6</p><p style="font-size: 22px; color: #000000;">ust. 1 lit. f) RODO (zob. powyżej) w <strong>celu marketingowym</strong> – marketingu produktów lub usług<br>własnych Spółki - nie trzeba uzasadniać zgłoszenia sprzeciwu szczególną sytuacją, a po zgłoszeniu<br>sprzeciwu Spółka nie będzie mogła już przetwarzać danych osobowych w oparciu ona podstawie art.<br>6 ust. 1 lit. f) RODO w celu marketingu produktów i usług Spółki, w zakresie, w jakim te dane były w<br>tym celu przetwarzane.</p><br></td></tr></tbody></table><br><p style="font-size: 22px; color: #000000;">Sprzeciw możesz zgłosić w sposób wskazany poniżej (w części jak się z nami kontaktować)</p><p style="font-size: 22px; color: #000000;"><strong> Jak się z nami kontaktować?</strong></p><p style="font-size: 22px; color: #000000;"><strong></strong></p><p style="font-size: 22px; color: #000000;">We wszelkich sprawach związanych z ochroną danych osobowych (w tym w celu zgłoszenia sprzeciwu czy wycofania zgody oraz w związku z zaobserwowanym naruszeniem przepisów o ochronie danych osobowych lub realizacją Twoich innych praw) możesz skontaktować się drogą mailową: ado@excellent.com.pl lub pod wyżej wskazanym adresem Spółki.<br>W odpowiedzi na zgłoszone żądanie możesz zostać poproszony o podanie danych niezbędnych do zweryfikowania Twojej tożsamości lub podanie dodatkowych informacji potrzebnych do prawidłowego zrealizowania wniosku.</p><br></div></div></div></div></div></div></div></div></div></div>    <script>
+    <!--
+    try {
+            smileTracker.addPageVar('cms.identifier', 'polityka-prywatnosci')
+            smileTracker.addPageVar('cms.title', 'polityka prywatności EXCELLENT SA')
+        } catch (err) {
+        ;
+    }
+    //-->
+    </script>
+</div></div></main><footer class="page-footer"><div class="footer__container container">
+    <div class="magezon-builder magezon-builder-preload"><div class="y8r76fl mgz-element mgz-element-row full_width_row"><div class="mgz-element-inner y8r76fl-s"><div class="inner-content mgz-container"><div class="tt6gqxj mgz-element mgz-element-column mgz-col-xs-12"><div class="mgz-element-inner tt6gqxj-s"><div class="w79bcfm mgz-element mgz-element-accordion footer_accordion mgz-hidden-xl mgz-hidden-lg mgz-element-title-align-center mgz-element-accordion-align-"><div class="mgz-element-inner w79bcfm-s"><div data-background-type="image" data-parallax-image-background-position="center top" class="mgz-parallax w79bcfm-p"><div class="mgz-parallax-inner"></div></div><div class="mgz-block"><div class="mgz-block-content"><div class="mgz-panels mgz-panels-w79bcfm " data-mage-init="{&quot;Magezon_PageBuilder/js/collapse&quot;:{&quot;collapsibleAll&quot;: false,&quot;atLeastOneOpen&quot;: false,&quot;icon&quot;: &quot;&quot;,&quot;activeIcon&quot;: &quot;&quot;}}" data-spacing="0" data-gap="0"><div class="mgz-panel mgz-panel-first "><div class="mgz-panel-heading mgz-text-left mgz-icon-position-left"><h4 class="mgz-panel-heading-title"><a href="#tab-jhft0xi" class=""><span>Informacje </span> </a> </h4></div><div class="mgz-panel-body"><div class="mgz-panel-body-inner"><div class="jhft0xi mgz-element mgz-element-accordion_section"><div class="mgz-element-inner jhft0xi-s"><div data-background-type="image" data-parallax-image-background-position="center top" class="mgz-parallax jhft0xi-p"><div class="mgz-parallax-inner"></div></div><div class="yn3b9vv mgz-element mgz-child mgz-element-text"><div class="mgz-element-inner yn3b9vv-s"><ul class="footer__list"><li><a href="https://excellent.com.pl/praca" class="footer__link">Praca </a></li> <li><a href="https://excellent.com.pl/serwis" class="footer__link"> Serwis </a></li> <li><a href="https://excellent.com.pl/promocje.html" class="footer__link"> Promocje </a></li> <li><a href="https://excellent.com.pl/wyprzedaz.html" class="footer__link"> Wyprzedaż </a></li> <li><a href="https://excellent.com.pl/newsletter" class="footer__link"> Newsletter </a></li> <li><a href="https://excellent.com.pl/do-pobrania" class="footer__link">Do pobrania</a></li> <li><a href="https://excellent.com.pl/dla-projektantow" class="footer__link">Dla projektantów</a></li> <li><a href="https://excellent.com.pl/regulamin" class="footer__link"> Regulamin</a></li> </ul></div></div></div></div></div></div></div><div class="mgz-panel mgz-panel-last"><div class="mgz-panel-heading mgz-text-left mgz-icon-position-left"><h4 class="mgz-panel-heading-title"><a href="#tab-jyv1w51" class=""><span>Prawne </span> </a> </h4></div><div class="mgz-panel-body"><div class="mgz-panel-body-inner"><div class="jyv1w51 mgz-element mgz-element-accordion_section"><div class="mgz-element-inner jyv1w51-s"><div data-background-type="image" data-parallax-image-background-position="center top" class="mgz-parallax jyv1w51-p"><div class="mgz-parallax-inner"></div></div><div class="l1dtjrp mgz-element mgz-child mgz-element-text"><div class="mgz-element-inner l1dtjrp-s"><ul class="footer__list"><li><a href="https://excellent.com.pl/polityka-prywatnosci" class="footer__link">Polityka prywatności </a></li> <li><a href="https://excellent.com.pl/gwarancje" class="footer__link"> Gwarancje </a></li> <li><a href="https://excellent.com.pl/dla-akcjonariuszy" class="footer__link"> Dla akcjonariuszy</a></li> </ul></div></div></div></div></div></div></div></div></div></div></div></div><div class="j95r3hg mgz-element mgz-child mgz-element-text"><div class="mgz-element-inner j95r3hg-s"><div class="footer__top"><div class="footer__section"><span class="footer__logo"></span> <div class="footer__address"><h2 class="footer__heading footer__heading--first">Biuro Handlowe</h2><p class="footer__text">ul. Józefa Marcika 14C</p><p class="footer__text">30-433 Kraków</p></div><div class="footer__contact"><h2 class="footer__heading">Kontakt</h2><p class="footer__text">Tel: 12 657 18 87</p><p class="footer__text">lazienki@excellent.com.pl</p></div><div class="footer__where-buy"><h2 class="footer__heading">Gdzie kupić</h2><div class="wrapper-action-where-buy"><a href="https://excellent.com.pl/gdzie-kupic" class="action where-buy primary">Zobacz</a></div></div><div class="footer__social"><h2 class="footer__heading">Social</h2><div class="footer__icons"><a href="https://www.youtube.com/user/ExcellentPolska " target="_blank" rel="noopener"><span class="footer__icon"><img src="fonts/youtube.svg" images="" icons="" youtube="" svg="" alt="YouTube"></span></a> <a href="https://www.facebook.com/excellentpolska" target="_blank" rel="noopener"><span class="footer__icon"><img src="fonts/facebook.svg" images="" icons="" facebook="" svg="" alt="Facebook"></span></a> <a href="https://pl.pinterest.com/excellentsa" target="_blank" rel="noopener"><span class="footer__icon"><img src="fonts/pinterest.svg" images="" icons="" pinterest="" svg="" alt="Pinterest"></span></a> <a href="https://www.instagram.com/excellent.lazienki" target="_blank" rel="noopener"><span class="footer__icon"><img src="fonts/instagram.svg" images="" icons="" instagram="" svg="" alt="Instagram"></span></a> <a href="https://www.linkedin.com/company/excellent-sa" target="_blank" rel="noopener"><span class="footer__icon"><img src="fonts/linkedin.svg" images="" icons="" linkedin="" svg="" alt="Linked in"></span></a></div></div></div><div class="footer__section hidden-xs hidden-sm"><ul class="footer__list"><li> <h2 class="footer__heading">Produkty</h2></li> <li><a href="https://excellent.com.pl/produkty/wanny-akrylowe.html" class="footer__link"> Wanny akrylowe </a></li> <li><a href="https://excellent.com.pl/produkty/hydromasaz.html" class="footer__link"> Hydromasaż </a></li> <li><a href="https://excellent.com.pl/produkty/kabiny-prysznicowe.html" class="footer__link"> Kabiny prysznicowe </a></li> <li><a href="https://excellent.com.pl/produkty/brodziki-i-odplywy.html" class="footer__link"> Brodziki i odpływy </a></li> <li><a href="https://excellent.com.pl/produkty/meble-i-lustra.html" class="footer__link"> Meble i lustra </a></li> <li><a href="https://excellent.com.pl/produkty/ceramika.html" class="footer__link"> Ceramika </a></li> <li><a href="https://excellent.com.pl/produkty/stelaze-podtynkowe.html" class="footer__link"> Stelaże podtynkowe </a></li> <li><a href="https://excellent.com.pl/produkty/armatura.html" class="footer__link"> Armatura </a></li> <li><a href="https://excellent.com.pl/produkty/grzejniki-i-akcesoria.html" class="footer__link"> Grzejniki łazienkowe </a></li> <li><a href="https://excellent.com.pl/produkty/dodatki-lazienkowe.html" class="footer__link"> Dodatki łazienkowe </a></li> </ul></div><div class="footer__section hidden-xs hidden-sm"><ul class="footer__list"><li> <h2 class="footer__heading">Informacje</h2></li> <li><a href="https://excellent.com.pl/praca" class="footer__link"> Praca </a></li> <li><a href="https://excellent.com.pl/serwis" class="footer__link"> Serwis </a></li> <li><a href="https://excellent.com.pl/promocje.html" class="footer__link"> Promocje </a></li> <li><a href="https://excellent.com.pl/newsletter" class="footer__link"> Newsletter </a></li> <li><a href="https://excellent.com.pl/do-pobrania" class="footer__link">Do pobrania</a></li> <li><a href="https://excellent.com.pl/dla-projektantow" class="footer__link">Dla projektantów</a></li> <li><a href="https://excellent.com.pl/regulamin" class="footer__link"> Regulamin </a></li> </ul></div><div class="footer__section hidden-xs hidden-sm"><ul class="footer__list"><li> <h2 class="footer__heading">Prawne</h2></li> <li><a href="https://excellent.com.pl/polityka-prywatnosci" class="footer__link"> Polityka prywatności </a></li> <li><a href="https://excellent.com.pl/gwarancja" class="footer__link"> Gwarancje </a></li> <li><a href="https://excellent.com.pl/dla-akcjonariuszy" class="footer__link"> Dla akcjonariuszy </a></li> </ul></div></div></div></div></div></div></div></div></div></div>    <!--FOOTER BOTTOM-->
+    <div class="footer__bottom">
+    <span class="footer__logo"></span>
+    <div class="footer__info">
+        <span class="footer__info-text">EXCELLENT SA</span>
+        <span class="footer__info-text">32-003 Podłęże 662</span>
+        <span class="footer__info-text">NIP: 6761026714</span>
+        <span class="footer__info-text">KRS: 0000169449</span>
+    </div>
+</div></div>
+</footer><script type="text/javascript">
+    require(['jquery',
+                "Ves_All/lib/bootstrap/js/bootstrap.min"
+    ], function ($) {
+        if($(".ves-megamenu").length > 0) {
+                $(".ves-megamenu").each(function(){
+                    if($(this).find('.nav-anchor').length > 0){
+                        $(this).find('.nav-anchor').each(function(index, el) {
+                            if ($(this).attr('href') == 'https://excellent.com.pl/polityka-prywatnosci') {
+                                $(this).parent().addClass('active');
+                                $(this).parents(".nav-item.parent").addClass('active');
+                                $(this).parents(".nav-item.dropdown-submenu").addClass('active');
+                                if($(this).find(".ves-caret.fa.fa-plus").length > 0){
+                                    var caret_obj = $(this).find(".ves-caret").first();
+                                    $(caret_obj).removeClass("fa-plus").addClass("fa-minus").addClass("item-active");
+                                }
+                                if($(this).parents(".nav-item.parent").length > 0){
+                                    $(this).parents(".nav-item.parent").each(function(index2, el2){
+                                        if($(this).children(".nav-anchor").length >0 && $(this).children(".nav-anchor").children(".ves-caret.fa.fa-plus").length > 0){
+                                            var caret_obj2 = $(this).children(".nav-anchor").children(".ves-caret.fa.fa-plus").first();
+                                            $(caret_obj2).removeClass("fa-plus").addClass("fa-minus").addClass("item-active");
+                                        }
+                                    })
+                                }
+                                if($(this).parents(".nav-item.dropdown-submenu").length > 0){
+                                    $(this).parents(".nav-item.dropdown-submenu").each(function(index2, el2){
+                                        if($(this).children(".dropdown-menu").length > 0) {
+                                            $(this).addClass("current");
+                                        }
+                                        if($(this).children(".nav-anchor").length >0 && $(this).children(".nav-anchor").children(".ves-caret.fa.fa-plus").length > 0){
+                                            var caret_obj2 = $(this).children(".nav-anchor").children(".ves-caret.fa.fa-plus").first();
+                                            $(caret_obj2).removeClass("fa-plus").addClass("fa-minus").addClass("item-active");
+                                        }
+                                    })
+                                }
+                            }
+                    });
+                    }
+                })
+                
+            }
+        $(document).ready(function() {
+            if (jQuery(".megamenuowl-play").length > 0 ) {
+                require([
+                    'jquery',
+                                        'Ves_All/lib/owl.carousel/owl.carousel.min'
+                                ], function ($) {
+                    $(".ves-megamenu .nav-item.level0").hover(function() {
+                        $(this).find('.megamenuowl-play').each(function() {
+                            if (!$(this).hasClass('hasOwl')) {
+                                var owlCarousel = jQuery(this).find(".owl-carousel");
+                                var owlId = jQuery(owlCarousel).attr("id");
+                                jQuery(this).addClass("hasOwl");
+                                var config = [];
+                                if (typeof(jQuery(owlCarousel).data('nav'))!='undefined') {
+                                    config['nav'] = jQuery(owlCarousel).data('nav');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('dot'))!='undefined') {
+                                    config['dot'] = jQuery(owlCarousel).data('dot');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('autoplay'))!='undefined') {
+                                    config['autoplay'] = jQuery(owlCarousel).data('autoplay');
+                                }
+                                if (jQuery(owlCarousel).data('autoplay-timeout')) {
+                                    config['autoplayTimeout'] = jQuery(owlCarousel).data('autoplay-timeout');
+                                }
+                                if (jQuery(owlCarousel).data('autoplay-pauonhover')) {
+                                    config['autoplayHoverPause'] = jQuery(owlCarousel).data('autoplay-pauonhover');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('rtl'))!='undefined') {
+                                    config['rtl'] = jQuery(owlCarousel).data('rtl');
+                                }
+                                if (jQuery(owlCarousel).data('items')) {
+
+                                    config['items'] = jQuery(owlCarousel).data('items');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('loop'))!='undefined') {
+                                    config['loop'] = jQuery(owlCarousel).data('loop');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('mousedrag'))!='undefined') {
+                                    config['mouseDrag'] = jQuery(owlCarousel).data('mousedrag');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('pulldrag'))!='undefined') {
+                                    config['pullDrag'] = jQuery(owlCarousel).data('pulldrag');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('stagepadding'))!='undefined') {
+                                    config['stagePadding'] = jQuery(owlCarousel).data('stagepadding');
+                                }
+                                if (typeof(jQuery(owlCarousel).data('lazyload'))!='undefined') {
+                                    config['lazyLoad'] = jQuery(owlCarousel).data('lazyload');
+                                }
+                                if (jQuery(owlCarousel).data('margin')) {
+                                    config['margin'] = jQuery(owlCarousel).data('margin');
+                                }
+                                var mobile_items = 1;
+                                if (jQuery(owlCarousel).data('mobile-items')) {
+                                    mobile_items = jQuery(owlCarousel).data('mobile-items');
+                                }
+                                var tablet_small_items = 3;
+                                if (jQuery(owlCarousel).data('tablet-small-items')) {
+                                    tablet_small_items = jQuery(owlCarousel).data('tablet-small-items');
+                                }
+                                var tablet_items = 3;
+                                if (jQuery(owlCarousel).data('tablet-items')) {
+                                    tablet_items = jQuery(owlCarousel).data('tablet-items');
+                                }
+                                var portrait_items = 4;
+                                if (jQuery(owlCarousel).data('portrait-items')) {
+                                    portrait_items = jQuery(owlCarousel).data('portrait-items');
+                                }
+                                var large_items = 5;
+                                if (jQuery(owlCarousel).data('large-items')) {
+                                    large_items = jQuery(owlCarousel).data('large-items');
+                                }
+                                var large_max_items = 6;
+                                if (jQuery(owlCarousel).data('large-max-items')) {
+                                    large_max_items = jQuery(owlCarousel).data('large-max-items');
+                                }
+                                config['responsive'] = {
+                                    0 : {items: mobile_items},
+                                    480 : {items: tablet_small_items},
+                                    640 : {items: tablet_items},
+                                    768 : {items: portrait_items},
+                                    980 : {items: large_items},
+                                    1200 : {items: large_max_items}
+                                };
+                                jQuery(owlCarousel).owlCarousel(config);
+                                jQuery(".owl-left").click(function() {
+                                    var owlCarousel = jQuery("#"+jQuery(this).data("owlid"));
+                                    owlCarousel.trigger('prev.owl.carousel');
+                                    return false;
+                                });
+                                jQuery(".owl-right").click(function() {
+                                    var owlCarousel = jQuery("#"+jQuery(this).data("owlid"));
+                                    owlCarousel.trigger('next.owl.carousel');
+                                    return false;
+                                });
+                            }
+                        });
+
+                    });
+                });
+            }
+        })
+    });
+</script><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/excellent.com.pl\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/excellent.com.pl\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/excellent.com.pl\/rest\/pl\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/excellent.com.pl\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+            <div class="bar">
+            <div id="cookielaw" class="mageants-bar bar bottom" style="display:none; color:#818181;background:#f9f9f9;">
+    <div class="v-message">
+        <div class="magecookie-notice">
+        Ta witryna używa plików cookies        </div>
+            <div class="v-actions">
+                <a class="action primary v-accept">
+                    Akceptuję                </a>
+                <a href="https://excellent.com.pl/polityka-prywatnosci/" class="v-more action primary">
+                    Więcej informacji                </a>
+            </div>
+
+            </div>
+</div>
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'jquery/jquery.cookie'
+    ], function ($) {
+
+        $(document).ready(function () {
+            if(!$.cookie('cookielaw')){
+                $('#cookielaw').css('display','block');
+            }
+
+            $('.v-accept').click(function () {
+                if (365) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (365 * 24 * 60 * 60 * 1000));
+                }
+                $.cookie('cookielaw', '1', {expires: date});
+                $('#cookielaw').css('display','none');
+
+            });
+
+            if(0){
+                setTimeout(function() {
+                    $("#cookielaw").hide('blind', {}, 500)
+                }, 1000 * 0);
+            }
+
+        });
+    });
+</script>
+        </div>
+    <script>require(['magezonBuilder']);</script><script>require(['Magezon_PageBuilder/js/common']);</script>    <script>
+    <!--
+    try {
+            smileTracker.addPageVar('type.identifier', 'cms_page_view')
+            smileTracker.addPageVar('type.label', 'CMS Pages (All)')
+            smileTracker.addPageVar('locale', 'pl_PL')
+            smileTracker.addPageVar('domain', 'excellent.com.pl')
+        } catch (err) {
+        ;
+    }
+    //-->
+    </script>
+
+<a rel="nofollow" onclick="javascript:void(0);" id="backtop"><span class="gt-arrow"></span></a>
+
+<script type="text/javascript">
+    require(['jquery', 'domReady!'], function($){
+        var $bt = $('#backtop');
+        function ManageGoToTop() {
+            if($(this).scrollTop() > 300) {
+                $bt.fadeIn();
+            } else {
+                $bt.fadeOut();
+            }
+        }
+        ManageGoToTop();
+        $(window).scroll(ManageGoToTop);
+        $bt.on('click touch',function() {
+            $('body,html').animate({scrollTop:0},500);
+            return false;
+        })
+    });
+</script>
+</div>    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-003c9305d47f0220343","applicationID":"277496078","transactionName":"MhBSZQoZDEMDAUYMCQtacVIMEQ1eTQFfFkkVFFdUVw4LVRU=","queueTime":0,"applicationTime":738,"atts":"HldRE0IDH00=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script>
+
+</body></html>

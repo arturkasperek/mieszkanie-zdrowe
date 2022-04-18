@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="328px" height="52px" viewBox="0 0 328 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Blue bounding box</title>
+    <g id="MWS-Layout-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HR---Tablet" transform="translate(-85.000000, -335.000000)">
+            <g id="content" transform="translate(81.415732, 210.000000)">
+                <g id="Blue-bounding-box" transform="translate(3.584268, 125.000000)">
+                    <rect id="Rectangle" stroke="#4285F4" stroke-width="2" x="2" y="11" width="324" height="39"></rect>
+                    <rect id="Rectangle" fill="#4285F4" x="0" y="9" width="4" height="4"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#4285F4" x="324" y="9" width="4" height="4"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#4285F4" x="162" y="9" width="4" height="4"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#4285F4" x="0" y="48" width="4" height="4"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#4285F4" x="324" y="48" width="4" height="4"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#4285F4" x="162" y="48" width="4" height="4"></rect>
+                    <line x1="163.5" y1="11.5454545" x2="163.5" y2="2.45454545" id="Line-3" stroke="#4285F4" stroke-linecap="square"></line>
+                    <circle id="Oval" fill="#4285F4" cx="164" cy="2" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

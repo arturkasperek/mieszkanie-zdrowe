@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="34px" viewBox="0 0 29 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>support</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pricing_list" transform="translate(-1088.000000, -1688.000000)" fill="#2B85E7">
+            <g id="support" transform="translate(1088.000000, 1688.000000)">
+                <path d="M14.2221305,0 C16.0066951,0 17.4442611,1.46335968 17.4442611,3.27994412 C17.4442611,5.09652855 16.0066951,6.55988824 14.2221305,6.55988824 C12.4375659,6.55988824 11,5.09652855 11,3.27994412 C11,1.46335968 12.4375659,0 14.2221305,0 L14.2221305,0 Z" id="Shape"></path>
+                <polygon id="Shape" points="28.7513186 12.0276407 18.8370708 12.0276407 18.8370708 33.7257326 15.8627965 33.7257326 15.8627965 23.6335968 12.8885221 23.6335968 12.8885221 33.7257326 9.91424779 33.7257326 9.91424779 12.0276407 0 12.0276407 0 9 28.7513186 9"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

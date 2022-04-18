@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>alert_error_black_18dp</title>
+    <g id="Newsletter-Opt-in*" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="subscribe/03" transform="translate(-389.000000, -349.000000)">
+            <g id="Group-7-Copy-12" transform="translate(50.000000, 332.000000)">
+                <g id="alert_error_black_18dp" transform="translate(339.000000, 17.000000)">
+                    <path d="M9,1.5 C4.86,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.86,16.5 9,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 9,1.5 Z M9.75,12.75 L8.25,12.75 L8.25,11.25 L9.75,11.25 L9.75,12.75 Z M9.75,9.75 L8.25,9.75 L8.25,5.25 L9.75,5.25 L9.75,9.75 Z" id="Shape" fill="#C5221F" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="0 0 18 0 18 18 0 18"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

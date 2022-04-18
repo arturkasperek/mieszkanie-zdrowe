@@ -1,0 +1,14 @@
+.jp_job_post_main_wrapper, .jp_job_post_main_wrapper_cont:hover .jp_job_post_main_wrapper {
+	
+	border: none;
+}
+
+.jp_job_post_keyword_wrapper, .jp_job_post_main_wrapper_cont:hover .jp_job_post_keyword_wrapper {
+	border:none;
+	background: none;
+
+}
+
+.jp_job_post_main_wrapper_cont:hover .jp_job_post_keyword_wrapper li {
+	color: #000;
+}

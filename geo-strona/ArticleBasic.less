@@ -1,0 +1,98 @@
+/*
+   * listy oznaczone klasa css bullet
+   */
+.article-container .bullet {
+  clear: both;
+  padding: 0;
+  margin: 15px 0 25px 0;
+  font-size: 18px;
+  font-family: OpenSansB, Arial, sans-serif;
+}
+@keyframes list-bullet-animation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .article-container .bullet {
+    margin-right: calc(100% - 70vw);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .article-container .bullet {
+    margin-right: calc(100% - 80vw);
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .article-container .bullet {
+    margin-right: 10px;
+  }
+}
+.article-container .bullet li {
+  margin: 16px 0 0 0;
+  padding: 0 42px 0 28px;
+  line-height: 28px;
+  list-style-type: none;
+  position: relative;
+}
+@media only screen and (max-width: 999px) {
+  .article-container .bullet li {
+    margin: 16px 0 0 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .article-container .bullet li {
+    margin: 12px 0 0 0;
+    padding: 0 20px 0 23px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .article-container .bullet li {
+    padding: 0 0 0 23px;
+  }
+}
+.article-container .bullet li:first-child {
+  margin-top: 0;
+}
+.article-container .bullet li:last-child {
+  border-bottom: 3px solid #ebf0f0;
+}
+.article-container .bullet li:last-child:after {
+  content: "";
+  display: block;
+  background-color: #048169;
+  width: 0;
+  height: 3px;
+  margin: 28px 0 -3px -28px;
+}
+@media only screen and (max-width: 767px) {
+  .article-container .bullet li:last-child:after {
+    margin-top: 20px;
+    margin-left: -23px;
+  }
+}
+.article-container .bullet li:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #048169;
+  position: absolute;
+  top: 11px;
+  left: 2px;
+}
+@media only screen and (max-width: 767px) {
+  .article-container .bullet li:before {
+    top: 7px;
+    left: 0;
+  }
+}
+.article-container .bullet .bullet-animation:after {
+  animation: list-bullet-animation 2s 1 ease forwards;
+}

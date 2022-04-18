@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Warstwa_2"
+   data-name="Warstwa 2"
+   viewBox="0 0 103.398 142.936"
+   version="1.1"
+   sodipodi:docname="icon.svg"
+   width="103.398"
+   height="142.936"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata129">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1654"
+     inkscape:window-height="681"
+     id="namedview127"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.63954583"
+     inkscape:cx="278.32251"
+     inkscape:cy="70.264499"
+     inkscape:window-x="366"
+     inkscape:window-y="167"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Warstwa_2" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#cf9934;}.cls-2{fill:#1d1d1b;}</style>
+  </defs>
+  <polygon
+     class="cls-1"
+     points="0,114.5 27.77,111.022 27.77,90.116 0,96.043 "
+     id="polygon78"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="56.495,83.986 28.93,89.869 28.93,110.877 56.495,107.424 "
+     id="polygon80"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="103.398,74.942 85.088,65.51 85.088,86.785 103.398,93.276 "
+     id="polygon82"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="65.238,79.748 83.928,86.374 83.928,64.913 65.238,55.284 "
+     id="polygon84"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="103.398,53.481 85.088,41.399 85.088,61.02 103.398,70.921 "
+     id="polygon86"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="65.238,50.286 83.928,60.393 83.928,40.634 65.238,28.301 "
+     id="polygon88"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="103.398,32.273 85.088,19.101 85.088,36.952 103.398,49.699 "
+     id="polygon90"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="65.238,23.133 83.928,36.145 83.928,18.266 65.238,4.82 "
+     id="polygon92"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="103.398,97.105 85.088,90.867 85.088,111.42 103.398,114.774 "
+     id="polygon94"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="65.238,107.783 83.928,111.207 83.928,90.472 65.238,84.105 "
+     id="polygon96"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 28.93,127.622 a 2.2,2.2 0 0 1 1.508,1.431 l 26.058,-1.286 v -14.9 l -27.566,2.841 z"
+     id="path98"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 26.198,129.261 a 2.2,2.2 0 0 1 1.573,-1.639 v -11.8 L 0,118.694 v 11.856 z"
+     id="path100"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 30.509,130.208 a 2.207,2.207 0 0 1 -1.579,1.659 v 11.069 H 56.496 V 128.93 Z"
+     id="path102"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 27.771,131.867 a 2.2,2.2 0 0 1 -1.514,-1.45 L 0,131.709 v 11.227 h 27.771 z"
+     id="path104"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 82.428,129.028 a 2.2,2.2 0 0 1 1.5,-1.406 v -11.95 L 65.24,112.658 v 14.892 z"
+     id="path106"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 85.088,127.622 a 2.2,2.2 0 0 1 1.594,1.771 l 16.716,1.437 v -12.017 l -18.31,-2.954 z"
+     id="path108"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 83.929,131.867 a 2.2,2.2 0 0 1 -1.585,-1.683 l -17.104,-1.47 v 14.222 h 18.691 z"
+     id="path110"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <path
+     class="cls-1"
+     d="m 86.562,130.546 a 2.207,2.207 0 0 1 -1.474,1.321 v 11.069 h 18.31 v -10.942 z"
+     id="path112"
+     inkscape:connector-curvature="0"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="0,92.64 27.77,86.342 27.77,65.091 0,74.553 "
+     id="polygon114"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="56.495,55.304 28.93,64.696 28.93,86.079 56.495,79.828 "
+     id="polygon116"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="56.495,28.229 28.93,40.167 28.93,60.422 56.495,50.378 "
+     id="polygon118"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="0,70.964 27.77,60.845 27.77,40.669 0,52.695 "
+     id="polygon120"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="0,49.179 27.77,36.409 27.77,15.107 0,29.711 "
+     id="polygon122"
+     style="fill:#cf9934" />
+  <polygon
+     class="cls-1"
+     points="56.496,0 28.93,14.497 28.93,35.876 56.496,23.2 "
+     id="polygon124"
+     style="fill:#cf9934" />
+</svg>

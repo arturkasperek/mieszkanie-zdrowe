@@ -1,0 +1,21 @@
+<svg id="svg-source" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <defs id="ui-icons">
+        <svg id="app-influencer-bug-color-icon" viewBox="0 0 40 40" width="16px" height="16px" x="0" y="0" preserveAspectRatio="xMinYMin meet"> 
+            <g class="app-icon" style="fill: currentColor"> 
+            <g> 
+                <path style="fill:#0077B5;" d="M37,2.4v29.1C37,32.9,35.9,34,34.5,34H10l-7,6V2.4C3,1.1,4.2,0,5.6,0h29C35.9,0,37,1.1,37,2.4z"/> 
+                <g> 
+                <path style="fill:#FFFFFF;" d="M8,13h5v16H8V13z"/> 
+                <path style="fill:#FFFFFF;" d="M16,13h4.8v2.4c0.6-1.3,2.5-2.6,4.9-2.6c4.7,0,6.3,2.1,6.3,7.2V29h-5v-8c0-2.7-0.5-4.1-2.5-4.1c-2.6,0-3.5,2-3.5,4.1V29h-5V13z"/> 
+                <circle style="fill:#FFFFFF;" cx="10.5" cy="7.5" r="3.05"/> 
+                </g> 
+            </g> 
+            </g> 
+        </svg> 
+    </defs>
+  <style>
+  #svg-source use[data-size="small"]{      fill-opacity: 1;      fill: transparent;    }    #svg-source use{      fill-opacity: 0;      fill: currentColor;    }  </style>
+
+  <use x="0" y="0" data-size="small" xlink:href="#app-influencer-bug-color-icon" style="color: #FFFFFF;" width="16px" height="16px" />
+
+</svg>

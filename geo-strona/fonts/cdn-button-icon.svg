@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>cdn copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CDN-Copy-2" transform="translate(1.000000, 0.000000)" fill="#FFFFFF">
+            <polygon id="Shape" points="11.8939968 0.299043062 8.08653326 4.24641148 8.08653326 7.22882775 11.8939968 3.28145933 15.7014602 7.22882775 15.7014602 4.24641148"></polygon>
+            <polygon id="Shape" points="11.8939968 24.7009569 8.08653326 20.7535885 8.08653326 17.7711722 11.8939968 21.7185407 15.7014602 17.7711722 15.7014602 20.7535885"></polygon>
+            <polygon id="Shape" points="0.125473229 12.5 3.93293672 16.4473684 6.80964846 16.4473684 3.00218496 12.5 6.80964846 8.55263158 3.93293672 8.55263158"></polygon>
+            <polygon id="Shape" points="23.6625203 12.5 19.8550568 16.4473684 16.9783451 16.4473684 20.7858085 12.5 16.9783451 8.55263158 19.8550568 8.55263158"></polygon>
+            <rect id="Rectangle-path" transform="translate(11.893997, 12.500000) rotate(-90.000000) translate(-11.893997, -12.500000) " x="8.08653326" y="8.55263158" width="7.61492699" height="7.89473684" rx="1"></rect>
+        </g>
+    </g>
+</svg>

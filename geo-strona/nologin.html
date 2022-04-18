@@ -1,0 +1,325 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <!-- start: body_header -->
+<title>Wydawnictwa on-line</title>
+
+<link rel="shortcut icon" href="">
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+<meta name="Description" content="Wydawnictwa on-line">
+<meta name="Keywords" content="">
+<meta name="Language" content="pl">
+<meta name="Author" content="KRN media Sp. z o.o., Kraków 2009. Projekt i wykonanie: Maciej Cisek Usługi Informatyczne">
+
+
+<link rel="stylesheet" href="css/zwindow.css" type="text/css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/grafika/css/zwindow-ie6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/grafika/css/zwindow-ie7.css" /><![endif]-->
+<script src="js/zwindow.js" language="javascript"></script>
+
+
+<link rel="stylesheet" type="text/css" href="css/katalog.css">
+<script language="javascript" src="js/ajax_object.js"></script>
+<script language="javascript" src="js/google_analitics.js"></script>
+<script language="javascript" src="js/logotypy.js"></script>
+
+<!-- koniec: body_header -->
+
+
+
+
+
+
+
+
+
+</head>
+
+<body style="" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    
+    <!-- start: katalog -->
+
+
+<!-- start katalog: wydanie -->
+
+<link href="css/liquid-green.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/animujElement.js"></script>
+<script type="text/javascript" src="js/liquid.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/flippingbook.js"></script>
+
+<script type="text/javascript" language="javascript">
+<!--
+
+flippingBook.pages = ['/pages/dodatek33_1.php',
+'/pages/dodatek33_2.php',
+'/pages/dodatek33_3.php',
+'/pages/dodatek33_4.php',
+'/pages/dodatek33_5.php',
+'/pages/dodatek33_6.php',
+'/pages/dodatek33_7.php',
+'/pages/dodatek33_8.php',
+'/pages/dodatek33_9.php',
+'/pages/dodatek33_10.php',
+'/pages/dodatek33_11.php',
+'/pages/dodatek33_12.php',
+'/pages/dodatek33_13.php',
+'/pages/dodatek33_14.php',
+'/pages/dodatek33_15.php',
+'/pages/dodatek33_16.php',
+'/pages/dodatek33_17.php',
+'/pages/dodatek33_18.php',
+'/pages/dodatek33_19.php',
+'/pages/dodatek33_20.php',
+'/pages/dodatek33_21.php',
+'/pages/dodatek33_22.php',
+'/pages/dodatek33_23.php',
+'/pages/dodatek33_24.php',
+'/pages/dodatek33_25.php',
+'/pages/dodatek33_26.php',
+'/pages/dodatek33_27.php',
+'/pages/dodatek33_28.php',
+'/pages/dodatek33_29.php',
+'/pages/dodatek33_30.php',
+'/pages/dodatek33_31.php',
+'/pages/dodatek33_32.php',
+'/pages/dodatek33_33.php',
+'/pages/dodatek33_34.php',
+'/pages/dodatek33_35.php',
+'/pages/dodatek33_36.php',
+'/pages/dodatek33_37.php',
+'/pages/dodatek33_38.php',
+'/pages/dodatek33_39.php',
+'/pages/dodatek33_40.php',
+'/pages/dodatek33_41.php',
+'/pages/dodatek33_42.php',
+'/pages/dodatek33_43.php',
+'/pages/dodatek33_44.php',
+'/pages/dodatek33_45.php',
+'/pages/dodatek33_46.php',
+'/pages/dodatek33_47.php',
+'/pages/dodatek33_48.php',
+'/pages/dodatek33_49.php',
+'/pages/dodatek33_50.php',
+'/pages/dodatek33_51.php',
+'/pages/dodatek33_52.php',
+'/pages/dodatek33_53.php',
+'/pages/dodatek33_54.php',
+'/pages/dodatek33_55.php',
+'/pages/dodatek33_56.php',
+'/pages/dodatek33_57.php',
+'/pages/dodatek33_58.php',
+'/pages/dodatek33_59.php',
+'/pages/dodatek33_60.php',
+'/pages/dodatek33_61.php',
+'/pages/dodatek33_62.php',
+'/pages/dodatek33_63.php',
+'/pages/dodatek33_64.php',
+'/pages/dodatek33_65.php',
+'/pages/dodatek33_66.php',
+'/pages/dodatek33_67.php',
+'/pages/dodatek33_68.php',
+'/pages/dodatek33_69.php',
+'/pages/dodatek33_70.php',
+'/pages/dodatek33_71.php',
+'/pages/dodatek33_72.php',
+'/pages/dodatek33_73.php',
+'/pages/dodatek33_74.php',
+'/pages/dodatek33_75.php',
+'/pages/dodatek33_76.php',
+'/pages/dodatek33_77.php',
+'/pages/dodatek33_78.php',
+'/pages/dodatek33_79.php',
+'/pages/dodatek33_80.php',
+'/pages/dodatek33_81.php',
+'/pages/dodatek33_82.php',
+'/pages/dodatek33_83.php',
+'/pages/dodatek33_84.php',
+'/pages/dodatek33_85.php',
+'/pages/dodatek33_86.php',
+'/pages/dodatek33_87.php',
+'/pages/dodatek33_88.php'];
+
+function checkAktywneZapisz(INurl)
+{
+     if( xmlHttp.readyState==4 ||xmlHttp.readyState==0 )
+     {
+        xmlHttp.open('POST','/updateClient.php',true);
+        //xmlHttp.onreadystatechange = checkAktywneOdpowiedz;
+        xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xmlHttp.send(INurl);
+
+    }else
+        setTimeout('checkAktywneZapisz('+INurl+')', 100);
+}
+
+function checkAktywneWydanie(INfield)
+{
+    var form = document.getElementById('aktywneWydaniaForm');
+    var URLString = 'akcja=aktywneWydanie';
+    var isChecked = false;
+
+    for( var fieldNr=0; fieldNr<form.length; fieldNr++ )
+    {
+        if( form[fieldNr].type=='checkbox' && form[fieldNr].checked==true)
+        {
+            isChecked = true;
+            URLString += '&'+form[fieldNr].name+'=1';
+        }
+    }
+    if( isChecked )
+        checkAktywneZapisz(URLString);
+    else
+    {
+        INfield.checked = true;
+        showWriteOffWindow();
+    }
+}
+
+function showWriteOffWindow()
+{
+    var writeOffAnimuj = new animateWindow('writeOffWindow');
+    //okladkaAnimuj.setAfterFunction(ankietaFormAfter);
+    //writeOffAnimuj.animuj();
+    writeOffAnimuj.wlacz();
+}
+
+function writeOffClient()
+{
+     if( xmlHttp.readyState==4 ||xmlHttp.readyState==0 )
+     {
+        xmlHttp.open('POST','/updateClient.php',true);
+        xmlHttp.onreadystatechange = checkAktywneOdpowiedz;
+        xmlHttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xmlHttp.send('akcja=writeOff');
+    }else
+        setTimeout('writeOffClient()', 100);
+
+}
+
+-->
+</script>
+
+
+<script type="text/javascript" src="js/bookSettings.js"></script>
+
+<div id="katalogOnline">
+
+    <div style="width:10px;height:510px;z-index:50;position:absolute;top:0px;background: url(images/katalog_rozwin.png) no-repeat right center #000" onmouseover="animacja.animuj('show')">
+
+        <div style="background-color:#000;width:200px;padding:1px;height:510px;margin-left:-190px" id="zakladka">
+            <div style="float:left;width:170px;">
+                <div style="width:100%;height:20px;text-align:center;padding-top:2px">
+                    Dostępne czasopisma
+                </div>
+
+                <form name="aktywneWydaniaForm" id="aktywneWydaniaForm" method="post" action="javascript:checkAktywneWydanie()">
+
+                                    <div style="width:193px;height:235px;padding:0px;cursor:pointer;margin-bottom:10px;">
+                        <img style="width:88%" src="images/okladkaEmailDwutygodnik.jpg" onclick="location.href='/katalog/dwutygodnik.html'">
+                        <div style="float:right;width:20px;height:235px; background-color:#000">
+                            <input type="checkbox" name="dwutygodnik" value="1" onclick="checkAktywneWydanie(this)">
+                            <img src="images/powiadomienia2.png">
+                        </div>
+                    </div>
+
+                
+                                    <div style="width:193px;height:235px;padding:0px;cursor:pointer;">
+                        <img src="images/okladkaEmailKreator.jpg" onclick="location.href='/katalog/kreator.html'">
+                        <div style="float:right;width:20px;height:235px; background-color:#000">
+                            <input type="checkbox" name="kreator" value="1" onclick="checkAktywneWydanie(this)">
+                            <img src="images/powiadomienia2.png">
+                        </div>
+                    </div>
+                
+                </form>
+            </div>
+        <div style="width:10px;height:510px;float:right;background: url(images/katalog_zwin.png) no-repeat left center #000;" onmouseover="animacja.animuj('hide')"></div>
+        </div>
+
+    </div>
+    
+    <div style="z-index:3;">
+        
+        <div id="fbContainer">
+            <a class="altlink" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><div id="altmsg">Download Adobe Flash Player.</div></a>
+        </div>
+        
+    </div>
+    <div id="fbFooter">
+            <div id="fbContents">
+                                        <span class="fbPaginationMinor">p.&nbsp;</span>
+                    <span id="fbCurrentPages">1</span>
+                    <span id="fbTotalPages" class="fbPaginationMinor"></span>
+            </div>
+            <div id="fbMenu">
+                                    <img src="images/btnZoom.gif" width="36" height="40" border="0" id="fbZoomButton">
+                    <img src="images/btnPrint.gif" width="36" height="40" border="0" id="fbPrintButton">
+                                        <img src="images/btnDiv.gif" width="13" height="40" border="0">
+                    <img src="images/btnPrevious.gif" width="36" height="40" border="0" id="fbBackButton">
+                    <img src="images/btnNext.gif" width="36" height="40" border="0" id="fbForwardButton">
+            </div>
+    </div>
+    
+    <div style="width:100%;height:20px;z-index:20;position:absolute;top:0px;">
+        <div style="width:100px;height:30px;float:right;background-color:#000;cursor:pointer" onclick="location.href='/'" onmouseover="this.getElementsByTagName('img')[0].src='/grafika/close_katalog_over.png'" onmouseout="this.getElementsByTagName('img')[0].src='/grafika/close_katalog.png'">
+            <img src="images/close_katalog.png">
+        </div>
+    </div>
+</div>
+
+<!-- start: katalog_writeoff -->
+
+<div id="writeOffWindow" style="width:450px;height:160px;background-color:#f00;display:none;margin:0 auto;border:1px solid #B6B6B6; background-color:#F2F2F2;text-align:center">
+    <table cellpadding="0" cellspacing="10" align="center">
+        <tbody><tr>
+            <td colspan="2" style="color: #000000;font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 11px;font-weight:normal;padding:10px;">
+                <span style="font-weight:bold;font-size:12px">UWAGA!!</span>
+                <br><br>
+                Rezygnacja z otrzymywania powiadomień o nowych numerach <br>
+                obu wydawnictw, wiąże się z rezygnacją z konta na <br>
+                stronie <b>e-wydania.krnmedia.pl.</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form name="writeOffForm" method="post" action="/glowna.html">
+                    <input type="hidden" name="akcja" value="writeOffKlient">
+                    <input type="submit" class="ciemny" onclick="" value="wypisz mnie z e-wydań" style="width:160px;">
+                </form>
+            </td>
+            <td>
+                <input type="button" class="ciemny" onclick="showWriteOffWindow()" value="anuluj" style="width:80px;">
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+<!-- koniec: katalog_writeoff -->
+
+
+
+
+
+<!-- koniec katalog: wydanie -->
+
+
+
+<script type="text/javascript" language="javascript">
+
+var animacja = new animujElement();
+animacja.przygotujDane ('zakladka', -190, 0, 'marginLeft', null);
+
+</script>
+
+
+<!-- koniec: katalog -->
+
+
+
+
+
+
+
+    
+
+
+</body></html>

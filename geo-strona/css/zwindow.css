@@ -1,0 +1,73 @@
+
+.container{
+           display:none;
+           visibility:hidden;
+           margin:0 auto;
+           
+
+}
+
+#zwindowOverlayLayer 
+{
+	display: table;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+        /*background: url(/grafika/overlay.png);*/
+        opacity:0.0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+        z-index:100;
+}
+
+
+#zwindowContainer
+{
+	display: table;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+        z-index:110;
+}
+
+#zwindowContainer #zwindowWyrownanie
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#zwindowTresc
+{
+
+	margin: 0 auto;
+	padding: 0px;
+	max-height:700px;
+	overflow: auto;
+        z-index:110;
+        visibility:hidden;
+    /*background-color:#ff0000;*/
+}
+
+
+/*
+#zwindowContainer #zwindowTresc
+{
+	width: 800px;
+	margin: 0 auto;
+	padding: 0px;
+	max-height:700px;
+        height:600px;
+	overflow: auto;
+}
+
+#zwindowTresc
+{
+    visibility:hidden;
+    background-color:#ff0000;
+}
+*/

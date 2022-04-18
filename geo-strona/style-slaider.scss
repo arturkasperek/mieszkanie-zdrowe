@@ -1,0 +1,52 @@
+.banki {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f6f6f6;;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 14));
+  }
+}
+.slider2 {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider2::before, .slider2::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider2::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider2::before {
+  left: 0;
+  top: 0;
+}
+.slide-track2 {
+  background-color: #f6f6f6;
+}
+.slider2 .slide-track2 {
+  animation: scroll 120s linear infinite;
+  display: flex;
+  width: calc(250px * 11);
+}
+.slider2 .slide2 {
+  height: 100px;
+  width: 250px;
+}

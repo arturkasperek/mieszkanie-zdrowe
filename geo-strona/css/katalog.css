@@ -1,0 +1,189 @@
+body                    {font-size:11px;font-family:Verdana,Arial,Helvetica,sans-serif;text-align:justify;background-color: #f2f2f2}
+
+#glowna_backframe       {position:absolute;z-index:-1;background-color:#fff;width:50%;margin-left:0px;}
+#glowna_logo_ewydania   {display:block;float:left;margin-left:70px;}
+#glowna_mainframe       {position:absolute;width:100%;}
+#glowna_pageframe       {width:1080px;margin:0 auto;background-color:#fff} /*margin-top:-350px;top:50%;position:absolute;margin-left:-560px;left:50%*/
+#glowna_tresc           {width:900px;float:right;background: url(../images/glowna_tlo.png) repeat-y top left #f2f2f2;color:#686868;font-size:11px;font-family:verdana, arial;line-height:150%}
+
+#glowna_tresc, #glowna_mainframe, #glowna_backframe, #glowna_pageframe {height:100%;min-height: 900px;}
+
+#glowna_kolumna_left, #glowna_kolumna_right {float:left;margin-left:50px;text-align:justify;}
+#glowna_kolumna_left                        {width:380px;}
+#glowna_kolumna_right                       {width:420px;}
+#glowna_naglowek        {width:850px;height:50px;padding-top:40px;padding-left:50px;font-size:22px;text-align:left;font-family:arial;color:#757575;font-weight:bold;}
+
+#glowna_tresc p         {font-size:18px;font-weight:normal;line-height:140%;text-align:left;padding:0px; margin:0px;}
+#glowna_tresc a,   #glowna_tresc span.orange,  .wydanie_login_napis, div.wydanie_aktualizacja,#komunikat, #rekomendacja_opis  {color:#e07b06;text-decoration:none}
+#komunikat_ankieta      {color:#ff0000;text-decoration:none}
+#glowna_tresc a:hover   {text-decoration:underline}
+
+#glowna_tresc_stopka, #glowna_dodatek_powrot_box{background:url(../images/kreska1.png) repeat-x top ;margin-top:10px;padding-top:15px;margin-left:0px;}
+#glowna_tresc_stopka, #glowna_tresc_stopka a    {color:#6c6c6c;font-size:9px;font-family:Verdana,Arial,Helvetica,sans-serif; text-align:left;text-decoration:none}
+#glowna_tresc_stopka div.glowna_stopka_element  {float:left;width:120px;margin-left:10px;line-height:normal}
+#glowna_tresc_stopka a.hover                    {text-decoration:underline}
+#glowna_tresc_stopka img                        {display:block;float:left;}
+
+
+#glowna_nowi_button         {font-family:Verdana,Arial,Helvetica,sans-serif;width:inherit;height:98px;background:url(../images/kreska2.png) repeat-x top;cursor:pointer;margin:10px 0px}
+#glowna_nowi_button  p      {line-height:130%;text-align:left;color:#fff;padding-top:10px;padding:0px;padding:0px;font-family:verdana, arial}
+#glowna_nowi_button  #line1 {line-height:150%;font-size:21px;padding-top:10px;}
+#glowna_nowi_button  #line2 {font-size:13px;padding-top:5px;}
+#glowna_nowi_button  #line3 {font-size:15px;font-weight:bold;padding-top:1px;}
+#glowna_nowi_button  img    {float:left;margin-right:5px;margin-right:15px;}
+
+#glowna_dodatek_powrot_box  {text-align:right;margin:20px;}
+div.glowna_dodatek          {float: left;padding-bottom:10px;width:300px;}
+div.glowna_dodatek_okladka  {margin:0 auto;width:inherit;text-align:center;cursor: pointer}
+div.glowna_dodatek_opis     {text-align:center;height:70px;width:inherit;text-align:center}
+
+div.okladka_container       {background-color:#fff;height:200px;width:inherit;margin:0px 0px 20px ;padding:0px;}
+img.wydanie_okladka         {margin:10px;float:left;
+                                -moz-box-shadow: 3px 3px 10px #a6a6a6;
+                                -webkit-box-shadow: 3px 3px 10px #a6a6a6;
+                                box-shadow: 3px 3px 10px #a6a6a6;
+                                -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#a6a6a6')";
+                                filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#a6a6a6')
+                            }
+                            
+div.wydanie_tytul               {float:left;font-size:14px;margin-top:10px;height:50px;width:255px;text-align:left;color:#6c6c6c;}
+div.wydanie_login               {margin:0px 0px 5px;text-align:left}
+span.wydanie_login_napis        {padding-top:1px}
+span.wydanie_login_opis         {}
+input.wydanie_login_field       {border:1px solid #d3d3d3;height:14px;font-size:10px;color:#898989;width:160px}
+input.wydanie_login_button      {display:inline;background:url(../images/glowna_submit.png) no-repeat center center;height:19px;width:17px;padding:0px;margin:0px;border:0px;cursor:pointer;margin-top:1px;}
+
+input.jasny, input.ciemny, button   {border:0px;cursor:pointer;font-size:12px;width:250px;text-align:left;vertical-align:middle;margin-top:5px;height:25px;}
+input.ciemny, input.jasny           {text-align:center}
+input.ciemny, button.ciemny         {background:url(../images/button1_tlo.png) repeat-x top; color:#ffffff}
+input.jasny, button.jasny           {background:url(../images/button2_tlo.png) repeat-x top; color:#757575}
+
+input.jasny:hover, input.ciemny:hover, button.jasny:hover, button.ciemny:hover {color:#000}
+
+span.button                     {display:block;float:left;width:200px;margin:0px;padding:0px;height:inherit;margin-top:3px}
+img.button                      {margin-top:-1px;}
+
+#komunikatContainer             {display:none;margin:0 auto;width:400px;height:150px;background-color:#fff;border:1px solid #686868;text-align:center}
+#komunikat                      {width:inherit;height:60px;text-align:center;padding-top:30px}
+
+#komunikat, #komunikat_ankieta  {font-size:12px;text-align:center;}
+#komunikat_ankieta              {}
+#ankieta                        {}
+
+#wstep                          {height:80px;width:100%;text-align:center;padding-top:20px;}
+#blok                           {width:1000px;margin:0 auto;height:335px}
+
+input.email, input.email_fail   {width:180px;border:1px solid #B6B6B6;background-color:#F9F9F9;height:16px;font-size:12px;margin:0px;padding:0px;}
+input.email2, input.email2_fail {width:200px;border:1px solid #B6B6B6;background-color:#F9F9F9;height:22px;font-size:12px;margin:0px;padding:0px;}
+input.email2_fail               {border-color:#ff0000}
+input.submit                    {background-image:url(../images/buttonSubmitKatalog.png);height:20px;width:21px;padding:0px;margin:0px;border:0px;cursor:pointer}
+
+#glowna_info input              {margin-top:80px;}
+#glowna_info                    {width:700px;float:left;text-align:center;padding:100px 0px;margin:0 auto; color:#e07b06;font-weight:normal;font-size:14px;}
+
+button.orange                   {height:40px;width:250px;text-align:center;background:url(../images/kreska3.png) repeat-x top;color:#fff;font-weight:normal;font-size:18px;cursor:pointer}
+button.orange:hover             {color:#f0f0f0;text-shadow: #646464 1px 1px 1px;}
+
+div.wydanie_aktualizacja        {padding:15px;text-align:center;width:400px;font-size:20px}
+
+#rekomendacja_opis              {text-align:center;height:30px;width:700px;font-size:13px;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+
+div.subpage_tytul               {font-size:14px;text-align:center;margin-top:10px;height:50px;width:inherit;color:#6c6c6c;}
+#footser                        {margin-top:700px;}
+#footser img                    {border:0px}
+#footser div.copyright          {text-align: center;color:#808080;margin-top:20px}
+#footser a                      {color:#808080}
+#footser a:hover                {color:#505050;text-decoration:none}
+
+/*
+a                       {color:#40b0c4;font-weight:bold;text-decoration:none}
+a:hover                 {text-decoration:underline}
+e
+#komunikat, #komunikat_ankieta  {font-size:12px;color:#ff0000;text-align:center;}
+#komunikat_ankieta      {}
+#komunikat              {color:#ff0000;text-align:center;display:none;padding:10px 0px;width:1000px;margin:0 auto;background-color:#fff;margin-top:10px;}
+#ankieta                {}
+#wstep                  {height:80px;width:100%;text-align:center;padding-top:20px;}
+#blok                   {width:1000px;margin:0 auto;height:335px}
+
+
+.button_info            {background-color:#DFDAD0;border:1px solid #8F8C85;height:26px;width:200px;color:#5D5B57;font-size:13px;cursor:pointer;margin-top:100px;}
+.button_katalog         {background-color:#42AEC2;border:1px solid #338695;height:22px;width:200px;color:#fff;font-size:13px;text-shadow: #20545E 1px 1px 1px;cursor:pointer;}
+div.wydanie_kolumna     {width:490px;background-color:#ffffff;height:235px}
+img.wydanie_okladka     {display:block;float:left;z-index:5;}
+div.wydanie_tytul       {text-align:left;height:60px;margin:10px 10px 10px;padding-bottom:0px;border-bottom:1px solid #C3C3C3;font-family:'Times New Roman',Times,serif;font-size:18px;color:#000}
+
+div.aktual_napis        {font-size:14px;text-align:center;font-weight:bold;color:#A40000;text-shadow: #777777 1px 1px 1px;}
+div.aktual_blok         {text-align:center;width:100%;padding-top:20px;}
+
+
+#glowna_tytul           {width:100%;text-align:center;margin:0 auto; color:#40b0c4;font-weight:bold;font-size:22px;font-family:Arial;text-shadow: #2c2c2c 1px 1px 1px;}
+#glowna_info            {width:100%;text-align:center;padding:80px 0px;margin:0 auto; color:#338695;font-weight:bold;font-size:14px;;background-color:#F2F2F2}
+#rekomendacja_opis      {text-align:center;height:30px;width:700px;color:#5E5E5E; font-size:13px;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+*/
+
+div.dodatki_logo
+{
+    margin-left: 60px;
+    margin-bottom:50px;
+}
+
+#glownaDodatki button.dodatki_logo, #glownaDodatki p.dodatki_logo 
+{
+    width:300px;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+    margin-bottom:10px;
+    background-color: transparent;
+    border:0px;
+    display:block;
+    height:50px;   
+    vertical-align: middle;
+}
+
+#glownaDodatki p.dodatki_logo 
+{
+    padding-top:1px;
+    height:49px;
+}
+
+#glownaDodatki button.dodatki_logo img, #glownaDodatki p.dodatki_logo img
+{
+    padding:0px;
+    margin:0px;
+}
+
+div.dodatki_logo div
+{
+    width:300px;
+    text-align:center;    
+}
+
+#glownaDodatki button.ciemny_dodatek
+{
+    color: #fff;
+    width:150px;
+    float:right;
+    height:25px;
+    padding: 0;
+    background: url("../images/button1_tlo.png") repeat-x scroll center top transparent;
+}
+
+#glownaDodatki button.ciemny_dodatek img
+{
+    margin-top:-4px;
+}
+
+#glownaDodatki button.ciemny_dodatek span
+{
+    display: block;
+    padding: 0;
+    float:right;
+    width:80px;
+}
+
+#glownaDodatki button.ciemny_dodatek:hover
+{
+    color: #000;
+}

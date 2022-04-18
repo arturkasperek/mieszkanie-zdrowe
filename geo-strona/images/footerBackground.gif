@@ -1,0 +1,396 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <!-- start: body_header -->
+<title>Wydawnictwa on-line</title>
+
+<link rel="shortcut icon" href="">
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+<meta name="Description" content="Wydawnictwa on-line">
+<meta name="Keywords" content="">
+<meta name="Language" content="pl">
+<meta name="Author" content="KRN media Sp. z o.o., Kraków 2009. Projekt i wykonanie: Maciej Cisek Usługi Informatyczne">
+
+
+<link rel="stylesheet" href="../css/zwindow.css" type="text/css">
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/grafika/css/zwindow-ie6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/grafika/css/zwindow-ie7.css" /><![endif]-->
+<script src="../js/zwindow.js" language="javascript"></script>
+
+
+<link rel="stylesheet" type="text/css" href="../css/katalog.css">
+<script language="javascript" src="../js/ajax_object.js"></script>
+<script language="javascript" src="../js/google_analitics.js"></script>
+<script language="javascript" src="../js/logotypy.js"></script>
+
+<!-- koniec: body_header -->
+
+
+
+
+
+
+
+
+
+</head>
+
+<body style="" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    
+    <!-- start: glowna -->
+
+<div id="glowna_mainframe">
+
+      
+    
+    <div id="glowna_pageframe">
+
+        <a href="/"><img src="logoEwydania.png" id="glowna_logo_ewydania" border="0"></a>
+        <div id="glowna_tresc">
+            
+            
+            <div id="cookies_info" style="width:860px;opacity:0.8;border:1px solid #CCCCCC;background-color:#DDDDDD;margin:auto;z-index:1000;color:#444444;padding:15px;height:35px;margin:10px;">
+                <div style="float:right;font-weight:bold;margin-left:20px;cursor:pointer;" onclick="document.getElementById('cookies_info').style.display='none';">
+                    <img src="close_6.png">
+                </div>
+                <a href="http://krnmedia.pl/regulaminy" target="_blank" style="color:#444444;">
+                    Używamy plików cookies i podobnych technologii, by ułatwić korzystanie z naszych portali internetowych. Brak zmiany ustawień przeglądarki będzie oznaczał na to zgodę.
+                </a>    
+            </div>
+                 
+                
+            <!-- start: glowna_tresc -->
+
+
+
+    
+    
+        <!-- start: glowna_form -->
+
+<script language="javascript">
+<!--
+var selectedField   = 1;
+var selectedWydanie = 'dwutygodnik';
+-->
+</script>
+<script language="javascript" src="../js/ankieta.js"></script>
+<script language="javascript" src="../js/formularze.js"></script>
+
+<div id="glowna_naglowek">
+   E-wydania czasopism i publikacji KRN media 
+</div>
+
+<form name="emailForm" id="emailForm" method="post" action="javascript:checkEmailForm()">
+<input type="hidden" name="akcja" value="logowanie">
+
+<div id="glowna_kolumna_left">
+		Darmowe e-wydania mają identyczną zawartość, co wydania papierowe. To nowoczesne, wygodne rozwiązanie dla osób, które cenią dostęp do prasy z każdego miejsca biura czy domu. Nasze wydawnictwa wyróżnia wysoki poziom merytoryczny i edytorski. Zamieszczane artykuły odpowiadają na potrzeby rynku nieruchomości.<br>
+    <div id="glowna_nowi_button" onclick="checkLink()">
+        <img src="nowi_img.png">
+        <p id="line1">Nowi użytkownicy</p>
+        <p id="line2">Nie masz jeszcze konta?</p>
+        <p id="line3">Zarejestruj się!</p>
+    </div> 
+
+    <p>
+		Aby otrzymać dostęp do wybranego e-wydania, wystarczy się <span class="orange">zalogować</span>.</p>
+    <br>
+    Należy wpisać adres e-mail podany przy rejestracji w polu obok wybranej okładki.<br>
+    <br>
+    Nowi użytkownicy mogą uzyskać dostęp do poszczególnych e-wydań po wcześniejszym zarejestrowaniu się. Dzięki rejestracji, na podany adres e-mail będą Państwo otrzymywać najnowsze e-wydania naszych magazynów.<br>
+    <br>
+    <p>
+        <img src="glowna_chcesz_czytac.png" title="KRN media Sp. z o.o." style="float:left;margin-top:15px;margin-right:15px;">
+        <img src="glowna_kiosk.png" title="KRN media Sp. z o.o.">
+    </p>
+    <div id="glowna_tresc_stopka">
+        <a href="http://www.krnmedia.pl" target="_blank" title="KRN media Sp. z o.o."><img src="logoKRNmedia.png" border="0"></a>
+
+        <div class="glowna_stopka_element">
+            <span class="orange">Krakowski Rynek Nieruchomości</span><br>
+            <a href="http://www.dwutygodnik.krn.pl" target="_blank" title="Krakowski Rynek Nieruchomości">www.dwutygodnik.krn.pl</a><br>
+            tel. 012 622 71 26<br>
+            tel./fax 012 622 71 13<br>
+            <br>
+            <a href="mailto:e-wydania@krnmedia.pl">e-wydania@krnmedia.pl</a>
+        </div>
+        <div class="glowna_stopka_element" style="width:150px">
+            <span class="orange">Kreator - Projekty</span><br>
+            <a href="http://www.kreatorprojekty.pl" target="_blank" title="Kreator - Projekty">www.kreatorprojekty.pl</a><br>
+            tel. 012 622 71 31<br>
+            
+                    </div>
+
+    </div>
+</div>
+<div id="glowna_kolumna_right">
+		<div class="okladka_container">
+			<!-- start: glowna_form_dwutygodnik -->
+
+<img src="okladkaDwutygodnik.jpg" class="wydanie_okladka">
+<div class="wydanie_tytul">
+    Dwutygodnik<br>
+    <b>Krakowski Rynek Nieruchomości</b>
+</div>
+
+<div class="wydanie_login" id="loginform1">
+        <span class="wydanie_login_napis">zaloguj się</span>
+    <input type="text" name="email1" id="email1" onfocus="selectedChange(1)" class="wydanie_login_field">
+    <input type="submit" id="submit1" value=" " class="wydanie_login_button">
+    <span class="wydanie_login_opis">Podaj adres <b>email</b> aby się zalogować</span>
+		</div>
+<button class="ciemny" onclick="location.href='http://www.dwutygodnik.krn.pl/archiwum.html'">
+    <span class="button">Przeglądaj archiwum w wersji PDF</span> <img src="button_ikona_pdf.png" class="button">
+</button>
+<br>
+<button class="jasny" onclick="location.href='http://www.dwutygodnik.krn.pl/artykuly.html'">
+    <span class="button">Skorzystaj z wyszukiwarki artykułów</span> <img src="button_ikona_lupa.png" class="button">
+</button>
+
+
+<!-- koniec: glowna_form_dwutygodnik -->
+
+    </div>
+    <div class="okladka_container">
+        <!-- start: glowna_form_kreator -->
+
+<img src="okladkaKreator.jpg" class="wydanie_okladka">
+
+<div class="wydanie_tytul">
+    Kwartalnik<br>
+    <b>Kreator - Projekty</b>
+</div>
+<div class="wydanie_login" id="loginform2">
+        <span class="wydanie_login_napis">zaloguj się</span>
+    <input type="text" name="email2" id="email2" onfocus="selectedChange(2)" class="wydanie_login_field">
+    <input type="submit" id="submit2" value=" " class="wydanie_login_button">
+    <span class="wydanie_login_opis">Podaj adres <b>email</b> aby się zalogować</span>
+    </div>
+
+
+<!-- koniec: glowna_form_kreator -->
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    <!-- start: glowna_form_dodatki -->
+
+
+<div class="okladka_container">
+    <img src="okladkaDodatek31.jpg" class="wydanie_okladka">
+
+<div class="wydanie_tytul">
+    <b>Wydania specjalne KRN media</b>
+</div>
+    
+<div class="wydanie_login" id="loginform3">
+        <span class="wydanie_login_napis">zaloguj się</span>
+    <input type="text" name="email3" id="email3" onfocus="selectedChange(3)" class="wydanie_login_field">
+    <input type="submit" id="submit3" value=" " class="wydanie_login_button">
+    <span class="wydanie_login_opis">Podaj adres <b>email</b> aby się zalogować</span>
+    </div>
+</div>
+
+
+
+<!-- koniec: glowna_form_dodatki -->
+
+
+
+
+
+
+
+
+
+</div>    
+    
+</form>
+    
+<div id="komunikatContainer">
+    <div id="komunikat" class="komunikatField"></div>
+     <button class="jasny" onclick="komunikat()" style="text-align:center">Zamknij</button>
+</div>
+
+
+
+
+<div>
+<!-- start: glowna_ankieta -->
+
+<style type="text/css">
+    .ankieta_pytanie, .ankieta_pytanie_fail {width:30%;height:28px;text-align:left;float:left;padding-top:2px}
+    .ankieta_pytanie        {color:#000000}
+    .ankieta_pytanie_fail   {color:#ff0000}
+
+    .ankieta_odpowiedz      {height:30px;text-align:left;width:68%;float:right;color:#000;font-weight:normal}
+
+    .ankieta_nazwa          {height:20px;text-align:left;font-weight:bold}
+    #ankietaContainer       {background-color:#F2F2F2;display:none;width:500px;margin: 0 auto;}
+    #ankietaClose           {width:20px;height:20px;position:fixed;z-index:111;cursor:pointer;padding:0px;margin-left:480px;border:0px;}
+</style>
+<!--[if IE]>
+<style type="text/css">
+    #ankietaClose           {margin-left:476px;}
+</style>
+
+<![endif]-->
+
+
+
+
+<div id="ankietaContainer">
+
+   <!-- koniec: glowna_ankieta_naglowek_glowna -->
+
+<div id="ankietaClose" onclick="akietaClose()" onmouseover="this.getElementsByTagName('img').item(0).src='/grafika/katalog/close_ankieta_over.png'" onmouseout="this.getElementsByTagName('img').item(0).src='/grafika/katalog/close_ankieta.png'">
+    <img src="close_ankieta.png">
+</div>
+<div style="background-color:#fff;;height:70px;padding:10px;">
+    <p style="font-size:12px;color:#000;font-weight:bold;text-align:center">
+        Nie jesteś zarejestrowanym klientem
+    </p>
+    <p style="text-align:justify;font-size:10px;color:#4F4F4F">
+    Prosimy o wypełnienie poniższej ankiety, a następnie na kliknięcie na link aktywujący, który otrzymacie Państwo w mailu, który zostanie wysłany na podany niżej adres.
+    </p>
+</div>
+
+<!-- koniec: glowna_ankieta_naglowek_glowna -->
+
+   
+    <table cellpadding="0" cellspacing="0" width="100%">
+        <tbody><tr>
+            <td>
+                <div id="komunikat_ankieta" style="width:100%;padding:5px;text-align:center"></div>
+            </td>
+        </tr>
+    </tbody></table>
+    
+
+    <form name="ankietaForm" id="ankietaForm" method="post" action="javascript:checkAnkietaForm()">
+    <div style="padding:0px 15px">
+        <div style="height:350px;overflow:auto;border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb">
+            <table cellpadding="0" cellspacing="5" align="center" width="100%">
+                <tbody><tr>
+                    <td>
+                        <input type="hidden" name="akcja" value="checkAnkieta">
+
+                        <div class="ankieta_pytanie" id="email">Adres email</div>
+                        <div class="ankieta_odpowiedz">
+                            <input type="text" id="ankietaEmail" name="email" maxlength="50" class="email">
+                        </div>
+
+                        <div class="ankieta_pytanie" id="nazwa" style="height:35px;">Nazwa firmy / instytucja</div>
+                        <div class="ankieta_odpowiedz" style="height:37px;">
+                            <input type="text" name="nazwa" maxlength="50" class="email">
+                        </div>
+
+                        <div class="ankieta_pytanie" id="imie">Imię i nazwisko</div>
+                        <div class="ankieta_odpowiedz">
+                            <input type="text" name="imie" maxlength="25" class="email" style="width:87px">
+                            <input type="text" name="nazwisko" maxlength="25" class="email" style="width:87px">
+                        </div>
+
+                        <div class="ankieta_pytanie" id="wydawnictwo">Czasopismo</div>
+
+                        <div class="ankieta_odpowiedz">
+                            <input type="checkbox" value="1" name="dwutygodnik" id="dwutygodnik">"Krakowski Rynek Nieruchomości"<br>
+                        </div>
+                        <div class="ankieta_odpowiedz">
+                            <input type="checkbox" value="1" name="kreator" id="kreator">"Kreator - Projekty"<br>
+                        </div>
+                        <div class="ankieta_odpowiedz">
+                            <input type="checkbox" value="1" name="dodatki" id="dodatki">"Wydania specjalne KRN media"<br>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="ankietaElementy"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="ankieta_pytanie" id="zgodana" style="width:10px;">Oświadczenie:</div>
+                        <div class="ankieta_odpowiedz" style="width:350px;">
+                            <input type="checkbox" value="1" name="zgoda" id="zgoda">
+                            Wyrażam zgodę na przetwarzanie i wykorzystywanie mojego adresu e-mail w celach marketingowych oraz umieszczanie go w bazie danych KRN media sp. z o. o. (31-159 Kraków, al. Słowackiego 39), zgodnie z Ustawą o ochronie danych osobowych z dnia 29 sierpnia 1997 roku (Dz. U. Nr 133, poz. 883). Przysługuje mi również prawo do wglądu, poprawy i kontroli oraz usunięcia mojego adresu e-mail z bazy KRN sp. z o.o.
+                            <br><br>
+                        </div>
+                        
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+    <div style="text-align:center;padding:5px 0px 10px">
+
+        <input type="button" name="wyslijAnkiete" value="wyczyść formularz" class="ciemny" onclick="clearForm()" style="width:150px">
+        &nbsp;&nbsp;
+        <input type="submit" name="wyslijAnkiete" value="zatwierdź odpowiedzi" class="ciemny" style="width:240px">
+    </div>
+    </form>
+</div>
+    
+
+<!-- koniec: glowna_ankieta -->
+
+
+        
+
+</div>
+    
+
+<!-- start: glowna_ikonki -->
+
+<div id="footser">
+    <div id="footer-content">
+        <div class="copyright">
+            <a class="copyright" href="http://www.krnmedia.pl" target="_blank">Grupa KRN media</a>
+            <br><br>
+        </div>
+        
+         <center>
+         <a href="http://www.krn.pl/" target="_blank"><img src="krn.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/krn2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/krn.png'"></a>&nbsp;
+         <a href="http://www.pop.krn.pl/" target="_blank"><img src="pop.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/pop2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/pop.png'"></a>&nbsp;&nbsp;
+         <a href="http://www.dwutygodnik.krn.pl/" target="_blank"><img src="dwutygodnik.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/dwutygodnik2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/dwutygodnik.png'"></a>&nbsp;
+         <a href="http://jaku-taku.pl" target="_blank"><img src="jaku.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/jaku2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/jaku.png'"></a>&nbsp;&nbsp;
+         <a href="http://kreatorprojekty.pl/" target="_blank"><img src="kreator.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/kreator2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/kreator.png'"></a>&nbsp;&nbsp;
+         <a href="http://www.e-projektydomow.pl/" target="_blank"><img src="e-projekty.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/e-projekty2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/e-projekty.png'"></a>&nbsp;
+         <a href="http://kreodom.pl/" target="_blank"><img src="kreodom.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/kreodom2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/kreodom.png'"></a>&nbsp;&nbsp;
+                  <a href="http://www.e-biurowce.pl/" target="_blank"><img src="e-biurowce.png" alt="" onmouseover="this.src='https://img.krn.pl/web/stopka/ewydania/e-biurowce2.png'" onmouseout="this.src='https://img.krn.pl/web/stopka/ewydania/e-biurowce.png'"></a>&nbsp;&nbsp;
+        </center>
+
+	<div class="copyright">Š2006-2022 e-wydania.krnmedia.pl | KRN media Sp. z o.o.</div>
+    </div>
+</div>
+
+<!-- koniec: glowna_ikonki -->
+    
+
+
+<!-- koniec: glowna_form -->
+
+    
+
+<!-- koniec: glowna_tresc -->
+
+        </div>
+    </div>
+</div>
+<div id="glowna_backframe"></div>
+
+<!-- koniec: glowna -->
+
+    
+
+
+</body></html>

@@ -1,0 +1,199 @@
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.0.3 - https://noelboss.github.io/featherlight/
+ *
+ * Copyright 2014, Noël Raoul Bossart (https://www.noelboss.com)
+ * MIT Licensed.
+**/
+
+@media all {
+                .fl1Left h2 {width: auto !important}
+				/*.lightbox { display: none; }*/
+				.fl-page h1 {
+					font-family: 'Dosis', sens-serif;
+				}
+				.fl-page h1 { font-size: 22px; margin-bottom: 0.5em; color:#fff;}
+				.fl-page h2 {  font-family: 'Open Sans'; font-size: 12px; color: #fff; text-align:justify;}
+                                .fl-page h2:last-child { margin-bottom:20px;}
+                                .fl-page h2 a { color:#fff; font-family: 'Open Sans Bold', sans-serif; font-size:13px; text-decoration: underline !important;}
+				.fl-page .jumbotron { margin-top: 2em; }
+				.fl-page .doc { margin: 2em 0;}
+				.fl-page .btn-download { float: right; }
+				.fl-page .btn-default { vertical-align: bottom; }
+
+				.fl-page .btn-lg span { font-size: 0.7em; }
+				.fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em;}
+				.fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em;}
+				.fl-page .github { margin: 2em 0; }
+				.fl-page .github a { vertical-align: top; }
+				.fl-page .marketing a { color: #999; }
+
+				/* override default feather style... */
+				.fixwidth {
+					background: rgba(256,256,256, 0.8);
+				}
+				.fixwidth .featherlight-content {
+					width: 500px;
+					padding: 25px;
+					color: #fff;
+					background: #111;
+				}
+				.fixwidth .featherlight-close {
+					color: #fff;
+					background: #333;
+				}
+                                .fl1Left {
+                                    width:70%;
+                                    float:left;
+                                }
+                                .fl1Right {
+                                    width:34%;
+                                    float:left;
+                                }
+                                .fl1Right img {
+                                    float:right;
+                                    position:absolute;
+                                    bottom:0;
+                                    right:20px;
+                                }
+                                
+
+			}
+			@media(max-width: 768px){
+				.fl-page h1 span { display: block; }
+				.fl-page .btn-download { float: none; margin-bottom: 1em; }
+			}
+
+@media all {
+    .h1 {}
+	.featherlight {
+		display: none;
+
+		/* dimensions: spanning the background from edge to edge */
+		position:fixed;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 2;
+
+		/* position: centering content */
+		text-align: center;
+
+		/* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+		white-space: nowrap;
+
+		/* styling */
+		cursor: pointer;
+		background: #333;
+		/* IE8 "hack" for nested featherlights */
+		background: rgba(0, 0, 0, 0);
+	}
+
+	/* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+	.featherlight:last-of-type {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.featherlight:before {
+		/* position: trick to center content vertically */
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
+	}
+
+	.featherlight .featherlight-content {
+		/* make content container for positioned elements (close button) */
+		position: relative;
+
+		/* position: centering vertical and horizontal */
+		text-align: left;
+		vertical-align: middle;
+		display: inline-block;
+
+		/* dimensions: cut off images */
+		overflow: hidden;
+		padding: 10px 25px 0;
+		/*border-bottom: 25px solid transparent;*/
+
+		/* dimensions: handling small or empty content */
+		width:  550px;
+
+		/* dimensions: handling large content */
+		margin-left: 5%;
+		margin-right: 5%;
+		height: auto;
+
+		/*cursor: auto;*/
+
+		/* reset white-space wrapping */
+		white-space: normal;
+                background-color: #0077c0;
+	}
+
+	/* contains the content */
+	.featherlight .featherlight-inner {
+		/* make sure its visible */
+		display: block;
+	}
+
+	.featherlight .featherlight-close-icon {
+		/* position: centering vertical and horizontal */
+		position: absolute;
+		z-index: 9999;
+		top: 0;
+		right: 0;
+
+		/* dimensions: 25px x 25px */
+		line-height: 25px;
+		width: 25px;
+
+		/* styling */
+		cursor: pointer;
+		text-align: center;
+		font: Arial, sans-serif;
+		background: #fff; /* Set the background in case it overlaps the content */
+		background: rgba(255, 255, 255, 0.3);
+		color: #fff;
+	}
+
+
+	.featherlight .featherlight-image {
+		/* styling */
+		width: 100%;
+	}
+
+
+	.featherlight-iframe .featherlight-content {
+		/* removed the border for image croping since iframe is edge to edge */
+		border-bottom: 0;
+		padding: 0;
+	}
+
+	.featherlight iframe {
+		/* styling */
+		border: none;
+	}
+}
+
+/* handling phones and small screens */
+@media only screen and (max-width: 550px) {
+        .featherlight .featherlight-content {
+                width:350px;
+        }
+        .fl1Right img {
+                position:absolute !important;
+                bottom:0 !important;
+                right:10px !important;
+        }
+}
+@media only screen and (max-width: 440px) {
+        .featherlight .featherlight-content {
+                width:300px;
+        }
+        .fl1Right img {
+                width:25%;
+                position:absolute !important;
+                bottom:0 !important;
+                right:10px !important;
+        }
+}

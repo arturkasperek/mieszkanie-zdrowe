@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>networking-category-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Custom-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sprites-Copy" transform="translate(-1685.000000, -813.000000)">
+            <g id="product-icons" transform="translate(1461.000000, 33.000000)"></g>
+            <g id="art" transform="translate(1685.000000, 813.000000)" fill="#2382EA">
+                <g id="icon_2_">
+                    <ellipse id="Oval" cx="20.1547287" cy="4.81323749" rx="4.40992248" ry="4.49010289"></ellipse>
+                    <ellipse id="Oval" cx="20.1549612" cy="36.2413531" rx="4.41" ry="4.49018182"></ellipse>
+                    <ellipse id="Oval" cx="4.72162791" cy="20.5271769" rx="4.40976744" ry="4.48994503"></ellipse>
+                    <ellipse id="Oval" cx="35.5884496" cy="20.5276505" rx="4.41" ry="4.49018182"></ellipse>
+                    <polygon id="Shape" points="19.0334109 37.4721691 0.803023256 19.0752812 31.806124 19.0752812 19.0334109 6.04381677 21.2764341 3.6242537 39.5073643 21.9792304 8.50379845 21.9792304 21.2764341 35.0521325"></polygon>
+                    <rect id="Rectangle-path" x="18.9967442" y="25.8511628" width="1.90139535" height="10.647814"></rect>
+                    <rect id="Rectangle-path" x="18.9967442" y="4.55545595" width="1.90139535" height="10.647814"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

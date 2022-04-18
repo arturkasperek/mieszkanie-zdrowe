@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Launcher_White</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Launcher-Copy" transform="translate(-185.000000, -259.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="hero-content" transform="translate(169.000000, 140.000000)">
+                <g id="CTA" transform="translate(1.000000, 108.000000)">
+                    <g id="Launcher_White" transform="translate(15.000000, 11.000000)">
+                        <g id="Cloud-Launcher">
+                            <rect id="Rectangle-path" x="9" y="21.6" width="4.8" height="1.2"></rect>
+                            <polygon id="Shape" points="19.6242 24 22.6728 15.3048 18.5508 12.9252 16.0098 20.898 17.4438 24"></polygon>
+                            <polygon id="Shape" points="3.1758 24 0.1272 15.3048 4.2492 12.9252 6.7902 20.898 5.3562 24"></polygon>
+                            <path d="M11.4,0 L6.06666,5.33334 L6.06666,12.36468 L8.4,20.4 L14.4,20.4 L16.73334,12.36468 L16.73334,5.33334 L11.4,0 Z M11.4,11.55558 C9.92725539,11.55558 8.73336,10.3616846 8.73336,8.88894 C8.73336,7.41619539 9.92725539,6.2223 11.4,6.2223 C12.8727446,6.2223 14.06664,7.41619539 14.06664,8.88894 C14.0666069,10.3616709 12.8727309,11.5555469 11.4,11.55558 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

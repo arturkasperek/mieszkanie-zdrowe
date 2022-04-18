@@ -1,0 +1,1 @@
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","UA-18029-4",{'cookie_path':window.location.pathname.replace(/^(.*about\/datacenters\/).*/,'$1'),'cookie_domain':window.location.hostname});
