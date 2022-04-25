@@ -19,11 +19,51 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ada6f21-0323-484b-986c-1d8895d77907" name="Default Changelist" comment="" />
+    <list default="true" id="2ada6f21-0323-484b-986c-1d8895d77907" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0131.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0136.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0140.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0149.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0156.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0165.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0171.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0176.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0185.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0194.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0203.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0222.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0232.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0239.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0254.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0259.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0262.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0280.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0288.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0297.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0298.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0315.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0320.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0326.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0331.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0343.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0346.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0350.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0356.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otodom-2022/DSC_0359.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,21 +74,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sanitarna" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/elektryczna" />
-      <recent name="$PROJECT_DIR$/sanitarna" />
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sanitarna" />
       <recent name="$PROJECT_DIR$/elektryczna" />
       <recent name="$PROJECT_DIR$/dokumentacja" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/otodom-2022" />
+      <recent name="$PROJECT_DIR$/elektryczna" />
+      <recent name="$PROJECT_DIR$/sanitarna" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
